@@ -1,0 +1,19 @@
+# Generated output and dependencies
+/dist/
+/node_modules/
+/coverage/
+*.log
+
+# Local maintainer notes, environment files, and credentials
+/.local/
+.env
+.env.*
+!.env.example
+/.aws/
+
+# Editor and local agent state
+/.idea/
+/.vscode/
+/.agents/
+/.codex/
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "jerseyImage": "assets/reward-picture.jpg",
+  "firstToTargetSilver": 20000000,
+  "categories": [
+    { "id": "hellgate", "name": { "en": "Hellgate", "fa": "هل‌گیت" }, "target": 200000, "podium": [50000000, 20000000] },
+    { "id": "depths", "name": { "en": "Depths", "fa": "اعماق" }, "target": 200000, "podium": [50000000, 20000000] },
+    { "id": "power-core", "name": { "en": "Hideout Power Core", "fa": "پاورکور هاید‌اوت" }, "target": 150000, "podium": [30000000, 20000000, 10000000] },
+    { "id": "ancient-lands", "name": { "en": "Ancient Lands", "fa": "سرزمین‌های باستانی" }, "target": 300000, "podium": [20000000, 10000000] },
+    { "id": "gathering", "name": { "en": "Gathering", "fa": "جمع‌آوری منابع" }, "target": 300000, "podium": [20000000] },
+    { "id": "corrupted", "name": { "en": "Corrupted", "fa": "کوراپتد" }, "target": 200000, "podium": [20000000] },
+    { "id": "crystal-creatures", "name": { "en": "Crystal Creatures", "fa": "موجودات کریستالی" }, "target": 300000, "podium": [20000000] }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "siteUrl": "https://oneup.megh.dad",
+  "guildName": "OneUP",
+  "motto": "One United Power.",
+  "members": "100+",
+  "recruiting": true,
+  "recruitment": {
+    "intro": {
+      "en": "Welcome to OneUP recruitment! We are a PvP-focused guild looking for experienced and active players to join our community.",
+      "fa": "به بخش جذب اعضای وان‌آپ خوش آمدید! ما یک گیلد متمرکز بر PvP هستیم و از بازیکنان باتجربه و فعال برای پیوستن به جمعمان دعوت می‌کنیم."
+    },
+    "activities": [
+      { "en": "Ganking", "fa": "گنکینگ" },
+      { "en": "Dive Content", "fa": "دایو کانتنت" },
+      { "en": "Small Scale PvP", "fa": "نبردهای PvP اسمال‌اسکیل" },
+      { "en": "Group Roaming & Open World Fights", "fa": "رومینگ گروهی و نبردهای جهان باز" },
+      { "en": "Static Diving and PvP Activities", "fa": "دایو استاتیک و فعالیت‌های PvP" }
+    ],
+    "fameRequirements": [
+      { "value": "200M+", "label": { "en": "Total Fame", "fa": "فیم کل" } },
+      { "value": "10M+", "label": { "en": "PvP Fame", "fa": "فیم PvP" } }
+    ],
+    "requirements": [
+      { "en": "Active and willing to participate in guild content", "fa": "فعال باشید و برای شرکت در فعالیت‌های گیلد آمادگی داشته باشید" },
+      { "en": "Team player with a positive attitude", "fa": "روحیه کار تیمی و نگرش مثبت داشته باشید" },
+      { "en": "Able to communicate and coordinate with the guild", "fa": "توانایی ارتباط و هماهنگی با اعضای گیلد را داشته باشید" }
+    ],
+    "applicationIntro": {
+      "en": "If you meet the requirements and want to be part of an active and competitive community, we’d be happy to have you!",
+      "fa": "اگر این شرایط را دارید و می‌خواهید عضوی از یک جمع فعال و رقابتی باشید، خوشحال می‌شویم به ما بپیوندید!"
+    },
+    "applicationInstructions": {
+      "en": "Open a ticket in the #apply section and tell us a little about yourself.",
+      "fa": "در بخش #apply یک تیکت باز کنید و کمی درباره خودتان بگویید."
+    },
+    "welcome": {
+      "en": "Welcome to OneUP — One United Power.",
+      "fa": "به وان‌آپ خوش آمدید — یک قدرت متحد."
+    }
+  },
+  "seasonLabel": { "en": "Season rewards", "fa": "جوایز فصل" },
+  "description": {
+    "en": "OneUP is an Albion Online guild of 100+ members. One United Power. Explore our battles, fight highlights, community, and seasonal member rewards.",
+    "fa": "وان‌آپ، گیلد آلبیون آنلاین با بیش از ۱۰۰ عضو. یک قدرت متحد. نبردها، ویدیوها، جامعه و جوایز فصلی اعضای ما را ببینید."
+  },
+  "socials": [
+    { "name": "Discord", "kind": "discord", "url": "", "description": { "en": "Where the guild comes together.", "fa": "محل گردهمایی اعضای گیلد." } },
+    { "name": "Telegram", "kind": "telegram", "url": "", "description": { "en": "News from the front line.", "fa": "تازه‌ترین خبرها از خط مقدم." } },
+    { "name": "YouTube", "kind": "youtube", "url": "", "description": { "en": "Our fights. Our point of view.", "fa": "نبردهای ما، از نگاه ما." } }
+  ],
+  "clips": [
+    {
+      "title": { "en": "OneUP — Battle highlights", "fa": "وان‌آپ — لحظه‌های نبرد" },
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=aVU4upHCGbc"
+    }
+  ],
+  "battles": [
+    {
+      "title": { "en": "Battle #448776222", "fa": "نبرد شماره ۴۴۸۷۷۶۲۲۲" },
+      "url": "https://europe.albionbb.com/battles/448776222"
+    },
+    {
+      "title": { "en": "Combined battle report — 3 engagements", "fa": "گزارش ترکیبی — ۳ نبرد" },
+      "url": "https://europe.albionbb.com/battles/multi?ids=441002770,441001581,440997498"
+    }
+  ]
+}

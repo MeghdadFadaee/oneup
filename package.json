@@ -1,0 +1,14 @@
+{
+  "name": "oneup-guild",
+  "description": "Bilingual static website for the OneUP Albion Online guild.",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test",
+    "sync:battles": "node scripts/sync-battles.mjs"
+  }
+}
