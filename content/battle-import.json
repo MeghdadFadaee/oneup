@@ -1,0 +1,11 @@
+{
+  "guildId": "SF2Zf4PrRsmdBAL5PaBV_A",
+  "guildName": "OneUP",
+  "region": "europe",
+  "apiBaseUrl": "https://api.albionbb.com/eu",
+  "sourceUrl": "https://europe.albionbb.com/guilds/SF2Zf4PrRsmdBAL5PaBV_A/battles",
+  "filters": {
+    "minPlayers": 10,
+    "minGuildPlayers": 5
+  }
+}

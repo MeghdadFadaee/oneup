@@ -73,6 +73,7 @@
 .ledger-toggle { margin-inline-start: auto; color: var(--accent); font-size: 23px; line-height: 1; transition: transform .2s; }
 .battle-ledger[open] .ledger-toggle { transform: rotate(45deg); }
 .battle-ledger[open] > summary { border-bottom: 0; }
+.battle-more > .battle-card-grid { margin-top: 26px; }
 [dir=rtl] .battle-archive-strip span, [dir=rtl] .battle-type, [dir=rtl] .battle-region, [dir=rtl] .battle-engagements { letter-spacing: 0; }
 [dir=rtl] .battle-card-content h3 { font-size: 25px; line-height: 1.6; letter-spacing: -.6px; }
 [dir=rtl] .battle-card-meta, [dir=rtl] .battle-open { font-size: 10px; }

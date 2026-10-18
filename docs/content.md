@@ -40,25 +40,29 @@ Put additional local images under `public/assets/` and reference them as `assets
 
 ## Battle reports and AlbionBB preview images
 
-Add each battle manually to `battles` after the fight:
+Use `npm run import:battles` to scan the available guild history, or add a report
+manually to `battles`:
 
 ```json
 {
   "title": { "en": "Your battle title", "fa": "عنوان نبرد شما" },
-  "date": "2026-10-18",
   "url": "https://europe.albionbb.com/battles/448776222"
 }
 ```
 
-The sample title and date are illustrative. Omit the date or results when unknown.
+The sample title is illustrative. Omit the date or results when unknown.
 
-Optional fields: `"date": "2026-10-18"`, `"outcome": "victory"` (also `defeat`, `draw`, or `recorded`), `"kills": 0`, and `"deaths": 0`. Enter verified guild-specific numbers. Omit unknown dates and figures; they display as dashes. Reports sort by date, newest first, with undated reports following in JSON order. Combined `/battles/multi?ids=...` links are supported and receive distinct preview cache filenames.
+Optional fields: `date` in `YYYY-MM-DD` format, `"outcome": "victory"` (also `defeat`, `draw`, or `recorded`), `"kills": 0`, and `"deaths": 0`. Enter verified guild-specific numbers. Omit unknown dates and figures; they display as dashes. Reports sort by date, newest first, with undated reports following in JSON order. Combined `/battles/multi?ids=...` links are supported and receive distinct preview cache filenames.
 
 Only the report URL is needed to discover its preview; no `preview` field is required. The GitHub deployment automatically runs `npm run sync:battles`, which reads each report's `twitter:image` or `og:image`, including combined reports. If the report page cannot be read or has no image metadata, Europe reports fall back to endpoints derived from the report URL: `https://api.albionbb.com/eu/preview/BATTLE_ID` for a single battle, or `https://api.albionbb.com/eu/preview/multi?ids=ID1,ID2,...` for combined battles. An optional explicit `preview` field overrides discovery.
 
 PNG/JPEG/WebP images are downloaded to `public/assets/battles/` and included in the generated site. If a download fails, the discovered remote URL remains usable by the browser; an existing local image cache is preserved. Europe single and combined preview URLs are also derived directly during local builds without synchronization. Image display does not require a cross-origin API request. Downloaded files on the Actions runner are included in deployment but are not committed back to Git.
 
 Every report renders a visual card with local decorative terrain artwork, guild branding, report IDs, and single/combined report labels. Report images display in full without cropping; missing or failed images retain the local artwork. Combined reports use the combined scoreboard image; a single engagement's image is not substituted for the combined results. The map is decorative, not a reconstruction of the battle. Archive counts use report entries and unique battle IDs from their URLs. Only supplied dates and results are shown. The full table is available in the expandable detailed log.
+
+For archives larger than 12 reports, the first 12 cards appear immediately and
+the remainder are available through “Explore more reports.” See the
+[battle importer documentation](battle-import.md) for ongoing imports and grouping.
 
 To download previews locally, run:
 

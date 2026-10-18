@@ -1,5 +1,6 @@
 {
   "en": {
+    "moreBattleReports": "Explore {count} more reports",
     "battleArchive": "From the war archive", "singleReport": "Battle report", "combinedReport": "Campaign report", "europe": "Europe", "engagement": "engagement", "engagements": "engagements", "reportIds": "Battle report IDs", "archivedReports": "Archived reports", "loggedEngagements": "Recorded engagements", "archiveMotto": "One banner. Every battlefield.", "detailedLog": "Detailed battle log",
     "mainContent": "Our main content", "recruitmentRequirements": "Entry requirements", "applicationTitle": "Ready to join the ranks?", "applyDiscord": "Apply on Discord",
     "title": "OneUP — One United Power. | Albion Online Guild",
@@ -19,6 +20,7 @@
     "communityLabel": "05 / ANSWER THE CALL", "communityTitle": "Your next chapter", "communityAccent": "starts with us.", "communityText": "Find your people. Bring your ambition. Stand beneath the OneUP banner.", "socialSoon": "Link coming soon", "socialOpen": "Visit", "footer": "Many warriors. One United Power.", "fan": "An independent Albion Online guild community. Albion Online belongs to Sandbox Interactive.", "top": "Back to top", "menu": "Toggle navigation", "videoFallback": "Open original video", "videoError": "This video could not be loaded. You can open the original link below."
   },
   "fa": {
+    "moreBattleReports": "مشاهدهٔ {count} گزارش دیگر",
     "battleArchive": "از آرشیو نبردها", "singleReport": "گزارش نبرد", "combinedReport": "گزارش مجموعه نبردها", "europe": "اروپا", "engagement": "نبرد", "engagements": "نبرد", "reportIds": "شناسه گزارش نبردها", "archivedReports": "گزارش ثبت‌شده", "loggedEngagements": "نبرد ثبت‌شده", "archiveMotto": "یک پرچم، در هر میدان نبرد.", "detailedLog": "جزئیات گزارش نبردها",
     "mainContent": "فعالیت‌های اصلی ما", "recruitmentRequirements": "شرایط پیوستن", "applicationTitle": "آماده پیوستن به ما هستید؟", "applyDiscord": "درخواست عضویت در دیسکورد",
     "title": "وان‌آپ — یک قدرت متحد | گیلد آلبیون آنلاین",

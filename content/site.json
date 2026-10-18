@@ -10,20 +10,56 @@
       "fa": "به بخش جذب اعضای وان‌آپ خوش آمدید! ما یک گیلد متمرکز بر PvP هستیم و از بازیکنان باتجربه و فعال برای پیوستن به جمعمان دعوت می‌کنیم."
     },
     "activities": [
-      { "en": "Ganking", "fa": "گنکینگ" },
-      { "en": "Dive Content", "fa": "دایو کانتنت" },
-      { "en": "Small Scale PvP", "fa": "نبردهای PvP اسمال‌اسکیل" },
-      { "en": "Group Roaming & Open World Fights", "fa": "رومینگ گروهی و نبردهای جهان باز" },
-      { "en": "Static Diving and PvP Activities", "fa": "دایو استاتیک و فعالیت‌های PvP" }
+      {
+        "en": "Ganking",
+        "fa": "گنکینگ"
+      },
+      {
+        "en": "Dive Content",
+        "fa": "دایو کانتنت"
+      },
+      {
+        "en": "Small Scale PvP",
+        "fa": "نبردهای PvP اسمال‌اسکیل"
+      },
+      {
+        "en": "Group Roaming & Open World Fights",
+        "fa": "رومینگ گروهی و نبردهای جهان باز"
+      },
+      {
+        "en": "Static Diving and PvP Activities",
+        "fa": "دایو استاتیک و فعالیت‌های PvP"
+      }
     ],
     "fameRequirements": [
-      { "value": "200M+", "label": { "en": "Total Fame", "fa": "فیم کل" } },
-      { "value": "10M+", "label": { "en": "PvP Fame", "fa": "فیم PvP" } }
+      {
+        "value": "200M+",
+        "label": {
+          "en": "Total Fame",
+          "fa": "فیم کل"
+        }
+      },
+      {
+        "value": "10M+",
+        "label": {
+          "en": "PvP Fame",
+          "fa": "فیم PvP"
+        }
+      }
     ],
     "requirements": [
-      { "en": "Active and willing to participate in guild content", "fa": "فعال باشید و برای شرکت در فعالیت‌های گیلد آمادگی داشته باشید" },
-      { "en": "Team player with a positive attitude", "fa": "روحیه کار تیمی و نگرش مثبت داشته باشید" },
-      { "en": "Able to communicate and coordinate with the guild", "fa": "توانایی ارتباط و هماهنگی با اعضای گیلد را داشته باشید" }
+      {
+        "en": "Active and willing to participate in guild content",
+        "fa": "فعال باشید و برای شرکت در فعالیت‌های گیلد آمادگی داشته باشید"
+      },
+      {
+        "en": "Team player with a positive attitude",
+        "fa": "روحیه کار تیمی و نگرش مثبت داشته باشید"
+      },
+      {
+        "en": "Able to communicate and coordinate with the guild",
+        "fa": "توانایی ارتباط و هماهنگی با اعضای گیلد را داشته باشید"
+      }
     ],
     "applicationIntro": {
       "en": "If you meet the requirements and want to be part of an active and competitive community, we’d be happy to have you!",
@@ -38,31 +74,1857 @@
       "fa": "به وان‌آپ خوش آمدید — یک قدرت متحد."
     }
   },
-  "seasonLabel": { "en": "Season rewards", "fa": "جوایز فصل" },
+  "seasonLabel": {
+    "en": "Season rewards",
+    "fa": "جوایز فصل"
+  },
   "description": {
     "en": "OneUP is an Albion Online guild of 100+ members. One United Power. Explore our battles, fight highlights, community, and seasonal member rewards.",
     "fa": "وان‌آپ، گیلد آلبیون آنلاین با بیش از ۱۰۰ عضو. یک قدرت متحد. نبردها، ویدیوها، جامعه و جوایز فصلی اعضای ما را ببینید."
   },
   "socials": [
-    { "name": "Discord", "kind": "discord", "url": "https://discord.gg/vvtWtYgAAp", "description": { "en": "Where the guild comes together.", "fa": "محل گردهمایی اعضای گیلد." } },
-    { "name": "Telegram", "kind": "telegram", "url": "https://t.me/OneUnitedP0WeR", "description": { "en": "News from the front line.", "fa": "تازه‌ترین خبرها از خط مقدم." } },
-    { "name": "YouTube", "kind": "youtube", "url": "", "description": { "en": "Our fights. Our point of view.", "fa": "نبردهای ما، از نگاه ما." } }
+    {
+      "name": "Discord",
+      "kind": "discord",
+      "url": "https://discord.gg/vvtWtYgAAp",
+      "description": {
+        "en": "Where the guild comes together.",
+        "fa": "محل گردهمایی اعضای گیلد."
+      }
+    },
+    {
+      "name": "Telegram",
+      "kind": "telegram",
+      "url": "https://t.me/OneUnitedP0WeR",
+      "description": {
+        "en": "News from the front line.",
+        "fa": "تازه‌ترین خبرها از خط مقدم."
+      }
+    },
+    {
+      "name": "YouTube",
+      "kind": "youtube",
+      "url": "",
+      "description": {
+        "en": "Our fights. Our point of view.",
+        "fa": "نبردهای ما، از نگاه ما."
+      }
+    }
   ],
   "clips": [
     {
-      "title": { "en": "OneUP — Battle highlights", "fa": "وان‌آپ — لحظه‌های نبرد" },
+      "title": {
+        "en": "OneUP — Battle highlights",
+        "fa": "وان‌آپ — لحظه‌های نبرد"
+      },
       "type": "youtube",
       "url": "https://www.youtube.com/watch?v=aVU4upHCGbc"
     }
   ],
   "battles": [
     {
-      "title": { "en": "Battle #448776222", "fa": "نبرد شماره ۴۴۸۷۷۶۲۲۲" },
-      "url": "https://europe.albionbb.com/battles/448776222"
+      "title": {
+        "en": "OneUP · Black Sentinels / Gigachad · 17:10 UTC",
+        "fa": "وان‌آپ · Black Sentinels / Gigachad · 17:10 UTC"
+      },
+      "date": "2026-10-18",
+      "url": "https://europe.albionbb.com/battles/449790334",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 1
     },
     {
-      "title": { "en": "Combined battle report — 3 engagements", "fa": "گزارش ترکیبی — ۳ نبرد" },
-      "url": "https://europe.albionbb.com/battles/multi?ids=441002770,441001581,440997498"
+      "title": {
+        "en": "OneUP · A R C / Braccus Rex · 16:25 UTC",
+        "fa": "وان‌آپ · A R C / Braccus Rex · 16:25 UTC"
+      },
+      "date": "2026-10-18",
+      "url": "https://europe.albionbb.com/battles/multi?ids=449763246,449765122,449772344,449775119",
+      "outcome": "recorded",
+      "kills": 27,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · Damnatio Memoriae / ALPAGU · 16:14 UTC",
+        "fa": "وان‌آپ · Damnatio Memoriae / ALPAGU · 16:14 UTC"
+      },
+      "date": "2026-10-18",
+      "url": "https://europe.albionbb.com/battles/449756726",
+      "outcome": "recorded",
+      "kills": 9,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · GachiBang / Gachi Gatherers · 15:47 UTC",
+        "fa": "وان‌آپ · GachiBang / Gachi Gatherers · 15:47 UTC"
+      },
+      "date": "2026-10-18",
+      "url": "https://europe.albionbb.com/battles/449739720",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 5
+    },
+    {
+      "title": {
+        "en": "OneUP · A R C / Black_Ravens · 15:46 UTC",
+        "fa": "وان‌آپ · A R C / Black_Ravens · 15:46 UTC"
+      },
+      "date": "2026-10-18",
+      "url": "https://europe.albionbb.com/battles/multi?ids=449739706,449746023",
+      "outcome": "recorded",
+      "kills": 11,
+      "deaths": 11
+    },
+    {
+      "title": {
+        "en": "OneUP · Stability / Braccus Rex · 15:23 UTC",
+        "fa": "وان‌آپ · Stability / Braccus Rex · 15:23 UTC"
+      },
+      "date": "2026-10-18",
+      "url": "https://europe.albionbb.com/battles/449726880",
+      "outcome": "recorded",
+      "kills": 10,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Stability · 20:51 UTC",
+        "fa": "وان‌آپ · Stability · 20:51 UTC"
+      },
+      "date": "2026-10-17",
+      "url": "https://europe.albionbb.com/battles/multi?ids=449343061,449345666,449347670,449349788,449352516",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · LDK-ORDINAS / A R R I V A L · 18:34 UTC",
+        "fa": "وان‌آپ · LDK-ORDINAS / A R R I V A L · 18:34 UTC"
+      },
+      "date": "2026-10-17",
+      "url": "https://europe.albionbb.com/battles/multi?ids=449256277,449261820",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 15
+    },
+    {
+      "title": {
+        "en": "OneUP · Sand Syndicate · 20:59 UTC",
+        "fa": "وان‌آپ · Sand Syndicate · 20:59 UTC"
+      },
+      "date": "2026-10-16",
+      "url": "https://europe.albionbb.com/battles/448806595",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 12
+    },
+    {
+      "title": {
+        "en": "OneUP · Projet X / NoRules · 20:13 UTC",
+        "fa": "وان‌آپ · Projet X / NoRules · 20:13 UTC"
+      },
+      "date": "2026-10-16",
+      "url": "https://europe.albionbb.com/battles/448776222",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Win Order / ALPAGU · 19:13 UTC",
+        "fa": "وان‌آپ · Win Order / ALPAGU · 19:13 UTC"
+      },
+      "date": "2026-10-16",
+      "url": "https://europe.albionbb.com/battles/multi?ids=448739828,448745712",
+      "outcome": "recorded",
+      "kills": 22,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · STAY MAD / AIR FORCE · 18:28 UTC",
+        "fa": "وان‌آپ · STAY MAD / AIR FORCE · 18:28 UTC"
+      },
+      "date": "2026-10-16",
+      "url": "https://europe.albionbb.com/battles/448711334",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · ALPAGU / Olympus Gurds · 18:04 UTC",
+        "fa": "وان‌آپ · ALPAGU / Olympus Gurds · 18:04 UTC"
+      },
+      "date": "2026-10-16",
+      "url": "https://europe.albionbb.com/battles/multi?ids=448696879,448707580,448713416,448718211,448721482,448724288",
+      "outcome": "recorded",
+      "kills": 89,
+      "deaths": 23
+    },
+    {
+      "title": {
+        "en": "OneUP · AURORA / Vendetta · 20:04 UTC",
+        "fa": "وان‌آپ · AURORA / Vendetta · 20:04 UTC"
+      },
+      "date": "2026-10-14",
+      "url": "https://europe.albionbb.com/battles/multi?ids=447797713,447805299,447813679,447821726",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 50
+    },
+    {
+      "title": {
+        "en": "OneUP · Stability / Panda Corp · 20:22 UTC",
+        "fa": "وان‌آپ · Stability / Panda Corp · 20:22 UTC"
+      },
+      "date": "2026-10-13",
+      "url": "https://europe.albionbb.com/battles/multi?ids=447329176,447333602",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 45
+    },
+    {
+      "title": {
+        "en": "OneUP · The Black Pact / Jumbo · 15:49 UTC",
+        "fa": "وان‌آپ · The Black Pact / Jumbo · 15:49 UTC"
+      },
+      "date": "2026-10-13",
+      "url": "https://europe.albionbb.com/battles/447166749",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · Projet X / BallsOnYou · 20:49 UTC",
+        "fa": "وان‌آپ · Projet X / BallsOnYou · 20:49 UTC"
+      },
+      "date": "2026-10-12",
+      "url": "https://europe.albionbb.com/battles/446848852",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Stability / Vendetta · 20:36 UTC",
+        "fa": "وان‌آپ · Stability / Vendetta · 20:36 UTC"
+      },
+      "date": "2026-10-12",
+      "url": "https://europe.albionbb.com/battles/446840794",
+      "outcome": "recorded",
+      "kills": 4,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · GREENLANDS / Projet X · 20:16 UTC",
+        "fa": "وان‌آپ · GREENLANDS / Projet X · 20:16 UTC"
+      },
+      "date": "2026-10-12",
+      "url": "https://europe.albionbb.com/battles/446829133",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 16
+    },
+    {
+      "title": {
+        "en": "OneUP · VITRYLA / 84s · 21:23 UTC",
+        "fa": "وان‌آپ · VITRYLA / 84s · 21:23 UTC"
+      },
+      "date": "2026-10-11",
+      "url": "https://europe.albionbb.com/battles/446392440",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · ALPAGU / IRAN-GANKER · 19:17 UTC",
+        "fa": "وان‌آپ · ALPAGU / IRAN-GANKER · 19:17 UTC"
+      },
+      "date": "2026-10-11",
+      "url": "https://europe.albionbb.com/battles/446327238",
+      "outcome": "recorded",
+      "kills": 9,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Bandits / LDK-ORDINAS · 18:43 UTC",
+        "fa": "وان‌آپ · Bandits / LDK-ORDINAS · 18:43 UTC"
+      },
+      "date": "2026-10-11",
+      "url": "https://europe.albionbb.com/battles/446307059",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · Pandemonium / Iron-Order · 18:30 UTC",
+        "fa": "وان‌آپ · Pandemonium / Iron-Order · 18:30 UTC"
+      },
+      "date": "2026-10-11",
+      "url": "https://europe.albionbb.com/battles/446299702",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Vendetta / GREENLANDS · 18:15 UTC",
+        "fa": "وان‌آپ · Vendetta / GREENLANDS · 18:15 UTC"
+      },
+      "date": "2026-10-10",
+      "url": "https://europe.albionbb.com/battles/445911593",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Chrux / Sand Syndicate · 20:37 UTC",
+        "fa": "وان‌آپ · Chrux / Sand Syndicate · 20:37 UTC"
+      },
+      "date": "2026-10-09",
+      "url": "https://europe.albionbb.com/battles/multi?ids=445523500,445526316,445534801",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 15
+    },
+    {
+      "title": {
+        "en": "OneUP · TROY / Azure Blades · 00:25 UTC",
+        "fa": "وان‌آپ · TROY / Azure Blades · 00:25 UTC"
+      },
+      "date": "2026-10-09",
+      "url": "https://europe.albionbb.com/battles/445179762",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 7
+    },
+    {
+      "title": {
+        "en": "OneUP · The Gatherers Lodge · 00:12 UTC",
+        "fa": "وان‌آپ · The Gatherers Lodge · 00:12 UTC"
+      },
+      "date": "2026-10-09",
+      "url": "https://europe.albionbb.com/battles/445177595",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Projet X / NoRules · 20:41 UTC",
+        "fa": "وان‌آپ · Projet X / NoRules · 20:41 UTC"
+      },
+      "date": "2026-10-08",
+      "url": "https://europe.albionbb.com/battles/445107684",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · Stability / Projet X · 20:25 UTC",
+        "fa": "وان‌آپ · Stability / Projet X · 20:25 UTC"
+      },
+      "date": "2026-10-08",
+      "url": "https://europe.albionbb.com/battles/445099467",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 2
+    },
+    {
+      "title": {
+        "en": "OneUP · Chrux / Contingent · 00:02 UTC",
+        "fa": "وان‌آپ · Chrux / Contingent · 00:02 UTC"
+      },
+      "date": "2026-10-08",
+      "url": "https://europe.albionbb.com/battles/multi?ids=444757244,444759749,444761370",
+      "outcome": "recorded",
+      "kills": 11,
+      "deaths": 21
+    },
+    {
+      "title": {
+        "en": "OneUP · Kiss or Spank / Stability · 20:23 UTC",
+        "fa": "وان‌آپ · Kiss or Spank / Stability · 20:23 UTC"
+      },
+      "date": "2026-10-07",
+      "url": "https://europe.albionbb.com/battles/multi?ids=444680726,444684687",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 12
+    },
+    {
+      "title": {
+        "en": "OneUP · Utopia / Darktechnoclub · 14:20 UTC",
+        "fa": "وان‌آپ · Utopia / Darktechnoclub · 14:20 UTC"
+      },
+      "date": "2026-10-07",
+      "url": "https://europe.albionbb.com/battles/444509057",
+      "outcome": "recorded",
+      "kills": 4,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · Bandits / WipeAll · 11:57 UTC",
+        "fa": "وان‌آپ · Bandits / WipeAll · 11:57 UTC"
+      },
+      "date": "2026-10-07",
+      "url": "https://europe.albionbb.com/battles/multi?ids=444460242,444461224",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Projet X · 20:57 UTC",
+        "fa": "وان‌آپ · Projet X · 20:57 UTC"
+      },
+      "date": "2026-10-06",
+      "url": "https://europe.albionbb.com/battles/444291593",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 6
+    },
+    {
+      "title": {
+        "en": "OneUP · Sand Syndicate / Stability · 20:03 UTC",
+        "fa": "وان‌آپ · Sand Syndicate / Stability · 20:03 UTC"
+      },
+      "date": "2026-10-06",
+      "url": "https://europe.albionbb.com/battles/444265306",
+      "outcome": "recorded",
+      "kills": 9,
+      "deaths": 20
+    },
+    {
+      "title": {
+        "en": "OneUP · Kiss or Spank / Dutch Chaos · 20:10 UTC",
+        "fa": "وان‌آپ · Kiss or Spank / Dutch Chaos · 20:10 UTC"
+      },
+      "date": "2026-10-05",
+      "url": "https://europe.albionbb.com/battles/multi?ids=443864815,443869607",
+      "outcome": "recorded",
+      "kills": 4,
+      "deaths": 7
+    },
+    {
+      "title": {
+        "en": "OneUP · GankFlow / BallsOnYou · 20:00 UTC",
+        "fa": "وان‌آپ · GankFlow / BallsOnYou · 20:00 UTC"
+      },
+      "date": "2026-10-05",
+      "url": "https://europe.albionbb.com/battles/443859041",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 6
+    },
+    {
+      "title": {
+        "en": "OneUP · GankFlow / Amants · 18:01 UTC",
+        "fa": "وان‌آپ · GankFlow / Amants · 18:01 UTC"
+      },
+      "date": "2026-10-05",
+      "url": "https://europe.albionbb.com/battles/multi?ids=443792373,443802280",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 14
+    },
+    {
+      "title": {
+        "en": "OneUP · KnightsOfCamelot / Kubik-v-Kube · 17:52 UTC",
+        "fa": "وان‌آپ · KnightsOfCamelot / Kubik-v-Kube · 17:52 UTC"
+      },
+      "date": "2026-10-05",
+      "url": "https://europe.albionbb.com/battles/443787705",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · B O N K / SZKODA OC · 22:35 UTC",
+        "fa": "وان‌آپ · B O N K / SZKODA OC · 22:35 UTC"
+      },
+      "date": "2026-10-04",
+      "url": "https://europe.albionbb.com/battles/443501276",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 7
+    },
+    {
+      "title": {
+        "en": "OneUP · Stability / Win Order · 20:39 UTC",
+        "fa": "وان‌آپ · Stability / Win Order · 20:39 UTC"
+      },
+      "date": "2026-10-04",
+      "url": "https://europe.albionbb.com/battles/443451829",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 5
+    },
+    {
+      "title": {
+        "en": "OneUP · NO MAD / Order of the Seal · 17:26 UTC",
+        "fa": "وان‌آپ · NO MAD / Order of the Seal · 17:26 UTC"
+      },
+      "date": "2026-10-03",
+      "url": "https://europe.albionbb.com/battles/multi?ids=442980286,442985079,442987953,442989183,442992173",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 24
+    },
+    {
+      "title": {
+        "en": "OneUP · EQMS / WarLogs · 21:04 UTC",
+        "fa": "وان‌آپ · EQMS / WarLogs · 21:04 UTC"
+      },
+      "date": "2026-10-02",
+      "url": "https://europe.albionbb.com/battles/442625341",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · WarLogs / EQMS · 20:47 UTC",
+        "fa": "وان‌آپ · WarLogs / EQMS · 20:47 UTC"
+      },
+      "date": "2026-10-02",
+      "url": "https://europe.albionbb.com/battles/442616363",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 16
+    },
+    {
+      "title": {
+        "en": "OneUP · Sand Syndicate / B O N K · 20:31 UTC",
+        "fa": "وان‌آپ · Sand Syndicate / B O N K · 20:31 UTC"
+      },
+      "date": "2026-10-02",
+      "url": "https://europe.albionbb.com/battles/442607181",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 18
+    },
+    {
+      "title": {
+        "en": "OneUP · Deporte en Porte / Kalandorok · 21:56 UTC",
+        "fa": "وان‌آپ · Deporte en Porte / Kalandorok · 21:56 UTC"
+      },
+      "date": "2026-10-01",
+      "url": "https://europe.albionbb.com/battles/multi?ids=442219863,442222463",
+      "outcome": "recorded",
+      "kills": 9,
+      "deaths": 10
+    },
+    {
+      "title": {
+        "en": "OneUP · Vendetta · 21:40 UTC",
+        "fa": "وان‌آپ · Vendetta · 21:40 UTC"
+      },
+      "date": "2026-10-01",
+      "url": "https://europe.albionbb.com/battles/442213306",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Most Hated / Deal or Die · 00:13 UTC",
+        "fa": "وان‌آپ · Most Hated / Deal or Die · 00:13 UTC"
+      },
+      "date": "2026-10-01",
+      "url": "https://europe.albionbb.com/battles/multi?ids=441844085,441845302",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 2
+    },
+    {
+      "title": {
+        "en": "OneUP · B O N K · 22:52 UTC",
+        "fa": "وان‌آپ · B O N K · 22:52 UTC"
+      },
+      "date": "2026-09-28",
+      "url": "https://europe.albionbb.com/battles/441002770",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 11
+    },
+    {
+      "title": {
+        "en": "OneUP · B O N K / Stability · 22:48 UTC",
+        "fa": "وان‌آپ · B O N K / Stability · 22:48 UTC"
+      },
+      "date": "2026-09-28",
+      "url": "https://europe.albionbb.com/battles/441001581",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · Stability / Projet X · 22:36 UTC",
+        "fa": "وان‌آپ · Stability / Projet X · 22:36 UTC"
+      },
+      "date": "2026-09-28",
+      "url": "https://europe.albionbb.com/battles/440997498",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 4
+    },
+    {
+      "title": {
+        "en": "OneUP · Most Hated / SZKODA OC · 17:04 UTC",
+        "fa": "وان‌آپ · Most Hated / SZKODA OC · 17:04 UTC"
+      },
+      "date": "2026-09-27",
+      "url": "https://europe.albionbb.com/battles/440395106",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · Kal Vas Flam / SaneDanes · 15:16 UTC",
+        "fa": "وان‌آپ · Kal Vas Flam / SaneDanes · 15:16 UTC"
+      },
+      "date": "2026-09-27",
+      "url": "https://europe.albionbb.com/battles/440335865",
+      "outcome": "recorded",
+      "kills": 4,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · Win Order / Right Side · 19:06 UTC",
+        "fa": "وان‌آپ · Win Order / Right Side · 19:06 UTC"
+      },
+      "date": "2026-09-25",
+      "url": "https://europe.albionbb.com/battles/439433925",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 14
+    },
+    {
+      "title": {
+        "en": "OneUP · ANCIENT DEVILS · 18:28 UTC",
+        "fa": "وان‌آپ · ANCIENT DEVILS · 18:28 UTC"
+      },
+      "date": "2026-09-25",
+      "url": "https://europe.albionbb.com/battles/439412285",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 15
+    },
+    {
+      "title": {
+        "en": "OneUP · Sand Syndicate / VIPS · 20:31 UTC",
+        "fa": "وان‌آپ · Sand Syndicate / VIPS · 20:31 UTC"
+      },
+      "date": "2026-09-23",
+      "url": "https://europe.albionbb.com/battles/438583075",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 23
+    },
+    {
+      "title": {
+        "en": "OneUP · BACKSTAB CO / Black Brotherhood · 21:54 UTC",
+        "fa": "وان‌آپ · BACKSTAB CO / Black Brotherhood · 21:54 UTC"
+      },
+      "date": "2026-09-22",
+      "url": "https://europe.albionbb.com/battles/438179651",
+      "outcome": "recorded",
+      "kills": 15,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · The Dark Tr1ad / DO NUT · 20:56 UTC",
+        "fa": "وان‌آپ · The Dark Tr1ad / DO NUT · 20:56 UTC"
+      },
+      "date": "2026-09-22",
+      "url": "https://europe.albionbb.com/battles/438152726",
+      "outcome": "recorded",
+      "kills": 11,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Quinto Imperio / 420 VICIO · 00:00 UTC",
+        "fa": "وان‌آپ · Quinto Imperio / 420 VICIO · 00:00 UTC"
+      },
+      "date": "2026-09-22",
+      "url": "https://europe.albionbb.com/battles/437761733",
+      "outcome": "recorded",
+      "kills": 4,
+      "deaths": 10
+    },
+    {
+      "title": {
+        "en": "OneUP · iPEK YOLU / AURORA · 23:12 UTC",
+        "fa": "وان‌آپ · iPEK YOLU / AURORA · 23:12 UTC"
+      },
+      "date": "2026-09-21",
+      "url": "https://europe.albionbb.com/battles/437749889",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · LiMing / 0verCharge · 23:05 UTC",
+        "fa": "وان‌آپ · LiMing / 0verCharge · 23:05 UTC"
+      },
+      "date": "2026-09-21",
+      "url": "https://europe.albionbb.com/battles/437748087",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · Kiss or Spank · 22:33 UTC",
+        "fa": "وان‌آپ · Kiss or Spank · 22:33 UTC"
+      },
+      "date": "2026-09-21",
+      "url": "https://europe.albionbb.com/battles/437737252",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 9
+    },
+    {
+      "title": {
+        "en": "OneUP · Shadow Guard / Braccus Rex · 21:48 UTC",
+        "fa": "وان‌آپ · Shadow Guard / Braccus Rex · 21:48 UTC"
+      },
+      "date": "2026-09-21",
+      "url": "https://europe.albionbb.com/battles/437720127",
+      "outcome": "recorded",
+      "kills": 18,
+      "deaths": 6
+    },
+    {
+      "title": {
+        "en": "OneUP · Vendetta / S O V E R E I G N · 20:03 UTC",
+        "fa": "وان‌آپ · Vendetta / S O V E R E I G N · 20:03 UTC"
+      },
+      "date": "2026-09-20",
+      "url": "https://europe.albionbb.com/battles/437204514",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 16
+    },
+    {
+      "title": {
+        "en": "OneUP · Serapion / Bandits · 18:14 UTC",
+        "fa": "وان‌آپ · Serapion / Bandits · 18:14 UTC"
+      },
+      "date": "2026-09-20",
+      "url": "https://europe.albionbb.com/battles/437137093",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · WarLogs · 22:43 UTC",
+        "fa": "وان‌آپ · WarLogs · 22:43 UTC"
+      },
+      "date": "2026-09-19",
+      "url": "https://europe.albionbb.com/battles/multi?ids=436719057,436724111",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 5
+    },
+    {
+      "title": {
+        "en": "OneUP · The Azeroth / ALPAGU · 22:20 UTC",
+        "fa": "وان‌آپ · The Azeroth / ALPAGU · 22:20 UTC"
+      },
+      "date": "2026-09-19",
+      "url": "https://europe.albionbb.com/battles/436708351",
+      "outcome": "recorded",
+      "kills": 4,
+      "deaths": 5
+    },
+    {
+      "title": {
+        "en": "OneUP · Mroczna Armia / 0VERRATED · 22:31 UTC",
+        "fa": "وان‌آپ · Mroczna Armia / 0VERRATED · 22:31 UTC"
+      },
+      "date": "2026-09-17",
+      "url": "https://europe.albionbb.com/battles/435695146",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · La Rose Blanche · 20:56 UTC",
+        "fa": "وان‌آپ · La Rose Blanche · 20:56 UTC"
+      },
+      "date": "2026-09-16",
+      "url": "https://europe.albionbb.com/battles/435184381",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 9
+    },
+    {
+      "title": {
+        "en": "OneUP · S O V E R E I G N / Vendetta · 20:09 UTC",
+        "fa": "وان‌آپ · S O V E R E I G N / Vendetta · 20:09 UTC"
+      },
+      "date": "2026-09-16",
+      "url": "https://europe.albionbb.com/battles/435156960",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 15
+    },
+    {
+      "title": {
+        "en": "OneUP · not me / Raul and Tmam · 22:59 UTC",
+        "fa": "وان‌آپ · not me / Raul and Tmam · 22:59 UTC"
+      },
+      "date": "2026-09-15",
+      "url": "https://europe.albionbb.com/battles/434774242",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · Framework · 21:14 UTC",
+        "fa": "وان‌آپ · Framework · 21:14 UTC"
+      },
+      "date": "2026-09-15",
+      "url": "https://europe.albionbb.com/battles/434730306",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · C O D E X · 19:10 UTC",
+        "fa": "وان‌آپ · C O D E X · 19:10 UTC"
+      },
+      "date": "2026-09-14",
+      "url": "https://europe.albionbb.com/battles/434152681",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 14
+    },
+    {
+      "title": {
+        "en": "OneUP · SCREZHET METALLA / ALB Persian · 14:38 UTC",
+        "fa": "وان‌آپ · SCREZHET METALLA / ALB Persian · 14:38 UTC"
+      },
+      "date": "2026-09-14",
+      "url": "https://europe.albionbb.com/battles/multi?ids=433994729,433997356",
+      "outcome": "recorded",
+      "kills": 13,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · Pulsion / Stability · 21:09 UTC",
+        "fa": "وان‌آپ · Pulsion / Stability · 21:09 UTC"
+      },
+      "date": "2026-09-13",
+      "url": "https://europe.albionbb.com/battles/433712520",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 14
+    },
+    {
+      "title": {
+        "en": "OneUP · C O D E X / Astala-Vista · 18:54 UTC",
+        "fa": "وان‌آپ · C O D E X / Astala-Vista · 18:54 UTC"
+      },
+      "date": "2026-09-12",
+      "url": "https://europe.albionbb.com/battles/432954539",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · Tainted / FORGED · 18:23 UTC",
+        "fa": "وان‌آپ · Tainted / FORGED · 18:23 UTC"
+      },
+      "date": "2026-09-12",
+      "url": "https://europe.albionbb.com/battles/432931482",
+      "outcome": "recorded",
+      "kills": 22,
+      "deaths": 2
+    },
+    {
+      "title": {
+        "en": "OneUP · Pulsion / French Flair · 21:08 UTC",
+        "fa": "وان‌آپ · Pulsion / French Flair · 21:08 UTC"
+      },
+      "date": "2026-09-09",
+      "url": "https://europe.albionbb.com/battles/431373918",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · GachiBang / ANGRY BlRDS · 14:56 UTC",
+        "fa": "وان‌آپ · GachiBang / ANGRY BlRDS · 14:56 UTC"
+      },
+      "date": "2026-09-09",
+      "url": "https://europe.albionbb.com/battles/431133035",
+      "outcome": "recorded",
+      "kills": 26,
+      "deaths": 9
+    },
+    {
+      "title": {
+        "en": "OneUP · NO MAD / AURORA · 20:09 UTC",
+        "fa": "وان‌آپ · NO MAD / AURORA · 20:09 UTC"
+      },
+      "date": "2026-09-01",
+      "url": "https://europe.albionbb.com/battles/426070133",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · Black Sheeps / indrix · 20:45 UTC",
+        "fa": "وان‌آپ · Black Sheeps / indrix · 20:45 UTC"
+      },
+      "date": "2026-08-30",
+      "url": "https://europe.albionbb.com/battles/multi?ids=424885334,424899085",
+      "outcome": "recorded",
+      "kills": 31,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · EQMS / Chaos Terror · 14:44 UTC",
+        "fa": "وان‌آپ · EQMS / Chaos Terror · 14:44 UTC"
+      },
+      "date": "2026-08-30",
+      "url": "https://europe.albionbb.com/battles/424695320",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 7
+    },
+    {
+      "title": {
+        "en": "OneUP · Utopia / Dutch Chaos · 18:05 UTC",
+        "fa": "وان‌آپ · Utopia / Dutch Chaos · 18:05 UTC"
+      },
+      "date": "2026-08-29",
+      "url": "https://europe.albionbb.com/battles/424296740",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · BallsOnYou / Riannonh · 20:38 UTC",
+        "fa": "وان‌آپ · BallsOnYou / Riannonh · 20:38 UTC"
+      },
+      "date": "2026-08-28",
+      "url": "https://europe.albionbb.com/battles/multi?ids=423910370,423918418",
+      "outcome": "recorded",
+      "kills": 9,
+      "deaths": 12
+    },
+    {
+      "title": {
+        "en": "OneUP · BRVSTNK Crew / Empire of Hell · 19:29 UTC",
+        "fa": "وان‌آپ · BRVSTNK Crew / Empire of Hell · 19:29 UTC"
+      },
+      "date": "2026-08-28",
+      "url": "https://europe.albionbb.com/battles/423874842",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · Hightree Steep Gankers / Black Sentinels · 12:58 UTC",
+        "fa": "وان‌آپ · Hightree Steep Gankers / Black Sentinels · 12:58 UTC"
+      },
+      "date": "2026-08-28",
+      "url": "https://europe.albionbb.com/battles/423705430",
+      "outcome": "recorded",
+      "kills": 9,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · AQUAMARINE / Nameless · 12:46 UTC",
+        "fa": "وان‌آپ · AQUAMARINE / Nameless · 12:46 UTC"
+      },
+      "date": "2026-08-28",
+      "url": "https://europe.albionbb.com/battles/multi?ids=423700652,423703254",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 7
+    },
+    {
+      "title": {
+        "en": "OneUP · Lav / Ascension · 18:51 UTC",
+        "fa": "وان‌آپ · Lav / Ascension · 18:51 UTC"
+      },
+      "date": "2026-08-27",
+      "url": "https://europe.albionbb.com/battles/multi?ids=423435334,423436215,423458453",
+      "outcome": "recorded",
+      "kills": 70,
+      "deaths": 49
+    },
+    {
+      "title": {
+        "en": "OneUP · ANCIENT DEVILS / Ascension · 18:16 UTC",
+        "fa": "وان‌آپ · ANCIENT DEVILS / Ascension · 18:16 UTC"
+      },
+      "date": "2026-08-27",
+      "url": "https://europe.albionbb.com/battles/multi?ids=423417592,423418320",
+      "outcome": "recorded",
+      "kills": 28,
+      "deaths": 17
+    },
+    {
+      "title": {
+        "en": "OneUP · MYDAKI / Lav · 18:04 UTC",
+        "fa": "وان‌آپ · MYDAKI / Lav · 18:04 UTC"
+      },
+      "date": "2026-08-27",
+      "url": "https://europe.albionbb.com/battles/423412069",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · 3 2 1 / Juisy Ass · 17:51 UTC",
+        "fa": "وان‌آپ · 3 2 1 / Juisy Ass · 17:51 UTC"
+      },
+      "date": "2026-08-27",
+      "url": "https://europe.albionbb.com/battles/multi?ids=423406289,423411363",
+      "outcome": "recorded",
+      "kills": 10,
+      "deaths": 5
+    },
+    {
+      "title": {
+        "en": "OneUP · BIG FRESH MEAT / LG ABBYSAL · 17:40 UTC",
+        "fa": "وان‌آپ · BIG FRESH MEAT / LG ABBYSAL · 17:40 UTC"
+      },
+      "date": "2026-08-27",
+      "url": "https://europe.albionbb.com/battles/423401295",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Ascension / Suicid3 Squad · 17:18 UTC",
+        "fa": "وان‌آپ · Ascension / Suicid3 Squad · 17:18 UTC"
+      },
+      "date": "2026-08-27",
+      "url": "https://europe.albionbb.com/battles/multi?ids=423391668,423395190,423398735",
+      "outcome": "recorded",
+      "kills": 22,
+      "deaths": 10
+    },
+    {
+      "title": {
+        "en": "OneUP · Le Bus Magique / Bloody rain · 17:04 UTC",
+        "fa": "وان‌آپ · Le Bus Magique / Bloody rain · 17:04 UTC"
+      },
+      "date": "2026-08-27",
+      "url": "https://europe.albionbb.com/battles/423385361",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · Bandits / AQUAMARINE · 17:28 UTC",
+        "fa": "وان‌آپ · Bandits / AQUAMARINE · 17:28 UTC"
+      },
+      "date": "2026-08-26",
+      "url": "https://europe.albionbb.com/battles/multi?ids=422968321,422979974,422984371",
+      "outcome": "recorded",
+      "kills": 10,
+      "deaths": 32
+    },
+    {
+      "title": {
+        "en": "OneUP · 111111111111111111111111111111 / Anteikuy · 19:31 UTC",
+        "fa": "وان‌آپ · 111111111111111111111111111111 / Anteikuy · 19:31 UTC"
+      },
+      "date": "2026-08-25",
+      "url": "https://europe.albionbb.com/battles/multi?ids=422600773,422602481",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 2
+    },
+    {
+      "title": {
+        "en": "OneUP · S E N G O K U / Infernal Ghouls · 18:56 UTC",
+        "fa": "وان‌آپ · S E N G O K U / Infernal Ghouls · 18:56 UTC"
+      },
+      "date": "2026-08-25",
+      "url": "https://europe.albionbb.com/battles/422582795",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 5
+    },
+    {
+      "title": {
+        "en": "OneUP · VIPS / S E N G O K U · 18:26 UTC",
+        "fa": "وان‌آپ · VIPS / S E N G O K U · 18:26 UTC"
+      },
+      "date": "2026-08-25",
+      "url": "https://europe.albionbb.com/battles/multi?ids=422566308,422571953",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 23
+    },
+    {
+      "title": {
+        "en": "OneUP · Bandits / All inn · 18:19 UTC",
+        "fa": "وان‌آپ · Bandits / All inn · 18:19 UTC"
+      },
+      "date": "2026-08-25",
+      "url": "https://europe.albionbb.com/battles/422562973",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Follow The Crown / ACAB · 18:06 UTC",
+        "fa": "وان‌آپ · Follow The Crown / ACAB · 18:06 UTC"
+      },
+      "date": "2026-08-25",
+      "url": "https://europe.albionbb.com/battles/422556122",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 13
+    },
+    {
+      "title": {
+        "en": "OneUP · Bandits · 16:15 UTC",
+        "fa": "وان‌آپ · Bandits · 16:15 UTC"
+      },
+      "date": "2026-08-25",
+      "url": "https://europe.albionbb.com/battles/422504231",
+      "outcome": "recorded",
+      "kills": 4,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · F U L L S E N D · 20:56 UTC",
+        "fa": "وان‌آپ · F U L L S E N D · 20:56 UTC"
+      },
+      "date": "2026-08-24",
+      "url": "https://europe.albionbb.com/battles/422207309",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 2
+    },
+    {
+      "title": {
+        "en": "OneUP · AsTralee / Follow The Crown · 19:26 UTC",
+        "fa": "وان‌آپ · AsTralee / Follow The Crown · 19:26 UTC"
+      },
+      "date": "2026-08-24",
+      "url": "https://europe.albionbb.com/battles/422158672",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · BDU / Faith And Steel · 19:12 UTC",
+        "fa": "وان‌آپ · BDU / Faith And Steel · 19:12 UTC"
+      },
+      "date": "2026-08-24",
+      "url": "https://europe.albionbb.com/battles/422151381",
+      "outcome": "recorded",
+      "kills": 22,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · blackburn / D R A U G R · 18:53 UTC",
+        "fa": "وان‌آپ · blackburn / D R A U G R · 18:53 UTC"
+      },
+      "date": "2026-08-24",
+      "url": "https://europe.albionbb.com/battles/multi?ids=422140420,422140543",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 7
+    },
+    {
+      "title": {
+        "en": "OneUP · High-Hammer / Hightree Steep Gankers · 18:16 UTC",
+        "fa": "وان‌آپ · High-Hammer / Hightree Steep Gankers · 18:16 UTC"
+      },
+      "date": "2026-08-24",
+      "url": "https://europe.albionbb.com/battles/422119116",
+      "outcome": "recorded",
+      "kills": 16,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · NoTag / Persian Eclipse · 16:12 UTC",
+        "fa": "وان‌آپ · NoTag / Persian Eclipse · 16:12 UTC"
+      },
+      "date": "2026-08-24",
+      "url": "https://europe.albionbb.com/battles/422060028",
+      "outcome": "recorded",
+      "kills": 12,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · AQUAMARINE / star fire · 13:00 UTC",
+        "fa": "وان‌آپ · AQUAMARINE / star fire · 13:00 UTC"
+      },
+      "date": "2026-08-24",
+      "url": "https://europe.albionbb.com/battles/421980221",
+      "outcome": "recorded",
+      "kills": 9,
+      "deaths": 9
+    },
+    {
+      "title": {
+        "en": "OneUP · AQUAMARINE / Hightree Steep Gankers · 12:32 UTC",
+        "fa": "وان‌آپ · AQUAMARINE / Hightree Steep Gankers · 12:32 UTC"
+      },
+      "date": "2026-08-24",
+      "url": "https://europe.albionbb.com/battles/multi?ids=421970413,421978089",
+      "outcome": "recorded",
+      "kills": 36,
+      "deaths": 18
+    },
+    {
+      "title": {
+        "en": "OneUP · NO MAD / Skoggangr · 20:10 UTC",
+        "fa": "وان‌آپ · NO MAD / Skoggangr · 20:10 UTC"
+      },
+      "date": "2026-08-23",
+      "url": "https://europe.albionbb.com/battles/421742020",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 11
+    },
+    {
+      "title": {
+        "en": "OneUP · Toy Story / Blutmond · 17:45 UTC",
+        "fa": "وان‌آپ · Toy Story / Blutmond · 17:45 UTC"
+      },
+      "date": "2026-08-23",
+      "url": "https://europe.albionbb.com/battles/421663726",
+      "outcome": "recorded",
+      "kills": 27,
+      "deaths": 9
+    },
+    {
+      "title": {
+        "en": "OneUP · NO MAD · 20:41 UTC",
+        "fa": "وان‌آپ · NO MAD · 20:41 UTC"
+      },
+      "date": "2026-08-22",
+      "url": "https://europe.albionbb.com/battles/421262245",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 16
+    },
+    {
+      "title": {
+        "en": "OneUP · Requiem Aeternam / TROY · 11:58 UTC",
+        "fa": "وان‌آپ · Requiem Aeternam / TROY · 11:58 UTC"
+      },
+      "date": "2026-08-22",
+      "url": "https://europe.albionbb.com/battles/421017963",
+      "outcome": "recorded",
+      "kills": 32,
+      "deaths": 12
+    },
+    {
+      "title": {
+        "en": "OneUP · Yum Yum / Utopia · 23:14 UTC",
+        "fa": "وان‌آپ · Yum Yum / Utopia · 23:14 UTC"
+      },
+      "date": "2026-08-20",
+      "url": "https://europe.albionbb.com/battles/420412468",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Fucking Circus / HORDA AXAYACATL · 17:20 UTC",
+        "fa": "وان‌آپ · Fucking Circus / HORDA AXAYACATL · 17:20 UTC"
+      },
+      "date": "2026-08-16",
+      "url": "https://europe.albionbb.com/battles/multi?ids=418493683,418500340",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · XBOX RU / Les Faucheurs · 17:04 UTC",
+        "fa": "وان‌آپ · XBOX RU / Les Faucheurs · 17:04 UTC"
+      },
+      "date": "2026-08-16",
+      "url": "https://europe.albionbb.com/battles/418485386",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Crabs Horde / BARBARLAR · 16:54 UTC",
+        "fa": "وان‌آپ · Crabs Horde / BARBARLAR · 16:54 UTC"
+      },
+      "date": "2026-08-16",
+      "url": "https://europe.albionbb.com/battles/418480445",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · Azure Coast / The Court · 16:12 UTC",
+        "fa": "وان‌آپ · Azure Coast / The Court · 16:12 UTC"
+      },
+      "date": "2026-08-16",
+      "url": "https://europe.albionbb.com/battles/multi?ids=418459633,418463813",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · A V A L O N I A N / Deal or Die · 21:58 UTC",
+        "fa": "وان‌آپ · A V A L O N I A N / Deal or Die · 21:58 UTC"
+      },
+      "date": "2026-08-15",
+      "url": "https://europe.albionbb.com/battles/418137782",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · RAINDOGS / A V A L O N I A N · 21:11 UTC",
+        "fa": "وان‌آپ · RAINDOGS / A V A L O N I A N · 21:11 UTC"
+      },
+      "date": "2026-08-15",
+      "url": "https://europe.albionbb.com/battles/multi?ids=418114549,418122469,418126901",
+      "outcome": "recorded",
+      "kills": 13,
+      "deaths": 7
+    },
+    {
+      "title": {
+        "en": "OneUP · THE BLOODY MIST / Avoid_Me · 13:48 UTC",
+        "fa": "وان‌آپ · THE BLOODY MIST / Avoid_Me · 13:48 UTC"
+      },
+      "date": "2026-08-15",
+      "url": "https://europe.albionbb.com/battles/417902479",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Fleas / V0SXOD NOCHI · 12:35 UTC",
+        "fa": "وان‌آپ · Fleas / V0SXOD NOCHI · 12:35 UTC"
+      },
+      "date": "2026-08-15",
+      "url": "https://europe.albionbb.com/battles/417868950",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Grand Baltrus Lejyonu / A V A L O N I A N · 19:28 UTC",
+        "fa": "وان‌آپ · Grand Baltrus Lejyonu / A V A L O N I A N · 19:28 UTC"
+      },
+      "date": "2026-08-14",
+      "url": "https://europe.albionbb.com/battles/417583124",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 6
+    },
+    {
+      "title": {
+        "en": "OneUP · ALT SKUF / AsortikBabys · 22:40 UTC",
+        "fa": "وان‌آپ · ALT SKUF / AsortikBabys · 22:40 UTC"
+      },
+      "date": "2026-08-13",
+      "url": "https://europe.albionbb.com/battles/417234086",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · House Silmaril / OTAG · 21:48 UTC",
+        "fa": "وان‌آپ · House Silmaril / OTAG · 21:48 UTC"
+      },
+      "date": "2026-08-13",
+      "url": "https://europe.albionbb.com/battles/417214238",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Azgard / yakoza · 15:59 UTC",
+        "fa": "وان‌آپ · Azgard / yakoza · 15:59 UTC"
+      },
+      "date": "2026-08-12",
+      "url": "https://europe.albionbb.com/battles/416623076",
+      "outcome": "recorded",
+      "kills": 4,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · MisscIick / yakoza · 20:19 UTC",
+        "fa": "وان‌آپ · MisscIick / yakoza · 20:19 UTC"
+      },
+      "date": "2026-08-11",
+      "url": "https://europe.albionbb.com/battles/multi?ids=416318045,416320295,416331011",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 26
+    },
+    {
+      "title": {
+        "en": "OneUP · one4all / BACKSTAB CO · 17:16 UTC",
+        "fa": "وان‌آپ · one4all / BACKSTAB CO · 17:16 UTC"
+      },
+      "date": "2026-08-11",
+      "url": "https://europe.albionbb.com/battles/416220744",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Fucking Circus / Palegrin · 16:38 UTC",
+        "fa": "وان‌آپ · Fucking Circus / Palegrin · 16:38 UTC"
+      },
+      "date": "2026-08-11",
+      "url": "https://europe.albionbb.com/battles/416202554",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · La_Piraterie / CONQUISTAD0RES · 16:29 UTC",
+        "fa": "وان‌آپ · La_Piraterie / CONQUISTAD0RES · 16:29 UTC"
+      },
+      "date": "2026-08-11",
+      "url": "https://europe.albionbb.com/battles/416198621",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Trop Tard Pour Fuir · 16:01 UTC",
+        "fa": "وان‌آپ · Trop Tard Pour Fuir · 16:01 UTC"
+      },
+      "date": "2026-08-11",
+      "url": "https://europe.albionbb.com/battles/416185756",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 2
+    },
+    {
+      "title": {
+        "en": "OneUP · P R I M A L · 15:51 UTC",
+        "fa": "وان‌آپ · P R I M A L · 15:51 UTC"
+      },
+      "date": "2026-08-11",
+      "url": "https://europe.albionbb.com/battles/416181519",
+      "outcome": "recorded",
+      "kills": 7,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · RAINDOGS / Westeros Gankers · 22:28 UTC",
+        "fa": "وان‌آپ · RAINDOGS / Westeros Gankers · 22:28 UTC"
+      },
+      "date": "2026-08-10",
+      "url": "https://europe.albionbb.com/battles/multi?ids=415936553,415938979,415942378,415944008",
+      "outcome": "recorded",
+      "kills": 18,
+      "deaths": 17
+    },
+    {
+      "title": {
+        "en": "OneUP · House Silmaril / Highdale · 21:59 UTC",
+        "fa": "وان‌آپ · House Silmaril / Highdale · 21:59 UTC"
+      },
+      "date": "2026-08-10",
+      "url": "https://europe.albionbb.com/battles/multi?ids=415925582,415928353,415929426,415932178,415934155",
+      "outcome": "recorded",
+      "kills": 24,
+      "deaths": 6
+    },
+    {
+      "title": {
+        "en": "OneUP · Ridniy Kray / Ninja Dragons · 17:54 UTC",
+        "fa": "وان‌آپ · Ridniy Kray / Ninja Dragons · 17:54 UTC"
+      },
+      "date": "2026-08-10",
+      "url": "https://europe.albionbb.com/battles/415798516",
+      "outcome": "recorded",
+      "kills": 8,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · ALTIN ORDU / Blood Stripes · 16:21 UTC",
+        "fa": "وان‌آپ · ALTIN ORDU / Blood Stripes · 16:21 UTC"
+      },
+      "date": "2026-08-10",
+      "url": "https://europe.albionbb.com/battles/multi?ids=415755216,415762160",
+      "outcome": "recorded",
+      "kills": 20,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · Cyber Cats / House of Immortals · 22:25 UTC",
+        "fa": "وان‌آپ · Cyber Cats / House of Immortals · 22:25 UTC"
+      },
+      "date": "2026-07-31",
+      "url": "https://europe.albionbb.com/battles/410979276",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · Utopia / FROST BORN · 00:49 UTC",
+        "fa": "وان‌آپ · Utopia / FROST BORN · 00:49 UTC"
+      },
+      "date": "2026-07-31",
+      "url": "https://europe.albionbb.com/battles/410481035",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 5
+    },
+    {
+      "title": {
+        "en": "OneUP · eqweeq / Fury Love · 00:42 UTC",
+        "fa": "وان‌آپ · eqweeq / Fury Love · 00:42 UTC"
+      },
+      "date": "2026-07-31",
+      "url": "https://europe.albionbb.com/battles/410479455",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · Solea / D a r k _ M Y T H · 00:21 UTC",
+        "fa": "وان‌آپ · Solea / D a r k _ M Y T H · 00:21 UTC"
+      },
+      "date": "2026-07-31",
+      "url": "https://europe.albionbb.com/battles/410474204",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · AOL / The Buisness · 23:10 UTC",
+        "fa": "وان‌آپ · AOL / The Buisness · 23:10 UTC"
+      },
+      "date": "2026-07-30",
+      "url": "https://europe.albionbb.com/battles/410452928",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · 84s / Bandits · 20:09 UTC",
+        "fa": "وان‌آپ · 84s / Bandits · 20:09 UTC"
+      },
+      "date": "2026-07-28",
+      "url": "https://europe.albionbb.com/battles/409211218",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · HavenFall / Kiss or Spank · 19:39 UTC",
+        "fa": "وان‌آپ · HavenFall / Kiss or Spank · 19:39 UTC"
+      },
+      "date": "2026-07-28",
+      "url": "https://europe.albionbb.com/battles/multi?ids=409189938,409196940,409202505",
+      "outcome": "recorded",
+      "kills": 35,
+      "deaths": 6
+    },
+    {
+      "title": {
+        "en": "OneUP · D R A U G R / OCTOPUSY · 19:00 UTC",
+        "fa": "وان‌آپ · D R A U G R / OCTOPUSY · 19:00 UTC"
+      },
+      "date": "2026-07-26",
+      "url": "https://europe.albionbb.com/battles/408074193",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · RAINDOGS · 22:44 UTC",
+        "fa": "وان‌آپ · RAINDOGS · 22:44 UTC"
+      },
+      "date": "2026-07-24",
+      "url": "https://europe.albionbb.com/battles/multi?ids=406992706,406993893",
+      "outcome": "recorded",
+      "kills": 11,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Grand Baltrus Lejyonu / xXx_PAIN_xXx · 18:21 UTC",
+        "fa": "وان‌آپ · Grand Baltrus Lejyonu / xXx_PAIN_xXx · 18:21 UTC"
+      },
+      "date": "2026-07-23",
+      "url": "https://europe.albionbb.com/battles/406283389",
+      "outcome": "recorded",
+      "kills": 6,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Dismount / Enjoyers · 21:33 UTC",
+        "fa": "وان‌آپ · Dismount / Enjoyers · 21:33 UTC"
+      },
+      "date": "2026-07-18",
+      "url": "https://europe.albionbb.com/battles/403496529",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 7
+    },
+    {
+      "title": {
+        "en": "OneUP · Whisper Oath / O B L I V I O N · 21:21 UTC",
+        "fa": "وان‌آپ · Whisper Oath / O B L I V I O N · 21:21 UTC"
+      },
+      "date": "2026-07-18",
+      "url": "https://europe.albionbb.com/battles/403488935",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · Sketch · 18:59 UTC",
+        "fa": "وان‌آپ · Sketch · 18:59 UTC"
+      },
+      "date": "2026-07-18",
+      "url": "https://europe.albionbb.com/battles/403392083",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 1
+    },
+    {
+      "title": {
+        "en": "OneUP · Spitfire / Order of the Magnificent · 16:30 UTC",
+        "fa": "وان‌آپ · Spitfire / Order of the Magnificent · 16:30 UTC"
+      },
+      "date": "2026-07-16",
+      "url": "https://europe.albionbb.com/battles/multi?ids=402016403,402018490,402023616,402027340,402029999,402037994",
+      "outcome": "recorded",
+      "kills": 19,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · The Jackals / Spitfire · 16:02 UTC",
+        "fa": "وان‌آپ · The Jackals / Spitfire · 16:02 UTC"
+      },
+      "date": "2026-07-16",
+      "url": "https://europe.albionbb.com/battles/multi?ids=401998471,402004449",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 5
+    },
+    {
+      "title": {
+        "en": "OneUP · Hit and Run · 18:46 UTC",
+        "fa": "وان‌آپ · Hit and Run · 18:46 UTC"
+      },
+      "date": "2026-07-12",
+      "url": "https://europe.albionbb.com/battles/multi?ids=399963078,399968692",
+      "outcome": "recorded",
+      "kills": 1,
+      "deaths": 9
+    },
+    {
+      "title": {
+        "en": "OneUP · SZKODA OC / Sanctuary · 18:02 UTC",
+        "fa": "وان‌آپ · SZKODA OC / Sanctuary · 18:02 UTC"
+      },
+      "date": "2026-07-08",
+      "url": "https://europe.albionbb.com/battles/multi?ids=398024557,398038662",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 11
+    },
+    {
+      "title": {
+        "en": "OneUP · The Jackals / Better Get Back · 18:15 UTC",
+        "fa": "وان‌آپ · The Jackals / Better Get Back · 18:15 UTC"
+      },
+      "date": "2026-07-07",
+      "url": "https://europe.albionbb.com/battles/397557470",
+      "outcome": "recorded",
+      "kills": 4,
+      "deaths": 11
+    },
+    {
+      "title": {
+        "en": "OneUP · Sharmutas Company · 23:37 UTC",
+        "fa": "وان‌آپ · Sharmutas Company · 23:37 UTC"
+      },
+      "date": "2026-06-28",
+      "url": "https://europe.albionbb.com/battles/393278531",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · Prosektorium / JOURNEY TOGETHER · 20:02 UTC",
+        "fa": "وان‌آپ · Prosektorium / JOURNEY TOGETHER · 20:02 UTC"
+      },
+      "date": "2026-06-28",
+      "url": "https://europe.albionbb.com/battles/393191028",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 8
+    },
+    {
+      "title": {
+        "en": "OneUP · V A N A H E I M / Brazil Avalon Guild · 19:03 UTC",
+        "fa": "وان‌آپ · V A N A H E I M / Brazil Avalon Guild · 19:03 UTC"
+      },
+      "date": "2026-06-28",
+      "url": "https://europe.albionbb.com/battles/multi?ids=393161522,393164805,393169526",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 4
+    },
+    {
+      "title": {
+        "en": "OneUP · Dismount / Death Stalkers · 21:47 UTC",
+        "fa": "وان‌آپ · Dismount / Death Stalkers · 21:47 UTC"
+      },
+      "date": "2026-06-26",
+      "url": "https://europe.albionbb.com/battles/392263117",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 4
+    },
+    {
+      "title": {
+        "en": "OneUP · The Dungeoneers / DO NUT · 23:21 UTC",
+        "fa": "وان‌آپ · The Dungeoneers / DO NUT · 23:21 UTC"
+      },
+      "date": "2026-06-25",
+      "url": "https://europe.albionbb.com/battles/391841497",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · S O V E R E I G N / Avoid_Me · 22:52 UTC",
+        "fa": "وان‌آپ · S O V E R E I G N / Avoid_Me · 22:52 UTC"
+      },
+      "date": "2026-06-23",
+      "url": "https://europe.albionbb.com/battles/390866103",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 2
+    },
+    {
+      "title": {
+        "en": "OneUP · RAINDOGS / Critical · 21:49 UTC",
+        "fa": "وان‌آپ · RAINDOGS / Critical · 21:49 UTC"
+      },
+      "date": "2026-06-23",
+      "url": "https://europe.albionbb.com/battles/390840024",
+      "outcome": "recorded",
+      "kills": 0,
+      "deaths": 9
+    },
+    {
+      "title": {
+        "en": "OneUP · Sharmutas Company / 5 PM · 02:16 UTC",
+        "fa": "وان‌آپ · Sharmutas Company / 5 PM · 02:16 UTC"
+      },
+      "date": "2026-06-23",
+      "url": "https://europe.albionbb.com/battles/390424649",
+      "outcome": "recorded",
+      "kills": 5,
+      "deaths": 0
+    },
+    {
+      "title": {
+        "en": "OneUP · M A Y H E M / Ascension · 23:15 UTC",
+        "fa": "وان‌آپ · M A Y H E M / Ascension · 23:15 UTC"
+      },
+      "date": "2026-06-22",
+      "url": "https://europe.albionbb.com/battles/390389128",
+      "outcome": "recorded",
+      "kills": 2,
+      "deaths": 3
+    },
+    {
+      "title": {
+        "en": "OneUP · PUSH OR DIE / HEREDEROS LEGACY · 22:34 UTC",
+        "fa": "وان‌آپ · PUSH OR DIE / HEREDEROS LEGACY · 22:34 UTC"
+      },
+      "date": "2026-06-19",
+      "url": "https://europe.albionbb.com/battles/388821357",
+      "outcome": "recorded",
+      "kills": 3,
+      "deaths": 8
     }
   ]
 }

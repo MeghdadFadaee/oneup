@@ -18,6 +18,7 @@ Preview at `http://localhost:4173`. Restart after source or content changes to r
 | `npm run build` | Generate the static website in `dist/` |
 | `npm test` | Validate content, URL handling, preview metadata, and generated pages |
 | `npm run sync:battles` | Download social preview images for configured AlbionBB reports |
+| `npm run import:battles` | Scan available battle history and import verified reports |
 
 The build works offline. Battle image synchronization requires network access and preserves report links when previews are unavailable.
 
@@ -42,6 +43,9 @@ test/              Node.js tests
 | `content/translations.json` | English and Persian interface copy |
 
 Localized fields accept `{ "en": "English", "fa": "فارسی" }` or a plain string. Missing Persian values fall back to English. See [the content reference](docs/content.md) for media formats, battle report fields, recruitment, and rewards.
+
+The [battle importer](docs/battle-import.md) documents ongoing imports, selection
+criteria, multi-report grouping, and verification. The scan has no date cutoff.
 
 ## Architecture
 
