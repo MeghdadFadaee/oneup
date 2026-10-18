@@ -44,8 +44,8 @@
     "fa": "وان‌آپ، گیلد آلبیون آنلاین با بیش از ۱۰۰ عضو. یک قدرت متحد. نبردها، ویدیوها، جامعه و جوایز فصلی اعضای ما را ببینید."
   },
   "socials": [
-    { "name": "Discord", "kind": "discord", "url": "", "description": { "en": "Where the guild comes together.", "fa": "محل گردهمایی اعضای گیلد." } },
-    { "name": "Telegram", "kind": "telegram", "url": "", "description": { "en": "News from the front line.", "fa": "تازه‌ترین خبرها از خط مقدم." } },
+    { "name": "Discord", "kind": "discord", "url": "https://discord.gg/vvtWtYgAAp", "description": { "en": "Where the guild comes together.", "fa": "محل گردهمایی اعضای گیلد." } },
+    { "name": "Telegram", "kind": "telegram", "url": "https://t.me/OneUnitedP0WeR", "description": { "en": "News from the front line.", "fa": "تازه‌ترین خبرها از خط مقدم." } },
     { "name": "YouTube", "kind": "youtube", "url": "", "description": { "en": "Our fights. Our point of view.", "fa": "نبردهای ما، از نگاه ما." } }
   ],
   "clips": [
