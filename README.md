@@ -18,6 +18,7 @@ Preview at `http://localhost:4173`. Restart after source or content changes to r
 | `npm run build` | Generate the static website in `dist/` |
 | `npm test` | Validate content, URL handling, preview metadata, and generated pages |
 | `npm run sync:battles` | Download social preview images for configured AlbionBB reports |
+| `npm run sync:intel` | Prepare static 60-day analytics datasets |
 | `npm run import:battles` | Scan available battle history and import verified reports |
 
 The build works offline. Battle image synchronization requires network access and preserves report links when previews are unavailable.
@@ -59,12 +60,12 @@ The GitHub Actions workflow validates pull requests. Pushes to `main` or `master
 
 ## Guild intelligence
 
-Open `/intel/` or `/fa/intel/` to analyze any Europe guild by its exact full name.
-The live report includes exact kill/death fame, K/D, recorded attendance and IP,
+Open `/intel/` or `/fa/intel/` to analyze a prepared Europe guild by its exact full name.
+The report includes exact kill/death fame, K/D, recorded attendance and IP,
 daily fame, roles, weapons, player rankings, expandable encounter compositions,
 source links, and CSV export. Filters and guild name are shareable in the URL.
 
-- Time windows are rolling 7, 30 or 60 days. Battle times use UTC.
+- Time windows cover 7, 30 or 60 days ending at the published data timestamp. Battle times use UTC.
 - Minimum players means **all players from all guilds in each original battle**.
   For example, 40 includes a 40-player fight even if only four belong to the searched
   guild. Filtering happens before merging and applies to every reported statistic.
@@ -80,29 +81,56 @@ source links, and CSV export. Filters and guild name are shareable in the URL.
   member is counted again in another encounter. Zero/missing IP is excluded from
   the recorded-IP average. Role/weapon snapshots are not complete movement,
   equipment-switch or in-game attendance telemetry.
-- Every history page in the time range is scanned. Errors stop the analysis;
-  partial results are never labelled as a complete report. Retry and cancellation
-  are available. Requests use bounded concurrency and a short in-page cache.
+- Every history page in the time range is scanned during data preparation. Errors
+  stop publication; partial data is never labelled as a complete report. The
+  browser caches versioned bundles for responsive filter changes.
 
-### Live API hosting
+### Static datasets, without proxies or keys
 
-AlbionBB allows browser requests only from its own origin. Live reports therefore
-require a small server-side read proxy; a GitHub Pages static artifact alone
-cannot provide this endpoint. No API key is required.
+The browser loads `data/intel/manifest.json` and a versioned JSON file for the
+selected guild from this same static site. There is no project API, external CORS
+proxy, account/key setup or cross-origin data request. Filters, grouping decisions,
+composition, statistics, charts and CSV export run in the browser.
 
-`npm run dev` provides `/api/albion/*` automatically. For production there are two options:
+This deliberately trades arbitrary live lookup for reliable static hosting:
+**only guilds with a published dataset are searchable**. The page lists available
+guilds and displays their data timestamp. Windows end at that timestamp, rather
+than claiming that an older dataset covers the present moment. Datasets older than
+36 hours are explicitly marked. Complete coverage is 60 days per prepared guild.
 
-1. Build with `npm run build`, then deploy `worker.mjs` and `dist/` to Cloudflare
-   Workers using the included `wrangler.jsonc` (e.g. `npx wrangler deploy`). This
-   serves both the existing site and the same-origin API. Deployment is a separate
-   operator action; the existing GitHub Pages workflow is unchanged.
-2. Keep GitHub Pages and host the Worker separately. Set the Worker's `SITE_ORIGIN`
-   variable to the exact site origin (for this project, `https://oneup.megh.dad`).
-   Build the static site with
-   `ONEUP_API_BASE_URL=https://YOUR-WORKER.workers.dev/api/albion npm run build`.
-   For the existing CI workflow, set the repository variable `ONEUP_API_BASE_URL`
-   to that URL. Only the configured origin receives cross-origin access.
+To refresh:
 
-The proxy permits GET requests to a fixed Europe upstream and a small allowlist
-of public report routes and parameters. It does not forward cookies or credentials.
-Upstream timeouts and rate limits produce a visible error with a retry option.
+```bash
+npm run sync:intel
+npm run build
+```
+
+`content/intel-guilds.json` lists full Europe guild names to prepare (initially
+OneUP). Add a name there, or use `INTEL_GUILD_NAME="Full Guild Name" npm run sync:intel`.
+The collector searches for an exact match, exhausts the history pages in the
+60-day window and saves full guild detail, including recorded roles and weapons.
+It retains other guilds' aggregate stats for grouping, but omits their player
+rosters to keep files small. Raw files contain only public game data.
+
+For all 7/30/60-day windows, the collector prepares the multi reports needed for
+**every distinct total-player threshold**, not just a few preset values. Each is
+fetched from AlbionBB's multi endpoint and its kill, death and fame totals are
+verified against the originals. Browser grouping uses the same rules and reads
+the corresponding saved multi. Failed or missing data is an error; no silently
+approximated merged composition is presented.
+
+The initial real dataset is committed in `public/data/intel/`, so a clean checkout
+and normal build work offline. Subsequent refreshes reuse historical raw reports
+and verified multi files. The manifest is replaced only after all requested guilds
+have been collected successfully. New files have content hashes in their names.
+
+The existing GitHub Pages workflow now refreshes datasets before publishing on
+push or manual runs. Its optional **guild** input adds another prepared guild.
+The Actions cache retains previously prepared guilds and reports for subsequent
+runs. No runtime server is deployed and no new service subscription is required.
+There is no scheduled refresh: the timestamp advances on the next publication.
+
+Data collection uses the same public AlbionBB API as the battle importer. This
+happens on the maintainer's computer or in CI, where browser CORS does not apply.
+All analysis still happens in the visitor's browser. The normal `npm run build`
+does not fetch anything from the network.

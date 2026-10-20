@@ -1,12 +1,13 @@
-import { ROLES, normalizeName, ownGuild, groupReports, selectBattles, makeReport, summarize, mapLimit, scanListings } from './intel-core.js';
+import { ROLES, normalizeName, ownGuild, groupReports, selectBattles, makeReport, summarize, mapLimit } from './intel-core.js';
 import { textFor } from './intel-text.js';
+import { createDataSource, DataError, groupKey } from './intel-data.js';
 
 const fa = document.documentElement.lang === 'fa', t = textFor(fa ? 'fa' : 'en');
 const locale = fa ? 'fa-IR' : 'en-GB', form = document.querySelector('#intel-form');
 const results = document.querySelector('#intel-results'), empty = document.querySelector('#intel-empty');
 const errorBox = document.querySelector('#intel-error'), status = document.querySelector('#intel-status');
-const cancel = document.querySelector('#intel-cancel'), cache = new Map();
-const apiBase = document.body.dataset.apiBase.replace(/\/$/, '');
+const cancel = document.querySelector('#intel-cancel');
+const source = createDataSource();
 const e = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
 const number = (value, decimals = 0) => new Intl.NumberFormat(locale, { maximumFractionDigits: decimals }).format(value);
 const compact = value => {
@@ -21,32 +22,6 @@ const roleColor = { tank:'#d5a65c', healer:'#6ac5a3', support:'#9d8de2', range:'
 let controller, generation = 0, loaded, forcedGuild;
 
 class ReportError extends Error {}
-async function api(path, query = {}, signal) {
-  const url = `${apiBase}${path}${Object.keys(query).length ? `?${new URLSearchParams(query)}` : ''}`;
-  const cached = cache.get(url);
-  if (cached && Date.now() - cached.at < 120_000) return cached.data;
-  for (let attempt = 0; attempt < 3; attempt++) {
-    signal?.throwIfAborted();
-    let response;
-    try {
-      response = await fetch(url, { signal: AbortSignal.any([signal || new AbortController().signal, AbortSignal.timeout(35_000)]), headers: { Accept:'application/json' } });
-      if (response.status === 404 || !response.headers.get('content-type')?.includes('application/json')) throw new ReportError(t.proxyError);
-      if (!response.ok) throw Error(`HTTP ${response.status}`);
-      const data = await response.json();
-      cache.set(url, { at:Date.now(), data });
-      if (cache.size > 2500) cache.delete(cache.keys().next().value);
-      return data;
-    } catch (error) {
-      if (signal?.aborted || error instanceof ReportError || attempt === 2) throw error;
-      await new Promise((resolve, reject) => {
-        const done = () => { signal?.removeEventListener('abort', abort); resolve(); };
-        const timer = setTimeout(done, 700 * (attempt + 1));
-        const abort = () => { clearTimeout(timer); reject(signal.reason); };
-        signal?.addEventListener('abort', abort, { once:true });
-      });
-    }
-  }
-}
 function progress(message, run) {
   if (run !== generation) return;
   document.querySelector('#status-text').textContent = message;
@@ -76,8 +51,9 @@ async function analyze(event) {
   results.setAttribute('aria-busy','true');
   progress(t.finding, run);
   try {
-    const candidates = await api('/guilds/search', { search:config.name }, signal);
-    if (!Array.isArray(candidates)) throw Error('Invalid guild search');
+    const index = await source.index(signal);
+    showAvailable(index);
+    const candidates = index.guilds;
     const exact = candidates.filter(g => normalizeName(g.Name) === normalizeName(config.name));
     if (!exact.length) throw new ReportError(t.notFound);
     if (forcedGuild && !exact.some(g => g.Id === forcedGuild)) forcedGuild = undefined;
@@ -93,21 +69,17 @@ async function analyze(event) {
       return;
     }
     const guild = exact.find(g => g.Id === forcedGuild) || exact[0];
-    const until = Date.now(), since = until - config.days * 86_400_000;
-    const listings = await scanListings(api, guild.Id, since, signal,
-      (page, count) => progress(`${t.scanning} · ${t.page} ${number(page)} · ${number(count)} ${t.battles}`, run), config.minimum);
-    let count = 0;
-    const battles = await mapLimit(listings, 4, async row => {
-      const detail = await api(`/battles/${row.albionId}`, {}, signal);
-      if (detail.albionId !== row.albionId || !ownGuild(detail, guild.Id) || !Array.isArray(detail.players)) throw new ReportError(t.partial);
-      progress(`${t.details} · ${number(++count)} / ${number(listings.length)}`, run);
-      return detail;
-    });
+    const snapshot = await source.load(guild,signal);
+    const until = Date.parse(snapshot.asOf), since = until - config.days * 86_400_000;
+    const battles = snapshot.battles;
+    const stamp = new Intl.DateTimeFormat(locale,{dateStyle:'medium',timeStyle:'short',timeZone:'UTC'}).format(new Date(until));
+    document.querySelector('#snapshot-status').textContent = `${guild.Name} · ${t.snapshotAt} ${stamp} UTC${Date.now()-until>36*3_600_000 ? ` · ${t.staleSnapshot}` : ''}`;
     const selected = selectBattles(battles, guild.Id, { since, until, minPlayers:config.minimum });
     const groups = groupReports(selected, guild.Id, config.merge);
-    count = 0;
+    let count = 0;
     const reports = await mapLimit(groups, 2, async group => {
-      const combined = group.length > 1 ? await api('/battles/multi', { ids:group.map(b => b.albionId).join(',') }, signal) : null;
+      const combined = group.length > 1 ? snapshot.multis[groupKey(group.map(b => b.albionId))] : null;
+      if (group.length>1 && !combined) throw new DataError('invalid');
       if (combined) {
         const guildTotal = ownGuild(combined, guild.Id);
         for (const key of ['kills', 'deaths', 'killFame']) {
@@ -129,8 +101,8 @@ async function analyze(event) {
     if (cancelled) {
       empty.hidden = false; progress(t.cancelled, run);
     } else {
-      showError(error instanceof ReportError ? error.message : t.error);
-      progress(t.error, run);
+      showError(error instanceof DataError ? t.dataError : error instanceof ReportError ? error.message : t.error);
+      progress(error instanceof DataError ? t.dataError : t.error, run);
     }
   } finally {
     if (run === generation) {
@@ -237,6 +209,16 @@ function exportCsv() {
   const url = URL.createObjectURL(blob), a = document.createElement('a');
   a.href = url; a.download = `guild-intelligence-${loaded.config.days}d.csv`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
+function showAvailable(index) {
+  const container = document.querySelector('#available-guilds');
+  const datalist = document.querySelector('#prepared-guilds');
+  container.replaceChildren(); datalist.replaceChildren();
+  for (const guild of index.guilds) {
+    const button = document.createElement('button');button.type='button';button.textContent=guild.Name;
+    button.addEventListener('click',()=>{form.elements.guild.value=guild.Name;analyze();});container.append(button);
+    const option = document.createElement('option');option.value=guild.Name;datalist.append(option);
+  }
+}
 form.addEventListener('submit', analyze);
 cancel.addEventListener('click', () => controller?.abort());
 document.querySelector('#intel-retry').addEventListener('click', () => analyze());
@@ -246,4 +228,13 @@ if (['7','30','60'].includes(query.get('days'))) form.elements.days.value = quer
 if (/^\d+$/.test(query.get('minimum') || '') && Number(query.get('minimum')) >= 1 && Number(query.get('minimum')) <= 1000) form.elements.minimum.value = query.get('minimum');
 if (query.get('merge') === '0') form.elements.merge.checked = false;
 document.querySelectorAll('[data-intel-language]').forEach(a => { a.search = query.toString(); });
-if (form.elements.guild.value) analyze();
+async function initialize() {
+  try {
+    const index = await source.index();
+    showAvailable(index);
+    document.querySelector('#snapshot-status').textContent = `${t.availableGuilds}: ${index.guilds.map(g=>g.Name).join(' / ')}`;
+    if (!form.elements.guild.value && index.guilds.length) form.elements.guild.value=index.guilds[0].Name;
+    if (form.elements.guild.value) analyze();
+  } catch { document.querySelector('#snapshot-status').textContent=t.dataError; }
+}
+initialize();

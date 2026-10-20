@@ -4,6 +4,11 @@ on:
     branches: [main, master]
   pull_request:
   workflow_dispatch:
+    inputs:
+      guild:
+        description: 'Optional full Europe guild name to add to the static analytics data'
+        required: false
+        type: string
 permissions:
   contents: read
 concurrency:
@@ -19,13 +24,23 @@ jobs:
           node-version: '24'
       - name: Verify content and behavior
         run: npm test
+      - name: Restore published analytics datasets
+        if: github.event_name != 'pull_request'
+        uses: actions/cache@v4
+        with:
+          path: public/data/intel
+          key: intel-data-${{ github.run_id }}
+          restore-keys: intel-data-
+      - name: Refresh static guild analytics
+        if: github.event_name != 'pull_request'
+        run: npm run sync:intel
+        env:
+          INTEL_GUILD_NAME: ${{ inputs.guild }}
       - name: Download battle preview images
         if: github.event_name != 'pull_request'
         run: npm run sync:battles
       - name: Build static pages
         run: npm run build
-        env:
-          ONEUP_API_BASE_URL: ${{ vars.ONEUP_API_BASE_URL }}
       - uses: actions/upload-pages-artifact@v4
         if: github.event_name != 'pull_request'
         with:

@@ -30,16 +30,19 @@ export function groupReports(battles, guildId, merge = true) {
   const sorted = [...new Map(battles.map(b => [b.albionId, b])).values()]
     .sort((a, b) => millis(a.startedAt) - millis(b.startedAt) || a.albionId - b.albionId);
   const groups = [];
+  let active = [];
   for (const battle of sorted) {
-    const candidates = merge ? groups.filter(group => {
-      const last = group.at(-1);
-      const end = Math.max(...[...group, battle].map(b => millis(b.finishedAt || b.startedAt)));
-      return millis(battle.startedAt) - millis(last.finishedAt || last.startedAt) <= 20 * 60_000 &&
-        end - millis(group[0].startedAt) <= 90 * 60_000 &&
-        compatible(last, battle, guildId) && compatible(group[0], battle, guildId);
-    }) : [];
-    candidates.sort((a, b) => millis(b.at(-1).finishedAt) - millis(a.at(-1).finishedAt));
-    if (candidates.length) candidates[0].push(battle); else groups.push([battle]);
+    const start = millis(battle.startedAt), end = millis(battle.finishedAt || battle.startedAt);
+    // Old encounters can never match a later battle. Keep only the bounded active window.
+    active = active.filter(g => start-g.lastEnd<=20*60_000 && start-g.firstStart<=90*60_000);
+    const candidates = merge ? active.filter(g => Math.max(g.end,end)-g.firstStart<=90*60_000 &&
+      compatible(g.rows.at(-1),battle,guildId) && compatible(g.rows[0],battle,guildId)) : [];
+    candidates.sort((a,b)=>b.lastEnd-a.lastEnd);
+    if (candidates.length) {
+      const chosen=candidates[0];chosen.rows.push(battle);chosen.lastEnd=end;chosen.end=Math.max(chosen.end,end);
+    } else {
+      const rows=[battle];groups.push(rows);active.push({rows,firstStart:start,lastEnd:end,end});
+    }
   }
   return groups;
 }

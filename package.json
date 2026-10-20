@@ -10,6 +10,7 @@
     "dev": "node scripts/serve.mjs",
     "test": "node --test",
     "sync:battles": "node scripts/sync-battles.mjs",
+    "sync:intel": "node scripts/sync-intel.mjs",
     "import:battles": "node scripts/import-battles.mjs"
   }
 }

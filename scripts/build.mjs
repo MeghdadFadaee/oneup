@@ -13,7 +13,8 @@ const dist = new URL('../dist/', import.meta.url);
 await rm(dist, { recursive: true, force: true });
 await mkdir(new URL('assets/', dist), { recursive: true });
 for (const [from,to] of [['src/styles.css','styles.css'],['src/app.js','app.js']]) await cp(new URL(from,root),new URL(`assets/${to}`,dist));
-for (const name of ['intel.js','intel-core.js','intel-text.js','intel.css']) await cp(new URL(`src/${name}`,root),new URL(`assets/${name}`,dist));
+for (const name of ['intel.js','intel-core.js','intel-data.js','intel-text.js','intel.css']) await cp(new URL(`src/${name}`,root),new URL(`assets/${name}`,dist));
+try { await cp(new URL('public/data/',root),new URL('data/',dist),{recursive:true}); } catch(err) { if(err.code!=='ENOENT') throw err; }
 try { await cp(new URL('public/assets/',root),new URL('assets/',dist),{ recursive:true }); } catch(err) { if(err.code !== 'ENOENT') throw err; }
 await rm(new URL('assets/battles/previews.json',dist),{force:true});
 const faviconLogo=(await readFile(new URL('public/assets/logo.jpg',root))).toString('base64');
@@ -84,9 +85,7 @@ for (const lang of ['en','fa']) {
  await mkdir(folder,{recursive:true}); await writeFile(new URL('index.html',folder),render(lang));
  const intelFolder=new URL('intel/',folder);
  await mkdir(intelFolder,{recursive:true});
- const apiBase=process.env.ONEUP_API_BASE_URL || '/api/albion';
- if (apiBase !== '/api/albion' && (!apiBase.startsWith('https://') || new URL(apiBase).search || new URL(apiBase).hash)) throw Error('ONEUP_API_BASE_URL must be an HTTPS API base URL');
- await writeFile(new URL('index.html',intelFolder),renderIntel(lang,origin,apiBase));
+ await writeFile(new URL('index.html',intelFolder),renderIntel(lang,origin));
 }
 await Promise.all([
  writeFile(new URL('CNAME',dist),new URL(origin).hostname+'\n'),
