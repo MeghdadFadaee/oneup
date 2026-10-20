@@ -46,6 +46,10 @@ test('static output includes indexable bilingual content, metadata, and domain f
   assert.match(html,/og:image/);assert.match(html,/twitter:image/);
   assert.equal((html.match(/<h1 /g)||[]).length,1);
   assert.match(html,/id="rewards"/);
+  const archive=html.match(/<section id="battles"[\s\S]*?<\/section>/)[0];
+  assert.equal((archive.match(/<article /g)||[]).length,Math.min(6,site.battles.length));
+  assert.equal((archive.match(/<tr>/g)||[]).length,site.battles.length+1);
+  assert.ok(!archive.includes('battle-more'));
   assert.ok(!html.includes('undefined'));assert.ok(!html.includes('javascript:'));
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
   assert.equal(ids.length,new Set(ids).size);

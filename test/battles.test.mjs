@@ -91,14 +91,18 @@ test('empty archives stay empty and report titles are escaped',()=>{
   assert.match(html,/&lt;script&gt;/);
 });
 
-test('large archives expose twelve initial cards and keep older cards in a native disclosure',()=>{
-  const battles=Array.from({length:15},(_,i)=>({...single,title:`Fight ${i}`,date:`2026-10-${String(i+1).padStart(2,'0')}`}));
+test('large archives show only six complete highlights ranked by guild performance',()=>{
+  const battles=Array.from({length:15},(_,i)=>({...single,title:`Fight ${i}`,kills:i*2,deaths:i,date:`2026-10-${String(15-i).padStart(2,'0')}`}));
+  battles.push({...single,title:'Unknown result',kills:1000});
   for(const lang of ['en','fa']){
     const html=render(battles,lang);
-    const [visible,older]=html.split('<details class="battle-ledger battle-more">');
-    assert.equal((visible.match(/<article /g)||[]).length,12);
-    assert.equal((older.match(/<article /g)||[]).length,3);
-    assert.ok(visible.includes('Fight 14'));assert.ok(older.includes('Fight 0'));
+    assert.equal((html.match(/<article /g)||[]).length,6);
+    assert.equal((html.match(/data-battle-preview/g)||[]).length,6);
+    assert.equal((html.match(/battle-card-stats/g)||[]).length,6);
+    assert.ok(html.includes('Fight 14'));assert.ok(html.includes('Fight 9'));
+    assert.ok(!html.includes('Fight 8'));assert.ok(!html.includes('Unknown result'));
+    assert.ok(html.indexOf('Fight 14')<html.indexOf('Fight 13'));
+    assert.ok(!html.includes('battle-more'));
     assert.ok(!html.includes('undefined'));
   }
 });

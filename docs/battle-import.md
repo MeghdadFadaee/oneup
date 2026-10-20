@@ -85,9 +85,11 @@ a partially overlapping report stops the import for review.
 
 ## Presentation and checks
 
-The first 12 cards are visible immediately. Remaining reports appear in a native,
-keyboard-accessible disclosure in both languages. The detailed table contains
-all reports. Each combined report uses its own combined scoreboard image.
+Only six highlights are shown as full cards, ranked by OneUP's kills minus
+deaths, then kills, with newer reports breaking ties. Reports with incomplete
+stats follow verified results. All reports remain in the expandable detailed
+table, which scrolls within a bounded height to keep the page compact. Each
+combined report uses its own combined scoreboard image.
 
 `npm test` checks pagination, unrestricted history, grouping boundaries, unrelated
 teams, roster continuity, duplicate IDs, source totals, preservation, and both

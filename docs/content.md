@@ -60,8 +60,9 @@ PNG/JPEG/WebP images are downloaded to `public/assets/battles/` and included in 
 
 Every report renders a visual card with local decorative terrain artwork, guild branding, report IDs, and single/combined report labels. Report images display in full without cropping; missing or failed images retain the local artwork. Combined reports use the combined scoreboard image; a single engagement's image is not substituted for the combined results. The map is decorative, not a reconstruction of the battle. Archive counts use report entries and unique battle IDs from their URLs. Only supplied dates and results are shown. The full table is available in the expandable detailed log.
 
-For archives larger than 12 reports, the first 12 cards appear immediately and
-the remainder are available through “Explore more reports.” See the
+The six best guild performances appear as full cards, ranked by kills minus
+deaths, then kills and recency. All reports remain in the expandable detailed
+table, which scrolls within a bounded height. See the
 [battle importer documentation](battle-import.md) for ongoing imports and grouping.
 
 To download previews locally, run:
