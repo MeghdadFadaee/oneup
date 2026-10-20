@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir, rm, cp, access } from 'node:fs/promises';
 import { escapeHtml as e, localized, youtubeId, validate } from './lib.mjs';
 import { renderBattleCards } from './render-battles.mjs';
+import { renderIntel } from './render-intel.mjs';
 
 const read = async name => JSON.parse(await readFile(new URL(`../content/${name}.json`, import.meta.url), 'utf8'));
 const [site, rewards, translations] = await Promise.all(['site','rewards','translations'].map(read));
@@ -12,6 +13,7 @@ const dist = new URL('../dist/', import.meta.url);
 await rm(dist, { recursive: true, force: true });
 await mkdir(new URL('assets/', dist), { recursive: true });
 for (const [from,to] of [['src/styles.css','styles.css'],['src/app.js','app.js']]) await cp(new URL(from,root),new URL(`assets/${to}`,dist));
+for (const name of ['intel.js','intel-core.js','intel-text.js','intel.css']) await cp(new URL(`src/${name}`,root),new URL(`assets/${name}`,dist));
 try { await cp(new URL('public/assets/',root),new URL('assets/',dist),{ recursive:true }); } catch(err) { if(err.code !== 'ENOENT') throw err; }
 await rm(new URL('assets/battles/previews.json',dist),{force:true});
 const faviconLogo=(await readFile(new URL('public/assets/logo.jpg',root))).toString('base64');
@@ -63,7 +65,7 @@ function render(lang) {
 <body id="top" data-lang="${lang}" data-video-error="${e(t.videoError)}">${glyphs}<a class="skip-link" href="#main">${e(t.skip)}</a>
 <header class="site-header"><div class="header-inner"><a class="brand" href="${base}" aria-label="OneUP"><img src="${asset('assets/logo.jpg')}" alt="" width="44" height="44"><span>ONE<span class="brand-up">UP</span><small>${e(t.guild)}</small></span></a>
 <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="${e(t.menu)}"><span></span><span></span></button>
-<nav id="navigation" aria-label="${fa?'منوی اصلی':'Main navigation'}">${['guild','chronicles','battles','rewards'].map((id,i)=>`<a href="#${id}">${e(t.nav[i])}</a>`).join('')}</nav>
+<nav id="navigation" aria-label="${fa?'منوی اصلی':'Main navigation'}">${['guild','chronicles','battles','rewards'].map((id,i)=>`<a href="#${id}">${e(t.nav[i])}</a>`).join('')}<a href="${base}${fa?'fa/':''}intel/">${fa?'تحلیل گیلد':'Guild intel'}</a></nav>
 <div class="header-actions"><div class="languages" aria-label="Language"><a href="${base}?lang=en" lang="en" data-language="en" ${!fa?'aria-current="page"':''}>EN</a><span>/</span><a href="${base}fa/?lang=fa" lang="fa" data-language="fa" ${fa?'aria-current="page"':''}>فا</a></div><a class="button button-small" href="#community">${e(t.join)}${icon('diagonal')}</a></div></div></header>
 <main id="main"><section class="hero" aria-labelledby="hero-title"><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><img src="${asset('assets/logo.jpg')}" alt="" width="640" height="640" fetchpriority="high"><span class="art-caption">ONEUP / ALBION ONLINE</span></div><div class="hero-inner"><div class="status"><span></span>${e(site.recruiting?t.recruiting:t.closed)}</div><p class="eyebrow hero-eyebrow">${e(t.eyebrow)}</p><h1 id="hero-title">${e(t.hero1)}<br><span>${e(t.hero2)}</span></h1><p class="hero-copy">${e(t.intro)}</p><div class="hero-buttons"><a class="button" href="#community">${e(t.join)}${icon('diagonal')}</a><a class="text-button" href="#chronicles"><span class="small-play">${icon('play')}</span>${e(t.watch)}</a></div><div class="hero-proof"><strong dir="ltr">${e(site.members)}</strong><span>${e(t.memberLabel)}</span><div class="proof-line"></div>${icon('shield')}</div></div><a class="scroll-cue" href="#guild"><span>↓</span>${e(t.scroll)}</a><span class="hero-coordinate" aria-hidden="true">EST. IN UNITY / FORGED IN BATTLE</span></section>
 <div class="motto-strip" aria-hidden="true"><span>ONE UNITED POWER</span><b>✦</b><span>ONE BANNER. ONE GUILD.</span><b>✦</b><span>ONE UNITED POWER</span><b>✦</b><span>ONE BANNER. ONE GUILD.</span></div>
@@ -80,12 +82,17 @@ function render(lang) {
 for (const lang of ['en','fa']) {
  const folder=lang==='en'?dist:new URL('fa/',dist);
  await mkdir(folder,{recursive:true}); await writeFile(new URL('index.html',folder),render(lang));
+ const intelFolder=new URL('intel/',folder);
+ await mkdir(intelFolder,{recursive:true});
+ const apiBase=process.env.ONEUP_API_BASE_URL || '/api/albion';
+ if (apiBase !== '/api/albion' && (!apiBase.startsWith('https://') || new URL(apiBase).search || new URL(apiBase).hash)) throw Error('ONEUP_API_BASE_URL must be an HTTPS API base URL');
+ await writeFile(new URL('index.html',intelFolder),renderIntel(lang,origin,apiBase));
 }
 await Promise.all([
  writeFile(new URL('CNAME',dist),new URL(origin).hostname+'\n'),
  writeFile(new URL('.nojekyll',dist),''),
  writeFile(new URL('robots.txt',dist),`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`),
- writeFile(new URL('sitemap.xml',dist),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${['/','/fa/'].map(p=>`<url><loc>${origin}${p}</loc><xhtml:link rel="alternate" hreflang="en" href="${origin}/"/><xhtml:link rel="alternate" hreflang="fa" href="${origin}/fa/"/></url>`).join('')}</urlset>`),
+ writeFile(new URL('sitemap.xml',dist),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${['/','/fa/','/intel/','/fa/intel/'].map(p=>`<url><loc>${origin}${p}</loc><xhtml:link rel="alternate" hreflang="en" href="${origin}/${p.includes('intel')?'intel/':''}"/><xhtml:link rel="alternate" hreflang="fa" href="${origin}/fa/${p.includes('intel')?'intel/':''}"/></url>`).join('')}</urlset>`),
  writeFile(new URL('404.html',dist),`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Lost in the Outlands | OneUP</title><link rel="stylesheet" href="/assets/styles.css"><main class="not-found"><p class="eyebrow">404 / BEYOND THE FRONT LINE</p><h1>Lost in the<br><span>Outlands.</span></h1><p>The banner is this way.</p><a class="button" href="/">Return to OneUP →</a><a href="/fa/" lang="fa">بازگشت به وان‌آپ</a></main></html>`)
 ]);
 console.log(`Built English and Persian pages in dist/ for ${origin}`);

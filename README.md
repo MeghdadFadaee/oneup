@@ -56,3 +56,53 @@ The build emits canonical and language alternate links, social metadata, organiz
 YouTube uses thumbnails and a privacy-enhanced player loaded on request. Direct video URLs use the native video element. AlbionBB previews are cached at build time; explicit image URLs and Europe single/combined battle preview URLs also work without a local cache. Fonts are served by Google Fonts, with system fallbacks.
 
 The GitHub Actions workflow validates pull requests. Pushes to `main` or `master` also synchronize battle previews, build, and deploy the static artifact to GitHub Pages. Generated output is not tracked.
+
+## Guild intelligence
+
+Open `/intel/` or `/fa/intel/` to analyze any Europe guild by its exact full name.
+The live report includes exact kill/death fame, K/D, recorded attendance and IP,
+daily fame, roles, weapons, player rankings, expandable encounter compositions,
+source links, and CSV export. Filters and guild name are shareable in the URL.
+
+- Time windows are rolling 7, 30 or 60 days. Battle times use UTC.
+- Minimum players means **all players from all guilds in each original battle**.
+  For example, 40 includes a 40-player fight even if only four belong to the searched
+  guild. Filtering happens before merging and applies to every reported statistic.
+- Optional grouping uses the archive's continuity criteria: a maximum 20-minute
+  gap, at least three and 50% overlapping guild members, at least three and 50%
+  overlap in other teams, and at most a 90-minute encounter span. Each new battle
+  must match both the first and most recent battle in the group.
+- Combined groups are requested from AlbionBB's `/battles/multi` API and their
+  kill, death and kill-fame totals are verified against the original reports.
+  End timestamps are taken from the original reports because the multi response
+  does not reliably contain the latest finish time.
+- Composition counts recorded player appearances, once per encounter. The same
+  member is counted again in another encounter. Zero/missing IP is excluded from
+  the recorded-IP average. Role/weapon snapshots are not complete movement,
+  equipment-switch or in-game attendance telemetry.
+- Every history page in the time range is scanned. Errors stop the analysis;
+  partial results are never labelled as a complete report. Retry and cancellation
+  are available. Requests use bounded concurrency and a short in-page cache.
+
+### Live API hosting
+
+AlbionBB allows browser requests only from its own origin. Live reports therefore
+require a small server-side read proxy; a GitHub Pages static artifact alone
+cannot provide this endpoint. No API key is required.
+
+`npm run dev` provides `/api/albion/*` automatically. For production there are two options:
+
+1. Build with `npm run build`, then deploy `worker.mjs` and `dist/` to Cloudflare
+   Workers using the included `wrangler.jsonc` (e.g. `npx wrangler deploy`). This
+   serves both the existing site and the same-origin API. Deployment is a separate
+   operator action; the existing GitHub Pages workflow is unchanged.
+2. Keep GitHub Pages and host the Worker separately. Set the Worker's `SITE_ORIGIN`
+   variable to the exact site origin (for this project, `https://oneup.megh.dad`).
+   Build the static site with
+   `ONEUP_API_BASE_URL=https://YOUR-WORKER.workers.dev/api/albion npm run build`.
+   For the existing CI workflow, set the repository variable `ONEUP_API_BASE_URL`
+   to that URL. Only the configured origin receives cross-origin access.
+
+The proxy permits GET requests to a fixed Europe upstream and a small allowlist
+of public report routes and parameters. It does not forward cookies or credentials.
+Upstream timeouts and rate limits produce a visible error with a retry option.

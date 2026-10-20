@@ -24,6 +24,8 @@ jobs:
         run: npm run sync:battles
       - name: Build static pages
         run: npm run build
+        env:
+          ONEUP_API_BASE_URL: ${{ vars.ONEUP_API_BASE_URL }}
       - uses: actions/upload-pages-artifact@v4
         if: github.event_name != 'pull_request'
         with:
