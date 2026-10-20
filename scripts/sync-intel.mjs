@@ -1,11 +1,10 @@
 import { readFile, writeFile, mkdir, rename, readdir, rm } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
-import { fetchJson } from './fetch-battles.mjs';
+import { createPageClient, fetchPublicPage } from './scrape-intel.mjs';
 import { groupReports, ownGuild, ownPlayers, normalizeName, selectBattles, scanListings, mapLimit } from '../src/intel-core.js';
 import { validateIndex } from '../src/intel-data.js';
 
-const API = 'https://api.albionbb.com/eu';
 export const groupKey = ids => [...ids].map(Number).sort((a,b)=>a-b).join(',');
 export function compactBattle(raw, guildId) {
   const guild = ownGuild(raw,guildId);
@@ -62,7 +61,7 @@ export async function collectGuild(name, previous, {request,asOf=new Date().toIS
     multis[key] = compactBattle(raw,guild.Id);
     if (++done%10===0 || done===required.size) log(`${guild.Name}: combined reports ${done}/${required.size}`);
   });
-  return {schemaVersion:1,guild,asOf,coverageDays:60,battles,multis};
+  return {schemaVersion:1,source:'albionbb-html',guild,asOf,coverageDays:60,battles,multis};
 }
 
 if (process.argv[1] && import.meta.url===pathToFileURL(process.argv[1]).href) {
@@ -74,13 +73,12 @@ if (process.argv[1] && import.meta.url===pathToFileURL(process.argv[1]).href) {
   const supplied = process.env.INTEL_GUILD_NAME?.trim();
   const names = [...new Map([...configured,...manifest.guilds.map(g=>g.Name),...(supplied?[supplied]:[])].map(name=>[normalizeName(name),name.trim()])).values()];
   let nextStart = 0;
-  const request = async(path,query={})=>{
+  const fetchPage = async url=>{
     const start = Math.max(Date.now(),nextStart); nextStart = start+220;
     await new Promise(resolve=>setTimeout(resolve,Math.max(0,start-Date.now())));
-    const url = new URL(API+path);
-    for (const [key,value] of Object.entries(query)) url.searchParams.set(key,value);
-    return fetchJson(url);
+    return fetchPublicPage(url);
   };
+  const request = createPageClient({fetchPage,knownGuilds:manifest.guilds});
   const entries = [], asOf = new Date().toISOString();
   for (const name of names) {
     const old = manifest.guilds.find(g=>normalizeName(g.Name)===normalizeName(name));

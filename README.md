@@ -107,14 +107,14 @@ npm run build
 
 `content/intel-guilds.json` lists full Europe guild names to prepare (initially
 OneUP). Add a name there, or use `INTEL_GUILD_NAME="Full Guild Name" npm run sync:intel`.
-The collector searches for an exact match, exhausts the history pages in the
+The collector reads public AlbionBB HTML pages, finds an exact guild match, exhausts the history pages in the
 60-day window and saves full guild detail, including recorded roles and weapons.
 It retains other guilds' aggregate stats for grouping, but omits their player
 rosters to keep files small. Raw files contain only public game data.
 
 For all 7/30/60-day windows, the collector prepares the multi reports needed for
 **every distinct total-player threshold**, not just a few preset values. Each is
-fetched from AlbionBB's multi endpoint and its kill, death and fame totals are
+extracted from AlbionBB's public `battles/multi` HTML pages and its kill, death and fame totals are
 verified against the originals. Browser grouping uses the same rules and reads
 the corresponding saved multi. Failed or missing data is an error; no silently
 approximated merged composition is presented.
@@ -124,13 +124,35 @@ and normal build work offline. Subsequent refreshes reuse historical raw reports
 and verified multi files. The manifest is replaced only after all requested guilds
 have been collected successfully. New files have content hashes in their names.
 
-The existing GitHub Pages workflow now refreshes datasets before publishing on
-push or manual runs. Its optional **guild** input adds another prepared guild.
-The Actions cache retains previously prepared guilds and reports for subsequent
-runs. No runtime server is deployed and no new service subscription is required.
-There is no scheduled refresh: the timestamp advances on the next publication.
+Normal GitHub Pages deployments publish the committed datasets without contacting
+the source website. This keeps deployment independent of AlbionBB availability and
+its IP restrictions; the direct API previously returned HTTP 403 on GitHub runners.
+Plain manual deployments also use committed data.
 
-Data collection uses the same public AlbionBB API as the battle importer. This
-happens on the maintainer's computer or in CI, where browser CORS does not apply.
-All analysis still happens in the visitor's browser. The normal `npm run build`
-does not fetch anything from the network.
+To explicitly request a remote refresh, enable **refresh_analytics** in Run workflow,
+or provide the optional **guild** input to add a prepared guild. Only those runs
+restore the Actions data cache and call the collector. Validation runs afterward,
+against the actual data being published. A requested refresh still fails visibly
+if AlbionBB blocks the runner; a stale or incomplete refresh is not reported as
+successful. In that case run `npm run sync:intel` locally and commit the resulting
+`public/data/intel/` files before pushing. No runtime server is deployed.
+
+There is no scheduled refresh. Ordinary deployments preserve the dataset timestamp;
+it advances only after a successful explicit collection.
+
+Analytics collection now scrapes public pages on `https://europe.albionbb.com`:
+guild battle lists, individual reports, search results and combined reports. The
+site embeds complete server-rendered report data in its HTML. The scraper parses
+that JSON reference graph without executing remote JavaScript and without calling
+`api.albionbb.com`. It retains exact fame, player roles, weapons and roster data.
+The separate legacy battle importer still uses the API.
+
+Scraping runs on the maintainer's computer or in CI, where browser CORS does not
+apply. The source site itself still obtains its data internally; this project
+reads its published pages. A source-site block, rate limit, or HTML format change
+stops collection, and the previous complete dataset remains usable. Successful
+local scraping does not guarantee that GitHub's IP addresses are allowed.
+
+All analysis still happens in the visitor's browser. Scraping another domain from
+client JavaScript would still require CORS permission, so the browser reads only
+the published same-origin JSON. The normal `npm run build` stays offline.
