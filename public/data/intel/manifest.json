@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T13:55:53.871Z",
+  "updatedAt": "2026-10-27T00:02:20.438Z",
   "guilds": [
     {
       "Id": "SF2Zf4PrRsmdBAL5PaBV_A",
       "Name": "OneUP",
-      "file": "SF2Zf4PrRsmdBAL5PaBV_A-2f4f79516aa7.json",
-      "asOf": "2026-10-20T13:55:53.871Z",
+      "file": "SF2Zf4PrRsmdBAL5PaBV_A-1f7c32a00d2c.json",
+      "asOf": "2026-10-27T00:02:20.438Z",
       "coverageDays": 60,
-      "battleCount": 2021
+      "battleCount": 2113
     }
   ]
 }

@@ -8,7 +8,7 @@
     "minPlayers": 10,
     "minGuildPlayers": 5
   },
-  "scannedAt": "2026-10-18T18:19:13.582Z",
+  "scannedAt": "2026-10-26T23:14:15.663Z",
   "preservedIds": [
     448776222,
     441002770,
@@ -54411,9 +54411,4761 @@
         "irarcu",
         "shalvargay"
       ]
+    },
+    {
+      "albionId": 449899886,
+      "startedAt": "2026-10-18T20:03:13.349Z",
+      "finishedAt": "2026-10-18T20:44:55.591Z",
+      "totalKills": 286,
+      "totalPlayers": 216,
+      "totalFame": 98250687,
+      "guilds": [
+        {
+          "albionId": "PlSJAMMpQr2KvwEU44HzNw",
+          "name": "Vendetta",
+          "alliance": "CON",
+          "kills": 57,
+          "deaths": 58,
+          "killFame": 24556606,
+          "players": 32,
+          "ip": 1507
+        },
+        {
+          "albionId": "xhwaa6M6RtO4kk_8HEGTYA",
+          "name": "I-DEJAVU-I",
+          "alliance": "CRSE",
+          "kills": 73,
+          "deaths": 5,
+          "killFame": 20771658,
+          "players": 14,
+          "ip": 1589
+        },
+        {
+          "albionId": "7JZANN-BTH6QK5uSiCsQ1A",
+          "name": "Stability",
+          "kills": 29,
+          "deaths": 12,
+          "killFame": 10858702,
+          "players": 44,
+          "ip": 1552
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 29,
+          "deaths": 45,
+          "killFame": 9826656,
+          "players": 30,
+          "ip": 1518
+        },
+        {
+          "albionId": "QXjRt-MfQuCXRzBrBZobdg",
+          "name": "Panda Corp",
+          "alliance": "CON",
+          "kills": 26,
+          "deaths": 23,
+          "killFame": 9588311,
+          "players": 10,
+          "ip": 1496
+        },
+        {
+          "albionId": "kldZmWG3ThG4cstFj8nRBg",
+          "name": "Sincerity",
+          "alliance": "CRSE",
+          "kills": 21,
+          "deaths": 6,
+          "killFame": 7209237,
+          "players": 7,
+          "ip": 1566
+        },
+        {
+          "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+          "name": "Projet X",
+          "alliance": "CON",
+          "kills": 13,
+          "deaths": 47,
+          "killFame": 4497813,
+          "players": 17,
+          "ip": 1496
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 5,
+          "deaths": 35,
+          "killFame": 2659216,
+          "players": 26,
+          "ip": 1552
+        },
+        {
+          "albionId": "QG5EcSgfSLWGfUtr6d5AWw",
+          "name": "Weaklings",
+          "alliance": "CON",
+          "kills": 5,
+          "deaths": 9,
+          "killFame": 1786788,
+          "players": 6,
+          "ip": 1516
+        },
+        {
+          "albionId": "8pmXEVc7RveCJ0bRI19N1w",
+          "name": "Torgnoles et Grabuge",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 8,
+          "killFame": 1492363,
+          "players": 3,
+          "ip": 1562
+        },
+        {
+          "albionId": "Q0ovY4HkS_yCbFqyn-Yq7g",
+          "name": "Swipe",
+          "kills": 4,
+          "deaths": 7,
+          "killFame": 1433237,
+          "players": 3,
+          "ip": 1235
+        },
+        {
+          "albionId": "bN367NFoRou3ezveVb5wcg",
+          "name": "Braccus Rex",
+          "kills": 1,
+          "deaths": 3,
+          "killFame": 1402919,
+          "players": 1,
+          "ip": 1246
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "WARG",
+          "kills": 12,
+          "deaths": 2,
+          "killFame": 960752,
+          "players": 8,
+          "ip": 1467
+        },
+        {
+          "albionId": "4eeisqW1Qd6iB88NlWSaiA",
+          "name": "BallsOnYou",
+          "alliance": "CON",
+          "kills": 2,
+          "deaths": 5,
+          "killFame": 630514,
+          "players": 3,
+          "ip": 1480
+        },
+        {
+          "albionId": "qiH9Iax2TQ22V4p24gf2og",
+          "name": "Pulsion",
+          "kills": 3,
+          "deaths": 5,
+          "killFame": 296318,
+          "players": 2,
+          "ip": 1420
+        },
+        {
+          "albionId": "J1lBSGUGScOxilGNwKpgVg",
+          "name": "Birbs and Kittens",
+          "alliance": "CALF",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 97690,
+          "players": 1,
+          "ip": 1191
+        },
+        {
+          "albionId": "6qu76pd6QCWueWE8FO856Q",
+          "name": "SkoZirys",
+          "alliance": "BLS",
+          "kills": 1,
+          "deaths": 3,
+          "killFame": 96974,
+          "players": 1,
+          "ip": 1305
+        },
+        {
+          "albionId": "R3lEcuYMSCekV1eDm3cAIA",
+          "name": "Unbound",
+          "kills": 1,
+          "deaths": 1,
+          "killFame": 47886,
+          "players": 1,
+          "ip": 1433
+        },
+        {
+          "albionId": "1-62rLtjRZydBhUEnPN_DA",
+          "name": "Satis Faction",
+          "alliance": "ZOUZ",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 20976,
+          "players": 1,
+          "ip": 1326
+        },
+        {
+          "albionId": "YxuV1985QZKSn2hqK0k4bw",
+          "name": "cocorrico",
+          "alliance": "hey",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 14634,
+          "players": 1,
+          "ip": 1279
+        },
+        {
+          "albionId": "ss--OoP2T1WjGAVaE5Ougg",
+          "name": "V A N T H",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1268
+        },
+        {
+          "albionId": "fI98xW9ZR3K-UWPy2gPIqA",
+          "name": "Loyal Guards",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1309
+        },
+        {
+          "albionId": "v2MpQ8pcQSO8DIkhhCPZZA",
+          "name": "NoRules",
+          "alliance": "CON",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 0,
+          "players": 2,
+          "ip": 1469
+        }
+      ],
+      "ownPlayers": [
+        "DrMicrobe",
+        "ESc4a",
+        "Ebi",
+        "Frosttknight",
+        "GODpori",
+        "GirlsLoveMe",
+        "Imposter1",
+        "Khalafkar",
+        "KingWolf9511",
+        "Lostinu",
+        "Meghdad",
+        "MrEtanol",
+        "NOVA76",
+        "SkaiMaster",
+        "TGamir",
+        "belgheys",
+        "chessmanm",
+        "guosthunter",
+        "hesamhk3",
+        "khees",
+        "mtrix",
+        "night44",
+        "papaguy",
+        "shalvargay",
+        "sobhanAA",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 450136162,
+      "startedAt": "2026-10-19T12:31:18.7Z",
+      "finishedAt": "2026-10-19T12:32:00.288Z",
+      "totalKills": 4,
+      "totalPlayers": 15,
+      "totalFame": 895597,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 2,
+          "killFame": 301622,
+          "players": 7,
+          "ip": 1456
+        },
+        {
+          "albionId": "Ens6ezqKQQ-YHtMo0k9FVw",
+          "name": "Avalonian Lovers",
+          "alliance": "SPU",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 169401,
+          "players": 2,
+          "ip": 1689
+        },
+        {
+          "albionId": "XzNhsqGfQaOpGb7tzPwbng",
+          "name": "CTPAXA-HET",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 106141,
+          "players": 1,
+          "ip": 1714
+        },
+        {
+          "albionId": "_zL9iJDrThWwWOPDHPKn5w",
+          "name": "Being as an ocean",
+          "alliance": "PRADA",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 106141,
+          "players": 1,
+          "ip": 1573
+        },
+        {
+          "albionId": "RzqJPlPPSjufOfclPtfkrA",
+          "name": "O U T W A R D",
+          "alliance": "ERA",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 106141,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "jIhiuK0nSmK53csLgPjnOA",
+          "name": "CANABIS",
+          "alliance": "OVOSH",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 106141,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "sTPef9IrRHmdDQxYNh6VEw",
+          "name": "NexJoy",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1103
+        },
+        {
+          "albionId": "zGCCk2riRn-5P8VnooINZw",
+          "name": "iMoYu",
+          "alliance": "YL",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1218
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "HEMO",
+        "MMFerii",
+        "MrEtanol",
+        "TGamir",
+        "night44",
+        "shalvargay"
+      ]
+    },
+    {
+      "albionId": 450223751,
+      "startedAt": "2026-10-19T16:03:26.222Z",
+      "finishedAt": "2026-10-19T16:03:30.228Z",
+      "totalKills": 3,
+      "totalPlayers": 10,
+      "totalFame": 1673032,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 1434018,
+          "players": 6,
+          "ip": 1540
+        },
+        {
+          "albionId": "DP9G1rJTRkC5LXYFxYJ8QQ",
+          "name": "The Hungry",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 239003,
+          "players": 1,
+          "ip": 1554
+        },
+        {
+          "albionId": "vaQGh16ASUGM4ZrU3PSqTQ",
+          "name": "C K A M",
+          "alliance": "PIZDA",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1628
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "Lostinu",
+        "lifepaladian",
+        "naruto021",
+        "papaguy",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 450257424,
+      "startedAt": "2026-10-19T17:10:32.034Z",
+      "finishedAt": "2026-10-19T17:11:05.658Z",
+      "totalKills": 5,
+      "totalPlayers": 10,
+      "totalFame": 696689,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 4,
+          "deaths": 1,
+          "killFame": 427515,
+          "players": 5,
+          "ip": 1550
+        },
+        {
+          "albionId": "Mz0SRlxCSEe7MOKTYK9Hnw",
+          "name": "Hahatuns",
+          "kills": 1,
+          "deaths": 4,
+          "killFame": 269160,
+          "players": 5,
+          "ip": 1382
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "Lostinu",
+        "lifepaladian",
+        "papaguy",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 450334569,
+      "startedAt": "2026-10-19T19:25:05.275Z",
+      "finishedAt": "2026-10-19T19:25:32.647Z",
+      "totalKills": 5,
+      "totalPlayers": 11,
+      "totalFame": 461622,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 5,
+          "deaths": 0,
+          "killFame": 461622,
+          "players": 6,
+          "ip": 1522
+        },
+        {
+          "albionId": "0RkWNtvCSl-X8LaAu6DuZQ",
+          "name": "No Cape No Shame",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1244
+        },
+        {
+          "albionId": "oEiexsLFRqSt7nVWfeItvw",
+          "name": "M 3 T A__T O X I C",
+          "kills": 0,
+          "deaths": 4,
+          "killFame": 0,
+          "players": 4,
+          "ip": 1248
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "KingWolf9511",
+        "MrEtanol",
+        "SkaiMaster",
+        "guosthunter",
+        "sobhanAA"
+      ]
+    },
+    {
+      "albionId": 450359339,
+      "startedAt": "2026-10-19T20:07:10.97Z",
+      "finishedAt": "2026-10-19T20:08:33.291Z",
+      "totalKills": 3,
+      "totalPlayers": 17,
+      "totalFame": 672349,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 672348,
+          "players": 14,
+          "ip": 1500
+        },
+        {
+          "albionId": "GlQrOQwEQAOWBrLhF7ZIhw",
+          "name": "EQMS",
+          "alliance": "MASS",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 0,
+          "players": 2,
+          "ip": 1481
+        },
+        {
+          "albionId": "QlX_LQXHRLOxWHFwM0ZiBQ",
+          "name": "M O N A R C H",
+          "alliance": "KARAT",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1050
+        }
+      ],
+      "ownPlayers": [
+        "AminPaRaMoUnT",
+        "DrMicrobe",
+        "Frosttknight",
+        "GODpori",
+        "KingWolf9511",
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "belgheys",
+        "guosthunter",
+        "khees",
+        "naruto021",
+        "papaguy",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 450370464,
+      "startedAt": "2026-10-19T20:25:21.954Z",
+      "finishedAt": "2026-10-19T20:28:08.048Z",
+      "totalKills": 5,
+      "totalPlayers": 39,
+      "totalFame": 2132765,
+      "guilds": [
+        {
+          "albionId": "95VpWaVRTBuiBAw4XVvpZw",
+          "name": "Skoggangr",
+          "alliance": "SGR",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 1382532,
+          "players": 3,
+          "ip": 1632
+        },
+        {
+          "albionId": "e7CUFl8hSRq2Pg6pdSxhJA",
+          "name": "AQUAMARINE",
+          "alliance": "LOVER",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 396432,
+          "players": 12,
+          "ip": 1332
+        },
+        {
+          "albionId": "k5MvnxFnSJixEGZ12BQpNA",
+          "name": "NIGHT SHIFT",
+          "alliance": "GG13",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 85696,
+          "players": 2,
+          "ip": 1298
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 3,
+          "killFame": 49169,
+          "players": 15,
+          "ip": 1506
+        },
+        {
+          "albionId": "IoCkhXYuSW6iHBQesirbfQ",
+          "name": "UItima Ratio",
+          "alliance": "GG13",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 42848,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "UJ6t23bjQ6yzEsn5SOaKIw",
+          "name": "BXNNED",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 42848,
+          "players": 1,
+          "ip": 1239
+        },
+        {
+          "albionId": "hFClatLVQjuP2TEUtwhkuw",
+          "name": "Brain On Cd",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 42848,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "vs2PVwsBTieDHt6n1qkIeQ",
+          "name": "Rivercopse Fount",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 42848,
+          "players": 1,
+          "ip": 1305
+        },
+        {
+          "albionId": "LPMynwRURCKIyh5hipxlRw",
+          "name": "S O V E R E I G N",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 969
+        }
+      ],
+      "ownPlayers": [
+        "AminPaRaMoUnT",
+        "GODpori",
+        "KingWolf9511",
+        "Lostinu",
+        "Meghdad",
+        "MrEtanol",
+        "NotOnlyButAlso",
+        "RezGhoulSG",
+        "SkaiMaster",
+        "guosthunter",
+        "khees",
+        "naruto021",
+        "papaguy",
+        "sobhanAA",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 450391685,
+      "startedAt": "2026-10-19T21:04:30.521Z",
+      "finishedAt": "2026-10-19T21:06:49.119Z",
+      "totalKills": 8,
+      "totalPlayers": 23,
+      "totalFame": 3336600,
+      "guilds": [
+        {
+          "albionId": "k5MvnxFnSJixEGZ12BQpNA",
+          "name": "NIGHT SHIFT",
+          "alliance": "GG13",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 1260368,
+          "players": 4,
+          "ip": 1268
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 5,
+          "deaths": 3,
+          "killFame": 457828,
+          "players": 14,
+          "ip": 1436
+        },
+        {
+          "albionId": "IoCkhXYuSW6iHBQesirbfQ",
+          "name": "UItima Ratio",
+          "alliance": "GG13",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 323674,
+          "players": 1,
+          "ip": 1178
+        },
+        {
+          "albionId": "vs2PVwsBTieDHt6n1qkIeQ",
+          "name": "Rivercopse Fount",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 323674,
+          "players": 1,
+          "ip": 1316
+        },
+        {
+          "albionId": "ycxShfuuTuiLJeCwMtQfCQ",
+          "name": "Most Hated",
+          "alliance": "LOVER",
+          "kills": 2,
+          "deaths": 1,
+          "killFame": 323674,
+          "players": 1,
+          "ip": 1088
+        },
+        {
+          "albionId": "UJ6t23bjQ6yzEsn5SOaKIw",
+          "name": "BXNNED",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 323674,
+          "players": 1,
+          "ip": 1239
+        },
+        {
+          "albionId": "hFClatLVQjuP2TEUtwhkuw",
+          "name": "Brain On Cd",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 323674,
+          "players": 1,
+          "ip": 0
+        }
+      ],
+      "ownPlayers": [
+        "AminPaRaMoUnT",
+        "Ary4monn",
+        "DrMicrobe",
+        "Frosttknight",
+        "GODpori",
+        "Meghdad",
+        "MrEtanol",
+        "NotOnlyButAlso",
+        "RezGhoulSG",
+        "SkaiMaster",
+        "hesamhk3",
+        "papaguy",
+        "sobhanAA",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 450436508,
+      "startedAt": "2026-10-19T22:59:05.484Z",
+      "finishedAt": "2026-10-19T23:01:17.136Z",
+      "totalKills": 11,
+      "totalPlayers": 13,
+      "totalFame": 568665,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 8,
+          "deaths": 3,
+          "killFame": 228151,
+          "players": 6,
+          "ip": 1315
+        },
+        {
+          "albionId": "2fWUE8k_QVywX0SkY3txXg",
+          "name": "Win Order",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 65680,
+          "players": 1,
+          "ip": 1335
+        },
+        {
+          "albionId": "lkcIx8BNTVilrG9N4lMvOg",
+          "name": "EDELER",
+          "alliance": "TOGA",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 65680,
+          "players": 1,
+          "ip": 1365
+        },
+        {
+          "albionId": "fInOjER7QcirlVzeX9N5Fg",
+          "name": "Ruthless Wipe",
+          "alliance": "Valar",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 38890,
+          "players": 1,
+          "ip": 270
+        }
+      ],
+      "ownPlayers": [
+        "Ary4monn",
+        "NotOnlyButAlso",
+        "RezGhoulSG",
+        "belgheys",
+        "guosthunter",
+        "prometheuss71"
+      ]
+    },
+    {
+      "albionId": 450809577,
+      "startedAt": "2026-10-20T20:21:26.725Z",
+      "finishedAt": "2026-10-20T20:22:58.524Z",
+      "totalKills": 56,
+      "totalPlayers": 137,
+      "totalFame": 20314467,
+      "guilds": [
+        {
+          "albionId": "QXjRt-MfQuCXRzBrBZobdg",
+          "name": "Panda Corp",
+          "alliance": "CON",
+          "kills": 26,
+          "deaths": 0,
+          "killFame": 10204671,
+          "players": 19,
+          "ip": 1550
+        },
+        {
+          "albionId": "qiH9Iax2TQ22V4p24gf2og",
+          "name": "Pulsion",
+          "alliance": "CON",
+          "kills": 8,
+          "deaths": 2,
+          "killFame": 3164975,
+          "players": 16,
+          "ip": 1545
+        },
+        {
+          "albionId": "xLSVWDwTSvOGaB5vgGx5cw",
+          "name": "WarLogs",
+          "alliance": "CRSE",
+          "kills": 5,
+          "deaths": 16,
+          "killFame": 2711840,
+          "players": 20,
+          "ip": 1514
+        },
+        {
+          "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+          "name": "Projet X",
+          "alliance": "CON",
+          "kills": 9,
+          "deaths": 2,
+          "killFame": 2408858,
+          "players": 18,
+          "ip": 1509
+        },
+        {
+          "albionId": "4eeisqW1Qd6iB88NlWSaiA",
+          "name": "BallsOnYou",
+          "alliance": "CON",
+          "kills": 4,
+          "deaths": 0,
+          "killFame": 1077322,
+          "players": 10,
+          "ip": 1487
+        },
+        {
+          "albionId": "PlSJAMMpQr2KvwEU44HzNw",
+          "name": "Vendetta",
+          "alliance": "CON",
+          "kills": 4,
+          "deaths": 1,
+          "killFame": 746464,
+          "players": 19,
+          "ip": 1549
+        },
+        {
+          "albionId": "kldZmWG3ThG4cstFj8nRBg",
+          "name": "Sincerity",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1538
+        },
+        {
+          "albionId": "8pmXEVc7RveCJ0bRI19N1w",
+          "name": "Torgnoles et Grabuge",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1454
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 9,
+          "killFame": 0,
+          "players": 9,
+          "ip": 1431
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 14,
+          "killFame": 0,
+          "players": 14,
+          "ip": 1527
+        },
+        {
+          "albionId": "xhwaa6M6RtO4kk_8HEGTYA",
+          "name": "I-DEJAVU-I",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 6,
+          "killFame": 0,
+          "players": 6,
+          "ip": 1486
+        }
+      ],
+      "ownPlayers": [
+        "GTRraven",
+        "KingWolf9511",
+        "LILCARBON",
+        "MrEtanol",
+        "RezGhoulSG",
+        "khees",
+        "prometheuss71",
+        "shalvargay",
+        "uXRedXu"
+      ]
+    },
+    {
+      "albionId": 450816674,
+      "startedAt": "2026-10-20T20:33:14.963Z",
+      "finishedAt": "2026-10-20T20:36:47.463Z",
+      "totalKills": 64,
+      "totalPlayers": 183,
+      "totalFame": 23435177,
+      "guilds": [
+        {
+          "albionId": "QXjRt-MfQuCXRzBrBZobdg",
+          "name": "Panda Corp",
+          "alliance": "CON",
+          "kills": 22,
+          "deaths": 0,
+          "killFame": 7431754,
+          "players": 19,
+          "ip": 1561
+        },
+        {
+          "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+          "name": "Projet X",
+          "alliance": "CON",
+          "kills": 14,
+          "deaths": 2,
+          "killFame": 4576026,
+          "players": 18,
+          "ip": 1501
+        },
+        {
+          "albionId": "xLSVWDwTSvOGaB5vgGx5cw",
+          "name": "WarLogs",
+          "alliance": "CRSE",
+          "kills": 6,
+          "deaths": 17,
+          "killFame": 3033285,
+          "players": 20,
+          "ip": 1522
+        },
+        {
+          "albionId": "qiH9Iax2TQ22V4p24gf2og",
+          "name": "Pulsion",
+          "alliance": "CON",
+          "kills": 4,
+          "deaths": 8,
+          "killFame": 2315867,
+          "players": 18,
+          "ip": 1544
+        },
+        {
+          "albionId": "4eeisqW1Qd6iB88NlWSaiA",
+          "name": "BallsOnYou",
+          "alliance": "CON",
+          "kills": 4,
+          "deaths": 0,
+          "killFame": 1814026,
+          "players": 10,
+          "ip": 1511
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 4,
+          "deaths": 14,
+          "killFame": 1654537,
+          "players": 26,
+          "ip": 1491
+        },
+        {
+          "albionId": "PlSJAMMpQr2KvwEU44HzNw",
+          "name": "Vendetta",
+          "alliance": "CON",
+          "kills": 6,
+          "deaths": 2,
+          "killFame": 1539732,
+          "players": 20,
+          "ip": 1507
+        },
+        {
+          "albionId": "v2MpQ8pcQSO8DIkhhCPZZA",
+          "name": "NoRules",
+          "alliance": "CON",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 491176,
+          "players": 8,
+          "ip": 1570
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 13,
+          "killFame": 287856,
+          "players": 21,
+          "ip": 1486
+        },
+        {
+          "albionId": "xhwaa6M6RtO4kk_8HEGTYA",
+          "name": "I-DEJAVU-I",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 1,
+          "killFame": 250768,
+          "players": 14,
+          "ip": 1618
+        },
+        {
+          "albionId": "8pmXEVc7RveCJ0bRI19N1w",
+          "name": "Torgnoles et Grabuge",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 4,
+          "killFame": 39657,
+          "players": 6,
+          "ip": 1399
+        },
+        {
+          "albionId": "RZ7EmksRTaa-5GVpgzz7zQ",
+          "name": "lala lala lala lala",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1334
+        },
+        {
+          "albionId": "kldZmWG3ThG4cstFj8nRBg",
+          "name": "Sincerity",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 0,
+          "players": 2,
+          "ip": 1596
+        }
+      ],
+      "ownPlayers": [
+        "AliSorena",
+        "AminPaRaMoUnT",
+        "Frosttknight",
+        "GTRraven",
+        "KingWolf9511",
+        "Meghdad",
+        "MrEtanol",
+        "PSH9017",
+        "RezGhoulSG",
+        "belgheys",
+        "chessmanm",
+        "guosthunter",
+        "hesamhk3",
+        "irarcu",
+        "mtrix",
+        "naruto021",
+        "night44",
+        "papaguy",
+        "prometheuss71",
+        "shalvargay",
+        "sobhanAA"
+      ]
+    },
+    {
+      "albionId": 450829321,
+      "startedAt": "2026-10-20T20:55:59.091Z",
+      "finishedAt": "2026-10-20T21:01:44.857Z",
+      "totalKills": 42,
+      "totalPlayers": 124,
+      "totalFame": 11042950,
+      "guilds": [
+        {
+          "albionId": "QXjRt-MfQuCXRzBrBZobdg",
+          "name": "Panda Corp",
+          "alliance": "CON",
+          "kills": 21,
+          "deaths": 0,
+          "killFame": 5134430,
+          "players": 19,
+          "ip": 1545
+        },
+        {
+          "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+          "name": "Projet X",
+          "alliance": "CON",
+          "kills": 4,
+          "deaths": 4,
+          "killFame": 1902164,
+          "players": 19,
+          "ip": 1476
+        },
+        {
+          "albionId": "v2MpQ8pcQSO8DIkhhCPZZA",
+          "name": "NoRules",
+          "alliance": "CON",
+          "kills": 4,
+          "deaths": 0,
+          "killFame": 1110808,
+          "players": 8,
+          "ip": 1490
+        },
+        {
+          "albionId": "4eeisqW1Qd6iB88NlWSaiA",
+          "name": "BallsOnYou",
+          "alliance": "CON",
+          "kills": 4,
+          "deaths": 1,
+          "killFame": 871378,
+          "players": 10,
+          "ip": 1527
+        },
+        {
+          "albionId": "Q0ovY4HkS_yCbFqyn-Yq7g",
+          "name": "Swipe",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 2,
+          "killFame": 647764,
+          "players": 5,
+          "ip": 1519
+        },
+        {
+          "albionId": "kldZmWG3ThG4cstFj8nRBg",
+          "name": "Sincerity",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 530464,
+          "players": 4,
+          "ip": 1515
+        },
+        {
+          "albionId": "8pmXEVc7RveCJ0bRI19N1w",
+          "name": "Torgnoles et Grabuge",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 3,
+          "killFame": 358069,
+          "players": 5,
+          "ip": 1454
+        },
+        {
+          "albionId": "qiH9Iax2TQ22V4p24gf2og",
+          "name": "Pulsion",
+          "alliance": "CON",
+          "kills": 2,
+          "deaths": 2,
+          "killFame": 349914,
+          "players": 18,
+          "ip": 1464
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 11,
+          "killFame": 137698,
+          "players": 17,
+          "ip": 1457
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 16,
+          "killFame": 0,
+          "players": 16,
+          "ip": 1477
+        },
+        {
+          "albionId": "xhwaa6M6RtO4kk_8HEGTYA",
+          "name": "I-DEJAVU-I",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1144
+        }
+      ],
+      "ownPlayers": [
+        "AminPaRaMoUnT",
+        "Frosttknight",
+        "GTRraven",
+        "HEMO",
+        "Lostinu",
+        "Meghdad",
+        "MrEtanol",
+        "PSH9017",
+        "RezGhoulSG",
+        "guosthunter",
+        "mtrix",
+        "night44",
+        "papaguy",
+        "prometheuss71",
+        "shalvargay",
+        "sobhanAA",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 451089837,
+      "startedAt": "2026-10-21T15:30:27.057Z",
+      "finishedAt": "2026-10-21T15:34:23.945Z",
+      "totalKills": 8,
+      "totalPlayers": 15,
+      "totalFame": 2211589,
+      "guilds": [
+        {
+          "albionId": "ohepfcB-QVmSZfnqhnzA9A",
+          "name": "GILDA DLA ZASTAV",
+          "kills": 4,
+          "deaths": 0,
+          "killFame": 1228651,
+          "players": 4,
+          "ip": 1638
+        },
+        {
+          "albionId": "MJlWe-zCQ9aQY8x3OUi5sA",
+          "name": "MYDAKI",
+          "alliance": "ZOUZ",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 340667,
+          "players": 1,
+          "ip": 1747
+        },
+        {
+          "albionId": "Sh-wXY__SyiuAFqZbsfL2Q",
+          "name": "LastParty",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 336311,
+          "players": 1,
+          "ip": 1673
+        },
+        {
+          "albionId": "ly3uSy3ARVuYjcsd06ufLg",
+          "name": "Heralds of Valhalla",
+          "alliance": "china",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 305938,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 6,
+          "killFame": 0,
+          "players": 6,
+          "ip": 1546
+        },
+        {
+          "albionId": "P_lK8FlnRFSTUyA6uE7iRQ",
+          "name": "Shadow Fiend",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1236
+        },
+        {
+          "albionId": "z1W3OA5TS5-b_mr4PgDQQw",
+          "name": "Humanity",
+          "alliance": "MASS",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1298
+        }
+      ],
+      "ownPlayers": [
+        "HEMO",
+        "Lostinu",
+        "MrEtanol",
+        "TGamir",
+        "belgheys",
+        "shalvargay"
+      ]
+    },
+    {
+      "albionId": 451133868,
+      "startedAt": "2026-10-21T17:02:17.082Z",
+      "finishedAt": "2026-10-21T17:03:29.648Z",
+      "totalKills": 5,
+      "totalPlayers": 21,
+      "totalFame": 843441,
+      "guilds": [
+        {
+          "albionId": "Q1ekvi6LSVGDWepEadeoAA",
+          "name": "ANY FIGHT",
+          "alliance": "RUST",
+          "kills": 3,
+          "deaths": 1,
+          "killFame": 533940,
+          "players": 13,
+          "ip": 1472
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 4,
+          "killFame": 260813,
+          "players": 7,
+          "ip": 1369
+        },
+        {
+          "albionId": "pQZuXCEeS6i7LWtmK7j1TQ",
+          "name": "Sand Syndicate",
+          "alliance": "RUST",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 48678,
+          "players": 1,
+          "ip": 1494
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GODpori",
+        "GODpori2",
+        "MrEtanol",
+        "SkaiMaster",
+        "belgheys",
+        "shalvargay"
+      ]
+    },
+    {
+      "albionId": 451136067,
+      "startedAt": "2026-10-21T17:06:19.913Z",
+      "finishedAt": "2026-10-21T17:24:18.33Z",
+      "totalKills": 43,
+      "totalPlayers": 45,
+      "totalFame": 1709396,
+      "guilds": [
+        {
+          "albionId": "bIT5hJlcTGe6n-BZA5cSRg",
+          "name": "RASTREATORS",
+          "alliance": "LR",
+          "kills": 8,
+          "deaths": 13,
+          "killFame": 456543,
+          "players": 5,
+          "ip": 1167
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 7,
+          "deaths": 6,
+          "killFame": 199393,
+          "players": 8,
+          "ip": 1281
+        },
+        {
+          "albionId": "tgG4Qm9tRIKCvp6Hu80lmw",
+          "name": "BeBeBus",
+          "alliance": "CCTV",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 194992,
+          "players": 3,
+          "ip": 1373
+        },
+        {
+          "albionId": "7tmt12sOTkGgcqZL3jSy7Q",
+          "name": "Top Squad",
+          "kills": 7,
+          "deaths": 0,
+          "killFame": 145306,
+          "players": 2,
+          "ip": 1357
+        },
+        {
+          "albionId": "6D0H76-BSwmc-jyd795C6A",
+          "name": "The Jack Of All Trades",
+          "alliance": "NSZ",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 110526,
+          "players": 2,
+          "ip": 1274
+        },
+        {
+          "albionId": "N6fAs_UwRU6vFToi9UB_ww",
+          "name": "JRX",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 74138,
+          "players": 1,
+          "ip": 1316
+        },
+        {
+          "albionId": "NSYyFoM-QG68AXlFNcHn0w",
+          "name": "Zero Dam",
+          "kills": 4,
+          "deaths": 0,
+          "killFame": 74138,
+          "players": 1,
+          "ip": 1434
+        },
+        {
+          "albionId": "Bn8jwOR_QmCqD01Sz_0LUA",
+          "name": "Tai Chi_YUN GU",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 74138,
+          "players": 1,
+          "ip": 1507
+        },
+        {
+          "albionId": "gFjptITqSni2iMhd4kLcMg",
+          "name": "FBl",
+          "kills": 6,
+          "deaths": 0,
+          "killFame": 74138,
+          "players": 1,
+          "ip": 1369
+        },
+        {
+          "albionId": "SZ_mR855SRqOgAaZt3jaEA",
+          "name": "Nightclaws",
+          "alliance": "SYND",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 74138,
+          "players": 1,
+          "ip": 1436
+        },
+        {
+          "albionId": "YW4eX38bS1K743gjfTYcmg",
+          "name": "mystary raiders",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 64814,
+          "players": 2,
+          "ip": 1008
+        },
+        {
+          "albionId": "9okdAcp5Sxi-as63tEH00A",
+          "name": "EuroHunter",
+          "alliance": "RMB",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 52412,
+          "players": 1,
+          "ip": 1334
+        },
+        {
+          "albionId": "TEGRoqr2S0e961v0qEw-9w",
+          "name": "Unforg1ven",
+          "alliance": "LOVER",
+          "kills": 1,
+          "deaths": 1,
+          "killFame": 32669,
+          "players": 2,
+          "ip": 1071
+        },
+        {
+          "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+          "name": "Projet X",
+          "alliance": "CON",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 24075,
+          "players": 1,
+          "ip": 1049
+        },
+        {
+          "albionId": "RZq-et7NRW6iTSGJ_p9Q8Q",
+          "name": "Blackorchid",
+          "alliance": "HADEL",
+          "kills": 0,
+          "deaths": 4,
+          "killFame": 0,
+          "players": 4,
+          "ip": 1216
+        },
+        {
+          "albionId": "9em1pehOStqFdaDwbUYyeA",
+          "name": "Kurkurence",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 968
+        },
+        {
+          "albionId": "r3H8X3NDRui2hi6eAHS6Cg",
+          "name": "TROY",
+          "kills": 0,
+          "deaths": 4,
+          "killFame": 0,
+          "players": 2,
+          "ip": 1201
+        },
+        {
+          "albionId": "pg1SSZNtQ-GdE9k9HgefUg",
+          "name": "Nameless",
+          "alliance": "FILL",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1057
+        },
+        {
+          "albionId": "ycxShfuuTuiLJeCwMtQfCQ",
+          "name": "Most Hated",
+          "alliance": "LOVER",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1356
+        },
+        {
+          "albionId": "Et3Hu2L5SQitUOrw5MuO5g",
+          "name": "The Panic Button",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 858
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GODpori2",
+        "MrEtanol",
+        "TGamir",
+        "irarcu",
+        "samuraii1983",
+        "shalvargay",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 451136455,
+      "startedAt": "2026-10-21T17:06:58.817Z",
+      "finishedAt": "2026-10-21T17:12:37.413Z",
+      "totalKills": 10,
+      "totalPlayers": 21,
+      "totalFame": 1004190,
+      "guilds": [
+        {
+          "albionId": "7tmt12sOTkGgcqZL3jSy7Q",
+          "name": "Top Squad",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 179671,
+          "players": 2,
+          "ip": 1332
+        },
+        {
+          "albionId": "tgG4Qm9tRIKCvp6Hu80lmw",
+          "name": "BeBeBus",
+          "alliance": "CCTV",
+          "kills": 1,
+          "deaths": 1,
+          "killFame": 142792,
+          "players": 2,
+          "ip": 1349
+        },
+        {
+          "albionId": "N6fAs_UwRU6vFToi9UB_ww",
+          "name": "JRX",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 108682,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "gFjptITqSni2iMhd4kLcMg",
+          "name": "FBl",
+          "kills": 4,
+          "deaths": 0,
+          "killFame": 108682,
+          "players": 1,
+          "ip": 1369
+        },
+        {
+          "albionId": "Bn8jwOR_QmCqD01Sz_0LUA",
+          "name": "Tai Chi_YUN GU",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 108682,
+          "players": 1,
+          "ip": 1423
+        },
+        {
+          "albionId": "SZ_mR855SRqOgAaZt3jaEA",
+          "name": "Nightclaws",
+          "alliance": "SYND",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 108682,
+          "players": 1,
+          "ip": 1436
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 3,
+          "killFame": 106542,
+          "players": 5,
+          "ip": 1346
+        },
+        {
+          "albionId": "NSYyFoM-QG68AXlFNcHn0w",
+          "name": "Zero Dam",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 87160,
+          "players": 1,
+          "ip": 1434
+        },
+        {
+          "albionId": "hGugBdp6TcCmuJQUFTTnKw",
+          "name": "Hell Diver",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1415
+        },
+        {
+          "albionId": "qXIDHrhqT0CWFDPklsY9lw",
+          "name": "ACTIMEL",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1409
+        },
+        {
+          "albionId": "xqBxX4MKQgqXP0O08fY4Yg",
+          "name": "AGG",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1209
+        },
+        {
+          "albionId": "01gAgeBJTj2S0uJowd3X5A",
+          "name": "Void Walker",
+          "alliance": "SURGE",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 0,
+          "players": 2,
+          "ip": 1439
+        }
+      ],
+      "ownPlayers": [
+        "GODpori2",
+        "MrEtanol",
+        "belgheys",
+        "shalvargay",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 451280691,
+      "startedAt": "2026-10-21T21:33:42.456Z",
+      "finishedAt": "2026-10-21T21:35:39.086Z",
+      "totalKills": 10,
+      "totalPlayers": 17,
+      "totalFame": 752798,
+      "guilds": [
+        {
+          "albionId": "A5txARmDRg6T0-Lhoc10mw",
+          "name": "Killer Trolls",
+          "alliance": "ARROW",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 235115,
+          "players": 1,
+          "ip": 1361
+        },
+        {
+          "albionId": "Aj0NRNIdTR-OUnnYgb9NKw",
+          "name": "Nyash-Myash",
+          "alliance": "Cat",
+          "kills": 2,
+          "deaths": 1,
+          "killFame": 184784,
+          "players": 3,
+          "ip": 948
+        },
+        {
+          "albionId": "JyvOy9r4TyqUdTbR6IZrzA",
+          "name": "Hakoonamatata",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 102201,
+          "players": 1,
+          "ip": 1324
+        },
+        {
+          "albionId": "HU9FHMqxSVSIWkDUdylvKQ",
+          "name": "MAMMA MIA",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 102201,
+          "players": 1,
+          "ip": 1381
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 6,
+          "killFame": 86764,
+          "players": 8,
+          "ip": 1291
+        },
+        {
+          "albionId": "6K-zZoGgRZGcZ4kDHAqIow",
+          "name": "NKs empire",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 798
+        },
+        {
+          "albionId": "xhwaa6M6RtO4kk_8HEGTYA",
+          "name": "I-DEJAVU-I",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1389
+        }
+      ],
+      "ownPlayers": [
+        "Frosttknight",
+        "HEMO",
+        "Meghdad",
+        "NOVA76",
+        "PSH9017",
+        "guosthunter",
+        "night44",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 451309668,
+      "startedAt": "2026-10-21T22:49:38.858Z",
+      "finishedAt": "2026-10-21T22:57:52.988Z",
+      "totalKills": 14,
+      "totalPlayers": 11,
+      "totalFame": 2525186,
+      "guilds": [
+        {
+          "albionId": "sjo2D7ELSY68GIm59tsYxg",
+          "name": "Bandits",
+          "alliance": "GABA",
+          "kills": 12,
+          "deaths": 2,
+          "killFame": 1617052,
+          "players": 4,
+          "ip": 1505
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 11,
+          "killFame": 908133,
+          "players": 6,
+          "ip": 1393
+        }
+      ],
+      "ownPlayers": [
+        "Lostinu",
+        "Meghdad",
+        "MrEtanol",
+        "belgheys",
+        "night44",
+        "papaguy"
+      ]
+    },
+    {
+      "albionId": 451559225,
+      "startedAt": "2026-10-22T16:27:02.142Z",
+      "finishedAt": "2026-10-22T16:28:38.423Z",
+      "totalKills": 4,
+      "totalPlayers": 19,
+      "totalFame": 515898,
+      "guilds": [
+        {
+          "albionId": "CjrRvVeSQ-yVo_BKIYrv9Q",
+          "name": "GachiBang",
+          "alliance": "GABA",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 326485,
+          "players": 7,
+          "ip": 1373
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 189394,
+          "players": 8,
+          "ip": 1330
+        },
+        {
+          "albionId": "2fWUE8k_QVywX0SkY3txXg",
+          "name": "Win Order",
+          "alliance": "FILL",
+          "kills": 0,
+          "deaths": 4,
+          "killFame": 0,
+          "players": 4,
+          "ip": 1316
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GODpori2",
+        "MrEtanol",
+        "PSH9017",
+        "guosthunter",
+        "night44",
+        "prometheuss71",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 451566797,
+      "startedAt": "2026-10-22T16:41:30.409Z",
+      "finishedAt": "2026-10-22T16:41:38.46Z",
+      "totalKills": 3,
+      "totalPlayers": 12,
+      "totalFame": 471968,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 471966,
+          "players": 9,
+          "ip": 1341
+        },
+        {
+          "albionId": "2fWUE8k_QVywX0SkY3txXg",
+          "name": "Win Order",
+          "alliance": "FILL",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1269
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "Frosttknight",
+        "GODpori2",
+        "MrEtanol",
+        "PSH9017",
+        "guosthunter",
+        "night44",
+        "prometheuss71",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 451570728,
+      "startedAt": "2026-10-22T16:49:40.51Z",
+      "finishedAt": "2026-10-22T16:49:56.208Z",
+      "totalKills": 3,
+      "totalPlayers": 16,
+      "totalFame": 571940,
+      "guilds": [
+        {
+          "albionId": "UHb44TbPTLaQwnuZux1uFw",
+          "name": "UFORG",
+          "alliance": "1327",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 225018,
+          "players": 6,
+          "ip": 1585
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 201390,
+          "players": 7,
+          "ip": 1387
+        },
+        {
+          "albionId": "50w70WH7S7W3zLrhfSZRvw",
+          "name": "Ridniy Kray",
+          "alliance": "FPV",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 145530,
+          "players": 2,
+          "ip": 1476
+        },
+        {
+          "albionId": "0ywzo2ZvRX-Gbd2pPVZB6Q",
+          "name": "The Ganklist",
+          "alliance": "1327",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1551
+        }
+      ],
+      "ownPlayers": [
+        "Frosttknight",
+        "GODpori2",
+        "MrEtanol",
+        "guosthunter",
+        "prometheuss71",
+        "shalvargay",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 451661808,
+      "startedAt": "2026-10-22T19:25:23.627Z",
+      "finishedAt": "2026-10-22T19:26:00.671Z",
+      "totalKills": 6,
+      "totalPlayers": 12,
+      "totalFame": 1661101,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 5,
+          "deaths": 0,
+          "killFame": 1384240,
+          "players": 5,
+          "ip": 1562
+        },
+        {
+          "albionId": "ufmaeO0bSUi1pCva3dWr1g",
+          "name": "M O R G U E",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 276848,
+          "players": 1,
+          "ip": 1625
+        },
+        {
+          "albionId": "VSFSmxvaQBmgiXa8ltR8vA",
+          "name": "Black Society",
+          "alliance": "SSL",
+          "kills": 0,
+          "deaths": 4,
+          "killFame": 0,
+          "players": 4,
+          "ip": 1348
+        }
+      ],
+      "ownPlayers": [
+        "AliSorena",
+        "GODpori",
+        "Lonewolf18",
+        "lifepaladian",
+        "papaguy"
+      ]
+    },
+    {
+      "albionId": 451688860,
+      "startedAt": "2026-10-22T20:11:13.697Z",
+      "finishedAt": "2026-10-22T20:19:14.474Z",
+      "totalKills": 67,
+      "totalPlayers": 166,
+      "totalFame": 27920606,
+      "guilds": [
+        {
+          "albionId": "QXjRt-MfQuCXRzBrBZobdg",
+          "name": "Panda Corp",
+          "alliance": "CON",
+          "kills": 18,
+          "deaths": 7,
+          "killFame": 10581896,
+          "players": 13,
+          "ip": 1536
+        },
+        {
+          "albionId": "xhwaa6M6RtO4kk_8HEGTYA",
+          "name": "I-DEJAVU-I",
+          "alliance": "CRSE",
+          "kills": 16,
+          "deaths": 1,
+          "killFame": 5446700,
+          "players": 14,
+          "ip": 1585
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 9,
+          "killFame": 3419335,
+          "players": 21,
+          "ip": 1551
+        },
+        {
+          "albionId": "xLSVWDwTSvOGaB5vgGx5cw",
+          "name": "WarLogs",
+          "alliance": "CRSE",
+          "kills": 10,
+          "deaths": 2,
+          "killFame": 2828722,
+          "players": 20,
+          "ip": 1577
+        },
+        {
+          "albionId": "PlSJAMMpQr2KvwEU44HzNw",
+          "name": "Vendetta",
+          "alliance": "CON",
+          "kills": 8,
+          "deaths": 8,
+          "killFame": 1993059,
+          "players": 24,
+          "ip": 1528
+        },
+        {
+          "albionId": "v2MpQ8pcQSO8DIkhhCPZZA",
+          "name": "NoRules",
+          "alliance": "CON",
+          "kills": 6,
+          "deaths": 1,
+          "killFame": 1685588,
+          "players": 5,
+          "ip": 1599
+        },
+        {
+          "albionId": "Q0ovY4HkS_yCbFqyn-Yq7g",
+          "name": "Swipe",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 11,
+          "killFame": 820224,
+          "players": 12,
+          "ip": 1488
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 5,
+          "killFame": 701694,
+          "players": 24,
+          "ip": 1470
+        },
+        {
+          "albionId": "kldZmWG3ThG4cstFj8nRBg",
+          "name": "Sincerity",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 339718,
+          "players": 7,
+          "ip": 1524
+        },
+        {
+          "albionId": "h3rQHqf2RAuwLeU1ZkxLtA",
+          "name": "Lame Gankers",
+          "alliance": "CON",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 62690,
+          "players": 5,
+          "ip": 1564
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 20286,
+          "players": 2,
+          "ip": 1423
+        },
+        {
+          "albionId": "8pmXEVc7RveCJ0bRI19N1w",
+          "name": "Torgnoles et Grabuge",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 20286,
+          "players": 4,
+          "ip": 1589
+        },
+        {
+          "albionId": "qiH9Iax2TQ22V4p24gf2og",
+          "name": "Pulsion",
+          "alliance": "CON",
+          "kills": 0,
+          "deaths": 5,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1275
+        },
+        {
+          "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+          "name": "Projet X",
+          "alliance": "CON",
+          "kills": 0,
+          "deaths": 13,
+          "killFame": 0,
+          "players": 11,
+          "ip": 1469
+        },
+        {
+          "albionId": "J1lBSGUGScOxilGNwKpgVg",
+          "name": "Birbs and Kittens",
+          "alliance": "CALF",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1138
+        }
+      ],
+      "ownPlayers": [
+        "AliSorena",
+        "AminPaRaMoUnT",
+        "DrMicrobe",
+        "ESc4a",
+        "Frosttknight",
+        "KingWolf9511",
+        "LibraJoker",
+        "Lostinu",
+        "Meghdad",
+        "MrEtanol",
+        "NOVA76",
+        "belgheys",
+        "chessmanm",
+        "guosthunter",
+        "khees",
+        "night44",
+        "papaguy",
+        "shalvargay",
+        "sobhanAA",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 451700126,
+      "startedAt": "2026-10-22T20:28:37.453Z",
+      "finishedAt": "2026-10-22T20:46:51.273Z",
+      "totalKills": 136,
+      "totalPlayers": 202,
+      "totalFame": 50309967,
+      "guilds": [
+        {
+          "albionId": "xhwaa6M6RtO4kk_8HEGTYA",
+          "name": "I-DEJAVU-I",
+          "alliance": "CRSE",
+          "kills": 26,
+          "deaths": 6,
+          "killFame": 10145562,
+          "players": 14,
+          "ip": 1563
+        },
+        {
+          "albionId": "PlSJAMMpQr2KvwEU44HzNw",
+          "name": "Vendetta",
+          "alliance": "CON",
+          "kills": 13,
+          "deaths": 30,
+          "killFame": 8523829,
+          "players": 23,
+          "ip": 1494
+        },
+        {
+          "albionId": "QXjRt-MfQuCXRzBrBZobdg",
+          "name": "Panda Corp",
+          "alliance": "CON",
+          "kills": 22,
+          "deaths": 11,
+          "killFame": 7071519,
+          "players": 13,
+          "ip": 1522
+        },
+        {
+          "albionId": "v2MpQ8pcQSO8DIkhhCPZZA",
+          "name": "NoRules",
+          "alliance": "CON",
+          "kills": 12,
+          "deaths": 8,
+          "killFame": 5787549,
+          "players": 6,
+          "ip": 1519
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 18,
+          "deaths": 16,
+          "killFame": 4853166,
+          "players": 33,
+          "ip": 1455
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 8,
+          "deaths": 15,
+          "killFame": 2884939,
+          "players": 28,
+          "ip": 1540
+        },
+        {
+          "albionId": "xLSVWDwTSvOGaB5vgGx5cw",
+          "name": "WarLogs",
+          "alliance": "CRSE",
+          "kills": 8,
+          "deaths": 3,
+          "killFame": 2670422,
+          "players": 22,
+          "ip": 1548
+        },
+        {
+          "albionId": "Q0ovY4HkS_yCbFqyn-Yq7g",
+          "name": "Swipe",
+          "alliance": "CRSE",
+          "kills": 6,
+          "deaths": 7,
+          "killFame": 2379094,
+          "players": 23,
+          "ip": 1561
+        },
+        {
+          "albionId": "kldZmWG3ThG4cstFj8nRBg",
+          "name": "Sincerity",
+          "alliance": "CRSE",
+          "kills": 9,
+          "deaths": 7,
+          "killFame": 2067177,
+          "players": 7,
+          "ip": 1531
+        },
+        {
+          "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+          "name": "Projet X",
+          "alliance": "CON",
+          "kills": 7,
+          "deaths": 26,
+          "killFame": 1705771,
+          "players": 16,
+          "ip": 1489
+        },
+        {
+          "albionId": "h3rQHqf2RAuwLeU1ZkxLtA",
+          "name": "Lame Gankers",
+          "alliance": "CON",
+          "kills": 4,
+          "deaths": 0,
+          "killFame": 799487,
+          "players": 7,
+          "ip": 1556
+        },
+        {
+          "albionId": "8pmXEVc7RveCJ0bRI19N1w",
+          "name": "Torgnoles et Grabuge",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 614380,
+          "players": 4,
+          "ip": 1622
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 1,
+          "killFame": 565402,
+          "players": 2,
+          "ip": 1570
+        },
+        {
+          "albionId": "qiH9Iax2TQ22V4p24gf2og",
+          "name": "Pulsion",
+          "alliance": "CON",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 240909,
+          "players": 3,
+          "ip": 1180
+        },
+        {
+          "albionId": "9DIPxNa_TcSpJx9mZ7L2-g",
+          "name": "Clan Kryze",
+          "alliance": "CKM",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1158
+        }
+      ],
+      "ownPlayers": [
+        "AliSorena",
+        "AminPaRaMoUnT",
+        "DrMicrobe",
+        "ESc4a",
+        "Frosttknight",
+        "GODpori",
+        "KingWolf9511",
+        "LibraJoker",
+        "Lonewolf18",
+        "Lostinu",
+        "Meghdad",
+        "MrEtanol",
+        "NOVA76",
+        "PSH9017",
+        "SkaiMaster",
+        "TGamir",
+        "belgheys",
+        "chessmanm",
+        "guosthunter",
+        "khees",
+        "lifepaladian",
+        "night44",
+        "papaguy",
+        "shalvargay",
+        "sobhanAA",
+        "sohrabsdc",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 451738632,
+      "startedAt": "2026-10-22T21:41:44.218Z",
+      "finishedAt": "2026-10-22T21:45:27.42Z",
+      "totalKills": 10,
+      "totalPlayers": 29,
+      "totalFame": 2045189,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 8,
+          "deaths": 0,
+          "killFame": 1703092,
+          "players": 18,
+          "ip": 1447
+        },
+        {
+          "albionId": "QG5EcSgfSLWGfUtr6d5AWw",
+          "name": "Weaklings",
+          "alliance": "CON",
+          "kills": 1,
+          "deaths": 8,
+          "killFame": 243588,
+          "players": 8,
+          "ip": 1426
+        },
+        {
+          "albionId": "sjo2D7ELSY68GIm59tsYxg",
+          "name": "Bandits",
+          "alliance": "GABA",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 98469,
+          "players": 3,
+          "ip": 1433
+        }
+      ],
+      "ownPlayers": [
+        "AminPaRaMoUnT",
+        "ESc4a",
+        "Frosttknight",
+        "HEMO",
+        "KingWolf9511",
+        "LibraJoker",
+        "Meghdad",
+        "MrEtanol",
+        "NOVA76",
+        "PSH9017",
+        "SkaiMaster",
+        "belgheys",
+        "guosthunter",
+        "khees",
+        "shalvargay",
+        "sobhanAA",
+        "sohrabsdc",
+        "uXRedXu"
+      ]
+    },
+    {
+      "albionId": 451941261,
+      "startedAt": "2026-10-23T12:58:35.973Z",
+      "finishedAt": "2026-10-23T12:59:26.932Z",
+      "totalKills": 11,
+      "totalPlayers": 20,
+      "totalFame": 2461770,
+      "guilds": [
+        {
+          "albionId": "QG5EcSgfSLWGfUtr6d5AWw",
+          "name": "Weaklings",
+          "alliance": "CON",
+          "kills": 11,
+          "deaths": 0,
+          "killFame": 2461750,
+          "players": 9,
+          "ip": 1459
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 11,
+          "killFame": 0,
+          "players": 11,
+          "ip": 1454
+        }
+      ],
+      "ownPlayers": [
+        "AliSorena",
+        "AminPaRaMoUnT",
+        "Boop63",
+        "DrMicrobe",
+        "GODpori",
+        "MrEtanol",
+        "PSH9017",
+        "SkaiMaster",
+        "chessmanm",
+        "irarcu",
+        "prometheuss71"
+      ]
+    },
+    {
+      "albionId": 451950361,
+      "startedAt": "2026-10-23T13:19:58.663Z",
+      "finishedAt": "2026-10-23T13:22:36.734Z",
+      "totalKills": 19,
+      "totalPlayers": 26,
+      "totalFame": 4025358,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 6,
+          "deaths": 10,
+          "killFame": 1647522,
+          "players": 13,
+          "ip": 1435
+        },
+        {
+          "albionId": "7JZANN-BTH6QK5uSiCsQ1A",
+          "name": "Stability",
+          "kills": 7,
+          "deaths": 0,
+          "killFame": 1441602,
+          "players": 2,
+          "ip": 1572
+        },
+        {
+          "albionId": "QG5EcSgfSLWGfUtr6d5AWw",
+          "name": "Weaklings",
+          "alliance": "CON",
+          "kills": 6,
+          "deaths": 9,
+          "killFame": 936177,
+          "players": 11,
+          "ip": 1435
+        }
+      ],
+      "ownPlayers": [
+        "AliSorena",
+        "AminPaRaMoUnT",
+        "AngrYN",
+        "Boop63",
+        "ESc4a",
+        "GODpori",
+        "Lonewolf18",
+        "MrEtanol",
+        "PSH9017",
+        "SkaiMaster",
+        "chessmanm",
+        "irarcu",
+        "prometheuss71"
+      ]
+    },
+    {
+      "albionId": 452168156,
+      "startedAt": "2026-10-23T20:09:18.988Z",
+      "finishedAt": "2026-10-23T20:58:24.937Z",
+      "totalKills": 487,
+      "totalPlayers": 235,
+      "totalFame": 188271605,
+      "guilds": [
+        {
+          "albionId": "PlSJAMMpQr2KvwEU44HzNw",
+          "name": "Vendetta",
+          "alliance": "CON",
+          "kills": 105,
+          "deaths": 69,
+          "killFame": 52336622,
+          "players": 37,
+          "ip": 1522
+        },
+        {
+          "albionId": "xhwaa6M6RtO4kk_8HEGTYA",
+          "name": "I-DEJAVU-I",
+          "alliance": "CRSE",
+          "kills": 68,
+          "deaths": 19,
+          "killFame": 25713942,
+          "players": 15,
+          "ip": 1514
+        },
+        {
+          "albionId": "v2MpQ8pcQSO8DIkhhCPZZA",
+          "name": "NoRules",
+          "alliance": "CON",
+          "kills": 37,
+          "deaths": 7,
+          "killFame": 16933932,
+          "players": 6,
+          "ip": 1522
+        },
+        {
+          "albionId": "QXjRt-MfQuCXRzBrBZobdg",
+          "name": "Panda Corp",
+          "alliance": "CON",
+          "kills": 36,
+          "deaths": 21,
+          "killFame": 13708329,
+          "players": 11,
+          "ip": 1555
+        },
+        {
+          "albionId": "Q0ovY4HkS_yCbFqyn-Yq7g",
+          "name": "Swipe",
+          "alliance": "CRSE",
+          "kills": 35,
+          "deaths": 17,
+          "killFame": 12987368,
+          "players": 11,
+          "ip": 1511
+        },
+        {
+          "albionId": "xLSVWDwTSvOGaB5vgGx5cw",
+          "name": "WarLogs",
+          "alliance": "CRSE",
+          "kills": 31,
+          "deaths": 32,
+          "killFame": 10839483,
+          "players": 20,
+          "ip": 1514
+        },
+        {
+          "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+          "name": "Projet X",
+          "alliance": "CON",
+          "kills": 33,
+          "deaths": 51,
+          "killFame": 10305408,
+          "players": 19,
+          "ip": 1514
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 31,
+          "deaths": 125,
+          "killFame": 9348427,
+          "players": 41,
+          "ip": 1519
+        },
+        {
+          "albionId": "4eeisqW1Qd6iB88NlWSaiA",
+          "name": "BallsOnYou",
+          "alliance": "CON",
+          "kills": 20,
+          "deaths": 17,
+          "killFame": 5569998,
+          "players": 8,
+          "ip": 1557
+        },
+        {
+          "albionId": "Jn3r9zbJRbaj-oKaK65vKA",
+          "name": "Blitz Baguette",
+          "kills": 15,
+          "deaths": 10,
+          "killFame": 4967401,
+          "players": 5,
+          "ip": 1428
+        },
+        {
+          "albionId": "QG5EcSgfSLWGfUtr6d5AWw",
+          "name": "Weaklings",
+          "alliance": "CON",
+          "kills": 17,
+          "deaths": 27,
+          "killFame": 4469768,
+          "players": 14,
+          "ip": 1427
+        },
+        {
+          "albionId": "kldZmWG3ThG4cstFj8nRBg",
+          "name": "Sincerity",
+          "alliance": "CRSE",
+          "kills": 17,
+          "deaths": 3,
+          "killFame": 3717620,
+          "players": 4,
+          "ip": 1533
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 9,
+          "deaths": 52,
+          "killFame": 3034133,
+          "players": 24,
+          "ip": 1516
+        },
+        {
+          "albionId": "6qu76pd6QCWueWE8FO856Q",
+          "name": "SkoZirys",
+          "alliance": "BLS",
+          "kills": 2,
+          "deaths": 3,
+          "killFame": 2995267,
+          "players": 3,
+          "ip": 1489
+        },
+        {
+          "albionId": "3Coj207lT1uZarJ9dVy49Q",
+          "name": "Judge",
+          "alliance": "LOVER",
+          "kills": 8,
+          "deaths": 2,
+          "killFame": 2210115,
+          "players": 1,
+          "ip": 1474
+        },
+        {
+          "albionId": "jK1waqoTSzuVLxk8FMq9Fw",
+          "name": "Bloody rain",
+          "alliance": "shiro",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 2123697,
+          "players": 1,
+          "ip": 1240
+        },
+        {
+          "albionId": "8pmXEVc7RveCJ0bRI19N1w",
+          "name": "Torgnoles et Grabuge",
+          "alliance": "CRSE",
+          "kills": 11,
+          "deaths": 10,
+          "killFame": 1593445,
+          "players": 4,
+          "ip": 1561
+        },
+        {
+          "albionId": "SXYMfl7_SAeGFmWw6DichA",
+          "name": "JOURNEY TOGETHER",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 1564611,
+          "players": 2,
+          "ip": 1358
+        },
+        {
+          "albionId": "gdpnTZvvTkWbMTKRyltcFw",
+          "name": "Dreaded Gankers",
+          "alliance": "RzGNK",
+          "kills": 3,
+          "deaths": 5,
+          "killFame": 1498391,
+          "players": 1,
+          "ip": 1558
+        },
+        {
+          "albionId": "Z_ohhQjxSMu_wPATaQ5odA",
+          "name": "RedWake",
+          "alliance": "BLS",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 929405,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 6,
+          "killFame": 790408,
+          "players": 2,
+          "ip": 1518
+        },
+        {
+          "albionId": "bN367NFoRou3ezveVb5wcg",
+          "name": "Braccus Rex",
+          "kills": 3,
+          "deaths": 4,
+          "killFame": 369993,
+          "players": 1,
+          "ip": 1187
+        },
+        {
+          "albionId": "1GyPArN8Sbu8gXMOtNYjTA",
+          "name": "La Rose Blanche",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 261440,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "kmJn2bq2Sqqzh-g7F4ezrQ",
+          "name": "Administration",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1188
+        },
+        {
+          "albionId": "PCccldBlTly1maPKppLpyQ",
+          "name": "Legion KaktyS",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1147
+        },
+        {
+          "albionId": "FMKNO1UgTVqu2EKe1XVIJA",
+          "name": "Venom Squad",
+          "alliance": "SIF",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 0
+        }
+      ],
+      "ownPlayers": [
+        "ASAIRAN",
+        "AminPaRaMoUnT",
+        "AngrYN",
+        "ESc4a",
+        "GODpori",
+        "Khalafkar",
+        "KingWolf9511",
+        "LibraJoker",
+        "Lostinu",
+        "MrEtanol",
+        "NOVA76",
+        "PSH9017",
+        "SaMFOrT",
+        "SkaiMaster",
+        "belgheys",
+        "chessmanm",
+        "guosthunter",
+        "khees",
+        "naruto021",
+        "night44",
+        "papaguy",
+        "prometheuss71",
+        "sobhanAA",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 452399833,
+      "startedAt": "2026-10-24T09:23:37.431Z",
+      "finishedAt": "2026-10-24T09:24:46.362Z",
+      "totalKills": 4,
+      "totalPlayers": 10,
+      "totalFame": 1382394,
+      "guilds": [
+        {
+          "albionId": "964QJqZuS5-jAigA56FYxw",
+          "name": "SZKODA OC",
+          "alliance": "PIEC",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 530243,
+          "players": 1,
+          "ip": 1277
+        },
+        {
+          "albionId": "xYBEvvFkTDSxFayaa0FJkA",
+          "name": "Inquisitors",
+          "kills": 2,
+          "deaths": 1,
+          "killFame": 530243,
+          "players": 1,
+          "ip": 1323
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 1,
+          "killFame": 321902,
+          "players": 7,
+          "ip": 1511
+        },
+        {
+          "albionId": "bJAYvKjLSJOlwm3LXSkEcA",
+          "name": "OBW Przyjaciele",
+          "alliance": "BAGNO",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1431
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "HEMO",
+        "MMFerii",
+        "SaMFOrT",
+        "SkaiMaster",
+        "TGamir",
+        "naruto021"
+      ]
+    },
+    {
+      "albionId": 452406933,
+      "startedAt": "2026-10-24T09:42:34.054Z",
+      "finishedAt": "2026-10-24T09:44:30.194Z",
+      "totalKills": 3,
+      "totalPlayers": 10,
+      "totalFame": 876874,
+      "guilds": [
+        {
+          "albionId": "omnlV_p7Rxi9SzLhUhIumQ",
+          "name": "Dark wolves",
+          "alliance": "K0SP",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 622393,
+          "players": 1,
+          "ip": 1341
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 1,
+          "killFame": 254480,
+          "players": 7,
+          "ip": 1511
+        },
+        {
+          "albionId": "gFjptITqSni2iMhd4kLcMg",
+          "name": "FBl",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1076
+        },
+        {
+          "albionId": "S4phyWIjQo64rnC7XJxStQ",
+          "name": "Prosektorium",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1109
+        }
+      ],
+      "ownPlayers": [
+        "AminPaRaMoUnT",
+        "GODpori",
+        "HEMO",
+        "MMFerii",
+        "SaMFOrT",
+        "SkaiMaster",
+        "guosthunter"
+      ]
+    },
+    {
+      "albionId": 452512483,
+      "startedAt": "2026-10-24T14:08:55.213Z",
+      "finishedAt": "2026-10-24T14:09:17.888Z",
+      "totalKills": 5,
+      "totalPlayers": 12,
+      "totalFame": 609453,
+      "guilds": [
+        {
+          "albionId": "964QJqZuS5-jAigA56FYxw",
+          "name": "SZKODA OC",
+          "alliance": "PIEC",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 481901,
+          "players": 5,
+          "ip": 1486
+        },
+        {
+          "albionId": "tCnriwxpTwKyx-MriZSJzQ",
+          "name": "SZKODA 0C",
+          "alliance": "PIEC",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 127544,
+          "players": 2,
+          "ip": 1478
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 5,
+          "killFame": 0,
+          "players": 5,
+          "ip": 1254
+        }
+      ],
+      "ownPlayers": [
+        "PSH9017",
+        "belgheys",
+        "chessmanm",
+        "guosthunter",
+        "sobhanAA"
+      ]
+    },
+    {
+      "albionId": 452654817,
+      "startedAt": "2026-10-24T18:37:01.91Z",
+      "finishedAt": "2026-10-24T18:37:31.296Z",
+      "totalKills": 12,
+      "totalPlayers": 32,
+      "totalFame": 2832621,
+      "guilds": [
+        {
+          "albionId": "4NAaJzy3Si665mc_ABpmkg",
+          "name": "I buy power",
+          "alliance": "1TAP",
+          "kills": 12,
+          "deaths": 0,
+          "killFame": 2832546,
+          "players": 20,
+          "ip": 1600
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 12,
+          "killFame": 0,
+          "players": 12,
+          "ip": 1404
+        }
+      ],
+      "ownPlayers": [
+        "AliSorena",
+        "ESc4a",
+        "GODpori",
+        "GODpori2",
+        "Khalafkar",
+        "KingWolf9511",
+        "LibraJoker",
+        "Lonewolf18",
+        "MrEtanol",
+        "TGamir",
+        "belgheys",
+        "night44"
+      ]
+    },
+    {
+      "albionId": 452860257,
+      "startedAt": "2026-10-25T02:24:59.985Z",
+      "finishedAt": "2026-10-25T02:26:40.34Z",
+      "totalKills": 5,
+      "totalPlayers": 10,
+      "totalFame": 536478,
+      "guilds": [
+        {
+          "albionId": "Ed3UJHwWSDqcYCsPsdUw7A",
+          "name": "The Highlanders Tavern",
+          "alliance": "GATE",
+          "kills": 5,
+          "deaths": 0,
+          "killFame": 536460,
+          "players": 5,
+          "ip": 1135
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 5,
+          "killFame": 0,
+          "players": 5,
+          "ip": 1158
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "MrEtanol",
+        "papaguy",
+        "sobhanAA",
+        "uXRedXu"
+      ]
+    },
+    {
+      "albionId": 452862610,
+      "startedAt": "2026-10-25T02:39:50.482Z",
+      "finishedAt": "2026-10-25T02:41:07.381Z",
+      "totalKills": 6,
+      "totalPlayers": 10,
+      "totalFame": 306375,
+      "guilds": [
+        {
+          "albionId": "Ed3UJHwWSDqcYCsPsdUw7A",
+          "name": "The Highlanders Tavern",
+          "alliance": "GATE",
+          "kills": 5,
+          "deaths": 1,
+          "killFame": 260920,
+          "players": 5,
+          "ip": 1135
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 5,
+          "killFame": 45440,
+          "players": 5,
+          "ip": 1148
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "MrEtanol",
+        "papaguy",
+        "sobhanAA",
+        "uXRedXu"
+      ]
+    },
+    {
+      "albionId": 453162269,
+      "startedAt": "2026-10-25T16:57:36.104Z",
+      "finishedAt": "2026-10-25T16:58:50.805Z",
+      "totalKills": 7,
+      "totalPlayers": 13,
+      "totalFame": 2706212,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 5,
+          "deaths": 2,
+          "killFame": 1682804,
+          "players": 7,
+          "ip": 1443
+        },
+        {
+          "albionId": "KqGlbFIARGSTllL4hsBnrg",
+          "name": "FAMILY OF HEFAJSTOS",
+          "alliance": "DIOR",
+          "kills": 1,
+          "deaths": 3,
+          "killFame": 741579,
+          "players": 3,
+          "ip": 1455
+        },
+        {
+          "albionId": "JYGwbKn3SdGdlldkPw1FuQ",
+          "name": "dark blade",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 281823,
+          "players": 3,
+          "ip": 1232
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "HEMO",
+        "SaMFOrT",
+        "belgheys",
+        "night44",
+        "papaguy",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453202128,
+      "startedAt": "2026-10-25T18:04:45.385Z",
+      "finishedAt": "2026-10-25T18:08:04.901Z",
+      "totalKills": 3,
+      "totalPlayers": 10,
+      "totalFame": 159162,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 159159,
+          "players": 7,
+          "ip": 1463
+        },
+        {
+          "albionId": "ThG0dFL_Rq6SwAPO_Z3iiQ",
+          "name": "Sons of Ultima",
+          "alliance": "TURKO",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1449
+        },
+        {
+          "albionId": "ITW6qVCsRUG5P_qPCX7Y_w",
+          "name": "Tainted",
+          "alliance": "Crown",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1166
+        }
+      ],
+      "ownPlayers": [
+        "DrMicrobe",
+        "ESc4a",
+        "GODpori",
+        "HEMO",
+        "PSH9017",
+        "guosthunter",
+        "night44"
+      ]
+    },
+    {
+      "albionId": 453300730,
+      "startedAt": "2026-10-25T20:44:04.848Z",
+      "finishedAt": "2026-10-25T20:47:41.899Z",
+      "totalKills": 9,
+      "totalPlayers": 21,
+      "totalFame": 167910,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 7,
+          "deaths": 0,
+          "killFame": 130954,
+          "players": 10,
+          "ip": 1283
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 21986,
+          "players": 3,
+          "ip": 1319
+        },
+        {
+          "albionId": "3jjRgyj_SIiLNvmhmWtnhQ",
+          "name": "3DangGang and Deena",
+          "alliance": "MG",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 7464,
+          "players": 1,
+          "ip": 933
+        },
+        {
+          "albionId": "LusHvqHlQGGOry-yksSrRQ",
+          "name": "Hightree Steep Gankers",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1055
+        },
+        {
+          "albionId": "HWX0T3G2TFSZ6Aij8k_yDA",
+          "name": "Txstar",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 982
+        },
+        {
+          "albionId": "FcgppHqSRBO7cqnIkTYpPQ",
+          "name": "PUSH OR DIE",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1107
+        },
+        {
+          "albionId": "WaZssbCXSJqt3diMAGtOZg",
+          "name": "Dusk Fall",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1187
+        },
+        {
+          "albionId": "acG7AUJsRh62mF7uCpLoJA",
+          "name": "Requiem Aeternam",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 900
+        }
+      ],
+      "ownPlayers": [
+        "DrMicrobe",
+        "Frosttknight",
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "belgheys",
+        "guosthunter",
+        "samuraii1983",
+        "sobhanAA",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453305834,
+      "startedAt": "2026-10-25T20:53:05.755Z",
+      "finishedAt": "2026-10-25T20:57:28.563Z",
+      "totalKills": 13,
+      "totalPlayers": 27,
+      "totalFame": 537642,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 4,
+          "deaths": 3,
+          "killFame": 191200,
+          "players": 11,
+          "ip": 1269
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 1,
+          "killFame": 119748,
+          "players": 5,
+          "ip": 1265
+        },
+        {
+          "albionId": "WaZssbCXSJqt3diMAGtOZg",
+          "name": "Dusk Fall",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 78057,
+          "players": 1,
+          "ip": 1166
+        },
+        {
+          "albionId": "ME1szN_VQwOi4LAU8NwJIA",
+          "name": "Black_Ravens",
+          "kills": 2,
+          "deaths": 3,
+          "killFame": 74820,
+          "players": 3,
+          "ip": 1272
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 38733,
+          "players": 2,
+          "ip": 1221
+        },
+        {
+          "albionId": "FcgppHqSRBO7cqnIkTYpPQ",
+          "name": "PUSH OR DIE",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1107
+        },
+        {
+          "albionId": "YW4eX38bS1K743gjfTYcmg",
+          "name": "mystary raiders",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 899
+        }
+      ],
+      "ownPlayers": [
+        "DrMicrobe",
+        "Frosttknight",
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "belgheys",
+        "guosthunter",
+        "samuraii1983",
+        "sobhanAA",
+        "sohrabsdc",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453313969,
+      "startedAt": "2026-10-25T21:07:50.065Z",
+      "finishedAt": "2026-10-25T21:08:06.203Z",
+      "totalKills": 4,
+      "totalPlayers": 17,
+      "totalFame": 80913,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 37030,
+          "players": 6,
+          "ip": 1252
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 27264,
+          "players": 4,
+          "ip": 1226
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 9766,
+          "players": 2,
+          "ip": 1151
+        },
+        {
+          "albionId": "hHyLyat5SsqTQEHodMrMJg",
+          "name": "Les Heritiers de L Ombre",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1151
+        },
+        {
+          "albionId": "8kEIbsRnQ9WBK0Bd6oo7xA",
+          "name": "Sons Of Neptune",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1050
+        }
+      ],
+      "ownPlayers": [
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "guosthunter",
+        "samuraii1983",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453319809,
+      "startedAt": "2026-10-25T21:18:06.981Z",
+      "finishedAt": "2026-10-25T21:19:33.66Z",
+      "totalKills": 8,
+      "totalPlayers": 22,
+      "totalFame": 489324,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 6,
+          "deaths": 0,
+          "killFame": 245321,
+          "players": 7,
+          "ip": 1279
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 165603,
+          "players": 5,
+          "ip": 1293
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 41841,
+          "players": 1,
+          "ip": 1151
+        },
+        {
+          "albionId": "zhgXCDFoQFS_IVosoGsxUA",
+          "name": "Utopia",
+          "alliance": "7UP",
+          "kills": 0,
+          "deaths": 7,
+          "killFame": 0,
+          "players": 7,
+          "ip": 1348
+        }
+      ],
+      "ownPlayers": [
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "guosthunter",
+        "samuraii1983",
+        "sohrabsdc",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453322887,
+      "startedAt": "2026-10-25T21:23:38.087Z",
+      "finishedAt": "2026-10-25T21:24:32.979Z",
+      "totalKills": 7,
+      "totalPlayers": 19,
+      "totalFame": 635124,
+      "guilds": [
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 248199,
+          "players": 5,
+          "ip": 1293
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 237188,
+          "players": 5,
+          "ip": 1230
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 51156,
+          "players": 1,
+          "ip": 1151
+        },
+        {
+          "albionId": "sCy5UNONTmCPVbU6qUPP3Q",
+          "name": "Revelacion",
+          "kills": 0,
+          "deaths": 4,
+          "killFame": 0,
+          "players": 4,
+          "ip": 1364
+        },
+        {
+          "albionId": "CLf7BZs4QP22w3aFq7FLMQ",
+          "name": "revelationss",
+          "alliance": "BFC",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1350
+        }
+      ],
+      "ownPlayers": [
+        "MrEtanol",
+        "guosthunter",
+        "samuraii1983",
+        "sohrabsdc",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453324494,
+      "startedAt": "2026-10-25T21:26:52.084Z",
+      "finishedAt": "2026-10-25T21:30:12.684Z",
+      "totalKills": 7,
+      "totalPlayers": 20,
+      "totalFame": 102672,
+      "guilds": [
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 43198,
+          "players": 5,
+          "ip": 1283
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 5,
+          "deaths": 0,
+          "killFame": 38448,
+          "players": 7,
+          "ip": 1269
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 6786,
+          "players": 1,
+          "ip": 1151
+        },
+        {
+          "albionId": "01gAgeBJTj2S0uJowd3X5A",
+          "name": "Void Walker",
+          "alliance": "SURGE",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1038
+        },
+        {
+          "albionId": "YW4eX38bS1K743gjfTYcmg",
+          "name": "mystary raiders",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 704
+        },
+        {
+          "albionId": "mtURBtmGQT6HkHyPsIqGSw",
+          "name": "Les Gars Du Fond",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1223
+        }
+      ],
+      "ownPlayers": [
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "guosthunter",
+        "samuraii1983",
+        "sohrabsdc",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453379792,
+      "startedAt": "2026-10-25T23:45:59.095Z",
+      "finishedAt": "2026-10-25T23:47:20.967Z",
+      "totalKills": 6,
+      "totalPlayers": 12,
+      "totalFame": 266693,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 6,
+          "deaths": 0,
+          "killFame": 266679,
+          "players": 6,
+          "ip": 1346
+        },
+        {
+          "albionId": "AB42vb-AR8yLegYFgvZydQ",
+          "name": "NoTag",
+          "alliance": "CLP",
+          "kills": 0,
+          "deaths": 6,
+          "killFame": 0,
+          "players": 6,
+          "ip": 1209
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "MMFerii",
+        "MrEtanol",
+        "SkaiMaster",
+        "guosthunter",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453384274,
+      "startedAt": "2026-10-26T00:01:24.887Z",
+      "finishedAt": "2026-10-26T00:02:10.388Z",
+      "totalKills": 5,
+      "totalPlayers": 12,
+      "totalFame": 355020,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 4,
+          "deaths": 1,
+          "killFame": 276536,
+          "players": 7,
+          "ip": 1410
+        },
+        {
+          "albionId": "ngoA8GQeS5qKw0MR-ILdAg",
+          "name": "Dipe",
+          "kills": 1,
+          "deaths": 3,
+          "killFame": 78480,
+          "players": 4,
+          "ip": 1372
+        },
+        {
+          "albionId": "mDtvYH5jS3SGeEnytrgcpg",
+          "name": "Damnatio Memoriae",
+          "alliance": "G104",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 906
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "MMFerii",
+        "MrEtanol",
+        "SkaiMaster",
+        "guosthunter",
+        "papaguy",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453388286,
+      "startedAt": "2026-10-26T00:16:37.806Z",
+      "finishedAt": "2026-10-26T00:17:34.542Z",
+      "totalKills": 3,
+      "totalPlayers": 11,
+      "totalFame": 52680,
+      "guilds": [
+        {
+          "albionId": "Q1ekvi6LSVGDWepEadeoAA",
+          "name": "ANY FIGHT",
+          "alliance": "RUST",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 35664,
+          "players": 4,
+          "ip": 996
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 17016,
+          "players": 6,
+          "ip": 1416
+        },
+        {
+          "albionId": "bN367NFoRou3ezveVb5wcg",
+          "name": "Braccus Rex",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1279
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "MMFerii",
+        "MrEtanol",
+        "SkaiMaster",
+        "guosthunter",
+        "papaguy"
+      ]
+    },
+    {
+      "albionId": 453400405,
+      "startedAt": "2026-10-26T01:12:11.774Z",
+      "finishedAt": "2026-10-26T01:12:59.583Z",
+      "totalKills": 8,
+      "totalPlayers": 18,
+      "totalFame": 2043823,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 7,
+          "deaths": 1,
+          "killFame": 2032350,
+          "players": 11,
+          "ip": 1398
+        },
+        {
+          "albionId": "CfL3y_IeTqOddbo8cWT8Yg",
+          "name": "KnightsOfCamelot",
+          "alliance": "SURGE",
+          "kills": 1,
+          "deaths": 7,
+          "killFame": 11448,
+          "players": 7,
+          "ip": 1474
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GODpori",
+        "MMFerii",
+        "MrEtanol",
+        "SkaiMaster",
+        "belgheys",
+        "guosthunter",
+        "night44",
+        "papaguy",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453522722,
+      "startedAt": "2026-10-26T12:34:57.891Z",
+      "finishedAt": "2026-10-26T12:38:21.69Z",
+      "totalKills": 5,
+      "totalPlayers": 10,
+      "totalFame": 600606,
+      "guilds": [
+        {
+          "albionId": "zhgXCDFoQFS_IVosoGsxUA",
+          "name": "Utopia",
+          "alliance": "7UP",
+          "kills": 3,
+          "deaths": 1,
+          "killFame": 429523,
+          "players": 4,
+          "ip": 1386
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 3,
+          "killFame": 171081,
+          "players": 5,
+          "ip": 1416
+        },
+        {
+          "albionId": "TEGRoqr2S0e961v0qEw-9w",
+          "name": "Unforg1ven",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1356
+        }
+      ],
+      "ownPlayers": [
+        "GODpori",
+        "HEMO",
+        "MMFerii",
+        "guosthunter",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453638537,
+      "startedAt": "2026-10-26T17:14:25.722Z",
+      "finishedAt": "2026-10-26T17:15:00.179Z",
+      "totalKills": 4,
+      "totalPlayers": 16,
+      "totalFame": 484028,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 4,
+          "deaths": 0,
+          "killFame": 484014,
+          "players": 12,
+          "ip": 1460
+        },
+        {
+          "albionId": "z1W3OA5TS5-b_mr4PgDQQw",
+          "name": "Humanity",
+          "alliance": "MASS",
+          "kills": 0,
+          "deaths": 4,
+          "killFame": 0,
+          "players": 4,
+          "ip": 1515
+        }
+      ],
+      "ownPlayers": [
+        "ADragon",
+        "GODpori",
+        "HEMO",
+        "MrEtanol",
+        "PSH9017",
+        "SkaiMaster",
+        "belgheys",
+        "guosthunter",
+        "khees",
+        "lifepaladian",
+        "sobhanAA",
+        "uXRedXu"
+      ]
+    },
+    {
+      "albionId": 453641090,
+      "startedAt": "2026-10-26T17:19:30.766Z",
+      "finishedAt": "2026-10-26T17:20:59.828Z",
+      "totalKills": 10,
+      "totalPlayers": 24,
+      "totalFame": 455430,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 10,
+          "deaths": 0,
+          "killFame": 455410,
+          "players": 14,
+          "ip": 1449
+        },
+        {
+          "albionId": "AB42vb-AR8yLegYFgvZydQ",
+          "name": "NoTag",
+          "alliance": "CLP",
+          "kills": 0,
+          "deaths": 10,
+          "killFame": 0,
+          "players": 10,
+          "ip": 1174
+        }
+      ],
+      "ownPlayers": [
+        "ADragon",
+        "GODpori",
+        "GODpori2",
+        "HEMO",
+        "MrEtanol",
+        "PSH9017",
+        "SkaiMaster",
+        "belgheys",
+        "guosthunter",
+        "irarcu",
+        "khees",
+        "sobhanAA",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453665381,
+      "startedAt": "2026-10-26T18:07:15.455Z",
+      "finishedAt": "2026-10-26T18:08:25.357Z",
+      "totalKills": 3,
+      "totalPlayers": 10,
+      "totalFame": 75234,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 75228,
+          "players": 7,
+          "ip": 1438
+        },
+        {
+          "albionId": "AB42vb-AR8yLegYFgvZydQ",
+          "name": "NoTag",
+          "alliance": "CLP",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1124
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GODpori",
+        "GODpori2",
+        "MrEtanol",
+        "SkaiMaster",
+        "guosthunter",
+        "irarcu"
+      ]
+    },
+    {
+      "albionId": 453751830,
+      "startedAt": "2026-10-26T20:39:55.532Z",
+      "finishedAt": "2026-10-26T21:04:52.616Z",
+      "totalKills": 211,
+      "totalPlayers": 289,
+      "totalFame": 98776350,
+      "guilds": [
+        {
+          "albionId": "r7CnbU8pTSGCwDbb847cNg",
+          "name": "Mile High Club",
+          "alliance": "YNC",
+          "kills": 21,
+          "deaths": 20,
+          "killFame": 21995916,
+          "players": 21,
+          "ip": 1462
+        },
+        {
+          "albionId": "7JZANN-BTH6QK5uSiCsQ1A",
+          "name": "Stability",
+          "alliance": "YNC",
+          "kills": 58,
+          "deaths": 40,
+          "killFame": 20858194,
+          "players": 45,
+          "ip": 1569
+        },
+        {
+          "albionId": "pQZuXCEeS6i7LWtmK7j1TQ",
+          "name": "Sand Syndicate",
+          "kills": 35,
+          "deaths": 11,
+          "killFame": 11817482,
+          "players": 51,
+          "ip": 1559
+        },
+        {
+          "albionId": "OXTibkjOQKax0ku0NjbTWQ",
+          "name": "Projet X",
+          "alliance": "CON",
+          "kills": 17,
+          "deaths": 18,
+          "killFame": 11399581,
+          "players": 25,
+          "ip": 1453
+        },
+        {
+          "albionId": "PlSJAMMpQr2KvwEU44HzNw",
+          "name": "Vendetta",
+          "alliance": "CON",
+          "kills": 22,
+          "deaths": 15,
+          "killFame": 10266172,
+          "players": 33,
+          "ip": 1525
+        },
+        {
+          "albionId": "QXjRt-MfQuCXRzBrBZobdg",
+          "name": "Panda Corp",
+          "alliance": "CON",
+          "kills": 25,
+          "deaths": 18,
+          "killFame": 9346139,
+          "players": 19,
+          "ip": 1539
+        },
+        {
+          "albionId": "kldZmWG3ThG4cstFj8nRBg",
+          "name": "Sincerity",
+          "alliance": "CRSE",
+          "kills": 9,
+          "deaths": 2,
+          "killFame": 3330936,
+          "players": 7,
+          "ip": 1588
+        },
+        {
+          "albionId": "4eeisqW1Qd6iB88NlWSaiA",
+          "name": "BallsOnYou",
+          "alliance": "CON",
+          "kills": 4,
+          "deaths": 1,
+          "killFame": 2484730,
+          "players": 5,
+          "ip": 1415
+        },
+        {
+          "albionId": "JAXEft40S2KtRp5gCKWrdA",
+          "name": "Les Templiers FR",
+          "alliance": "CRSE",
+          "kills": 7,
+          "deaths": 41,
+          "killFame": 2125283,
+          "players": 29,
+          "ip": 1520
+        },
+        {
+          "albionId": "v2MpQ8pcQSO8DIkhhCPZZA",
+          "name": "NoRules",
+          "alliance": "CON",
+          "kills": 3,
+          "deaths": 3,
+          "killFame": 1502338,
+          "players": 10,
+          "ip": 1541
+        },
+        {
+          "albionId": "c20rjoeAQIuzotUMPeV80A",
+          "name": "RatCompany",
+          "alliance": "RAAT",
+          "kills": 3,
+          "deaths": 1,
+          "killFame": 803842,
+          "players": 1,
+          "ip": 1281
+        },
+        {
+          "albionId": "6qu76pd6QCWueWE8FO856Q",
+          "name": "SkoZirys",
+          "alliance": "BLS",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 475848,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "Q0ovY4HkS_yCbFqyn-Yq7g",
+          "name": "Swipe",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 9,
+          "killFame": 446464,
+          "players": 10,
+          "ip": 1478
+        },
+        {
+          "albionId": "xhwaa6M6RtO4kk_8HEGTYA",
+          "name": "I-DEJAVU-I",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 6,
+          "killFame": 414632,
+          "players": 10,
+          "ip": 1446
+        },
+        {
+          "albionId": "owmgFES9RFmmNm1TC8ffIg",
+          "name": "Mighty Goat",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 161916,
+          "players": 3,
+          "ip": 1465
+        },
+        {
+          "albionId": "8pmXEVc7RveCJ0bRI19N1w",
+          "name": "Torgnoles et Grabuge",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 15727,
+          "players": 1,
+          "ip": 1437
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 0,
+          "deaths": 21,
+          "killFame": 0,
+          "players": 16,
+          "ip": 1515
+        }
+      ],
+      "ownPlayers": [
+        "DrMicrobe",
+        "ESc4a",
+        "Frosttknight",
+        "GODpori2",
+        "Khalafkar",
+        "Lostinu",
+        "Meghdad",
+        "MrEtanol",
+        "NotOnlyButAlso",
+        "SkaiMaster",
+        "TGamir",
+        "belgheys",
+        "night44",
+        "papaguy",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453793330,
+      "startedAt": "2026-10-26T22:03:36.799Z",
+      "finishedAt": "2026-10-26T22:04:59.663Z",
+      "totalKills": 7,
+      "totalPlayers": 18,
+      "totalFame": 603240,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 5,
+          "deaths": 2,
+          "killFame": 400990,
+          "players": 12,
+          "ip": 1381
+        },
+        {
+          "albionId": "Q6YI4qpUSUqI3UTY-Ir8sw",
+          "name": "VIAGR4 PLUS",
+          "kills": 1,
+          "deaths": 3,
+          "killFame": 151662,
+          "players": 4,
+          "ip": 1367
+        },
+        {
+          "albionId": "q2SoYGK2ShCaBMuyGv_Y8Q",
+          "name": "MISS CLICK",
+          "alliance": "mrrr",
+          "kills": 1,
+          "deaths": 1,
+          "killFame": 50554,
+          "players": 1,
+          "ip": 1470
+        },
+        {
+          "albionId": "sjo2D7ELSY68GIm59tsYxg",
+          "name": "Bandits",
+          "alliance": "GABA",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1404
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GTRraven",
+        "HEMO",
+        "Khalafkar",
+        "MMFerii",
+        "Meghdad",
+        "MrEtanol",
+        "belgheys",
+        "guosthunter",
+        "night44",
+        "papaguy",
+        "uXRedXu"
+      ]
+    },
+    {
+      "albionId": 453796168,
+      "startedAt": "2026-10-26T22:10:02.67Z",
+      "finishedAt": "2026-10-26T22:11:50.149Z",
+      "totalKills": 6,
+      "totalPlayers": 20,
+      "totalFame": 549363,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 6,
+          "deaths": 0,
+          "killFame": 549332,
+          "players": 14,
+          "ip": 1374
+        },
+        {
+          "albionId": "sjo2D7ELSY68GIm59tsYxg",
+          "name": "Bandits",
+          "alliance": "GABA",
+          "kills": 0,
+          "deaths": 5,
+          "killFame": 0,
+          "players": 5,
+          "ip": 1429
+        },
+        {
+          "albionId": "s5NTpUKZT-ymvf1LumRc8w",
+          "name": "Orden_NitroEx",
+          "alliance": "Pocho",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1080
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GTRraven",
+        "HEMO",
+        "Khalafkar",
+        "MMFerii",
+        "Meghdad",
+        "MrEtanol",
+        "TGamir",
+        "belgheys",
+        "guosthunter",
+        "night44",
+        "papaguy",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453798193,
+      "startedAt": "2026-10-26T22:15:04.011Z",
+      "finishedAt": "2026-10-26T22:19:19.452Z",
+      "totalKills": 11,
+      "totalPlayers": 34,
+      "totalFame": 1336868,
+      "guilds": [
+        {
+          "albionId": "sjo2D7ELSY68GIm59tsYxg",
+          "name": "Bandits",
+          "alliance": "GABA",
+          "kills": 2,
+          "deaths": 5,
+          "killFame": 741203,
+          "players": 14,
+          "ip": 1348
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 8,
+          "deaths": 3,
+          "killFame": 489125,
+          "players": 15,
+          "ip": 1407
+        },
+        {
+          "albionId": "Q6YI4qpUSUqI3UTY-Ir8sw",
+          "name": "VIAGR4 PLUS",
+          "kills": 0,
+          "deaths": 2,
+          "killFame": 76362,
+          "players": 3,
+          "ip": 1428
+        },
+        {
+          "albionId": "q2SoYGK2ShCaBMuyGv_Y8Q",
+          "name": "MISS CLICK",
+          "alliance": "mrrr",
+          "kills": 1,
+          "deaths": 1,
+          "killFame": 25454,
+          "players": 1,
+          "ip": 1470
+        },
+        {
+          "albionId": "7JZANN-BTH6QK5uSiCsQ1A",
+          "name": "Stability",
+          "alliance": "YNC",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 4647,
+          "players": 1,
+          "ip": 0
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GTRraven",
+        "HEMO",
+        "Khalafkar",
+        "MMFerii",
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "TGamir",
+        "belgheys",
+        "guosthunter",
+        "night44",
+        "papaguy",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453801053,
+      "startedAt": "2026-10-26T22:21:34.031Z",
+      "finishedAt": "2026-10-26T22:26:37.181Z",
+      "totalKills": 10,
+      "totalPlayers": 39,
+      "totalFame": 1401701,
+      "guilds": [
+        {
+          "albionId": "sjo2D7ELSY68GIm59tsYxg",
+          "name": "Bandits",
+          "alliance": "GABA",
+          "kills": 5,
+          "deaths": 4,
+          "killFame": 688269,
+          "players": 18,
+          "ip": 1358
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 5,
+          "deaths": 1,
+          "killFame": 666693,
+          "players": 15,
+          "ip": 1429
+        },
+        {
+          "albionId": "7JZANN-BTH6QK5uSiCsQ1A",
+          "name": "Stability",
+          "alliance": "YNC",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 46692,
+          "players": 1,
+          "ip": 1214
+        },
+        {
+          "albionId": "q2SoYGK2ShCaBMuyGv_Y8Q",
+          "name": "MISS CLICK",
+          "alliance": "mrrr",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1470
+        },
+        {
+          "albionId": "95VpWaVRTBuiBAw4XVvpZw",
+          "name": "Skoggangr",
+          "alliance": "ZOUZ",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1212
+        },
+        {
+          "albionId": "Q6YI4qpUSUqI3UTY-Ir8sw",
+          "name": "VIAGR4 PLUS",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1427
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GTRraven",
+        "HEMO",
+        "Khalafkar",
+        "MMFerii",
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "TGamir",
+        "belgheys",
+        "guosthunter",
+        "night44",
+        "papaguy",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453805886,
+      "startedAt": "2026-10-26T22:32:51.454Z",
+      "finishedAt": "2026-10-26T22:33:13.942Z",
+      "totalKills": 3,
+      "totalPlayers": 19,
+      "totalFame": 231324,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 3,
+          "deaths": 0,
+          "killFame": 216840,
+          "players": 15,
+          "ip": 1391
+        },
+        {
+          "albionId": "7JZANN-BTH6QK5uSiCsQ1A",
+          "name": "Stability",
+          "alliance": "YNC",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 14456,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "sjo2D7ELSY68GIm59tsYxg",
+          "name": "Bandits",
+          "alliance": "GABA",
+          "kills": 0,
+          "deaths": 3,
+          "killFame": 0,
+          "players": 3,
+          "ip": 1309
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GTRraven",
+        "HEMO",
+        "Khalafkar",
+        "MMFerii",
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "TGamir",
+        "belgheys",
+        "guosthunter",
+        "night44",
+        "papaguy",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453807207,
+      "startedAt": "2026-10-26T22:36:02.112Z",
+      "finishedAt": "2026-10-26T22:37:54.698Z",
+      "totalKills": 3,
+      "totalPlayers": 35,
+      "totalFame": 217797,
+      "guilds": [
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 2,
+          "deaths": 0,
+          "killFame": 174330,
+          "players": 15,
+          "ip": 1407
+        },
+        {
+          "albionId": "sjo2D7ELSY68GIm59tsYxg",
+          "name": "Bandits",
+          "alliance": "GABA",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 31824,
+          "players": 18,
+          "ip": 1382
+        },
+        {
+          "albionId": "7JZANN-BTH6QK5uSiCsQ1A",
+          "name": "Stability",
+          "alliance": "YNC",
+          "kills": 0,
+          "deaths": 0,
+          "killFame": 11622,
+          "players": 1,
+          "ip": 0
+        },
+        {
+          "albionId": "AcdichDzSzOb27q4fGzyow",
+          "name": "The Tanks",
+          "alliance": "PSDK",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1042
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GTRraven",
+        "HEMO",
+        "Khalafkar",
+        "MMFerii",
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "TGamir",
+        "belgheys",
+        "guosthunter",
+        "night44",
+        "papaguy",
+        "uXRedXu",
+        "wxsp"
+      ]
+    },
+    {
+      "albionId": 453814787,
+      "startedAt": "2026-10-26T22:57:08.91Z",
+      "finishedAt": "2026-10-26T22:57:54.888Z",
+      "totalKills": 5,
+      "totalPlayers": 35,
+      "totalFame": 1320756,
+      "guilds": [
+        {
+          "albionId": "sjo2D7ELSY68GIm59tsYxg",
+          "name": "Bandits",
+          "alliance": "GABA",
+          "kills": 3,
+          "deaths": 2,
+          "killFame": 785648,
+          "players": 20,
+          "ip": 1414
+        },
+        {
+          "albionId": "SF2Zf4PrRsmdBAL5PaBV_A",
+          "name": "OneUP",
+          "alliance": "CRSE",
+          "kills": 1,
+          "deaths": 2,
+          "killFame": 496847,
+          "players": 13,
+          "ip": 1419
+        },
+        {
+          "albionId": "7JZANN-BTH6QK5uSiCsQ1A",
+          "name": "Stability",
+          "alliance": "YNC",
+          "kills": 1,
+          "deaths": 0,
+          "killFame": 38219,
+          "players": 1,
+          "ip": 1325
+        },
+        {
+          "albionId": "95VpWaVRTBuiBAw4XVvpZw",
+          "name": "Skoggangr",
+          "alliance": "ZOUZ",
+          "kills": 0,
+          "deaths": 1,
+          "killFame": 0,
+          "players": 1,
+          "ip": 1206
+        }
+      ],
+      "ownPlayers": [
+        "ESc4a",
+        "GTRraven",
+        "HEMO",
+        "Khalafkar",
+        "Meghdad",
+        "MrEtanol",
+        "SkaiMaster",
+        "TGamir",
+        "belgheys",
+        "guosthunter",
+        "night44",
+        "papaguy",
+        "wxsp"
+      ]
     }
   ],
   "verifiedCombined": [
+    {
+      "ids": [
+        453796168,
+        453798193,
+        453801053,
+        453805886,
+        453807207,
+        453814787
+      ],
+      "kills": 25,
+      "deaths": 6,
+      "sourceUrl": "https://api.albionbb.com/eu/battles/multi?ids=453796168,453798193,453801053,453805886,453807207,453814787"
+    },
+    {
+      "ids": [
+        451688860,
+        451700126
+      ],
+      "kills": 9,
+      "deaths": 24,
+      "sourceUrl": "https://api.albionbb.com/eu/battles/multi?ids=451688860,451700126"
+    },
+    {
+      "ids": [
+        451559225,
+        451566797
+      ],
+      "kills": 5,
+      "deaths": 0,
+      "sourceUrl": "https://api.albionbb.com/eu/battles/multi?ids=451559225,451566797"
+    },
+    {
+      "ids": [
+        451136067,
+        451136455
+      ],
+      "kills": 9,
+      "deaths": 9,
+      "sourceUrl": "https://api.albionbb.com/eu/battles/multi?ids=451136067,451136455"
+    },
+    {
+      "ids": [
+        450809577,
+        450816674,
+        450829321
+      ],
+      "kills": 2,
+      "deaths": 33,
+      "sourceUrl": "https://api.albionbb.com/eu/battles/multi?ids=450809577,450816674,450829321"
+    },
     {
       "ids": [
         449763246,

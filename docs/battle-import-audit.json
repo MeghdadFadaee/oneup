@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-18T18:19:13.582Z",
+  "scannedAt": "2026-10-26T23:14:15.663Z",
   "guildId": "SF2Zf4PrRsmdBAL5PaBV_A",
   "sourceUrl": "https://europe.albionbb.com/guilds/SF2Zf4PrRsmdBAL5PaBV_A/battles",
   "filters": {
@@ -16,12 +16,1057 @@
     "minGuildEvents": 5,
     "minGuildFame": 1000000
   },
-  "scannedBattles": 631,
-  "importedReports": 164,
-  "importedEngagements": 241,
-  "combinedReports": 45,
-  "verifiedCombinedReports": 45,
+  "scannedBattles": 689,
+  "importedReports": 184,
+  "importedEngagements": 271,
+  "combinedReports": 50,
+  "verifiedCombinedReports": 50,
   "decisions": [
+    {
+      "ids": [
+        453796168,
+        453798193,
+        453801053,
+        453805886,
+        453807207,
+        453814787
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-26T22:10:02.67Z",
+      "finishedAt": "2026-10-26T22:57:54.888Z",
+      "peakGuildPlayers": 15,
+      "killFame": 2593167,
+      "report": {
+        "title": {
+          "en": "OneUP · Bandits / VIAGR4 PLUS · 22:10 UTC",
+          "fa": "وان‌آپ · Bandits / VIAGR4 PLUS · 22:10 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/multi?ids=453796168,453798193,453801053,453805886,453807207,453814787",
+        "outcome": "recorded",
+        "kills": 25,
+        "deaths": 6
+      }
+    },
+    {
+      "ids": [
+        453793330
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-26T22:03:36.799Z",
+      "finishedAt": "2026-10-26T22:04:59.663Z",
+      "peakGuildPlayers": 12,
+      "killFame": 400990,
+      "report": {
+        "title": {
+          "en": "OneUP · VIAGR4 PLUS / Bandits · 22:03 UTC",
+          "fa": "وان‌آپ · VIAGR4 PLUS / Bandits · 22:03 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/453793330",
+        "outcome": "recorded",
+        "kills": 5,
+        "deaths": 2
+      }
+    },
+    {
+      "ids": [
+        453751830
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-26T20:39:55.532Z",
+      "finishedAt": "2026-10-26T21:04:52.616Z",
+      "peakGuildPlayers": 16,
+      "killFame": 0,
+      "report": {
+        "title": {
+          "en": "OneUP · Sand Syndicate / Stability · 20:39 UTC",
+          "fa": "وان‌آپ · Sand Syndicate / Stability · 20:39 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/453751830",
+        "outcome": "recorded",
+        "kills": 0,
+        "deaths": 21
+      }
+    },
+    {
+      "ids": [
+        453665381
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-26T18:07:15.455Z",
+      "finishedAt": "2026-10-26T18:08:25.357Z",
+      "peakGuildPlayers": 7,
+      "killFame": 75228,
+      "report": {
+        "title": {
+          "en": "OneUP · NoTag · 18:07 UTC",
+          "fa": "وان‌آپ · NoTag · 18:07 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/453665381",
+        "outcome": "recorded",
+        "kills": 3,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453641090
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-26T17:19:30.766Z",
+      "finishedAt": "2026-10-26T17:20:59.828Z",
+      "peakGuildPlayers": 14,
+      "killFame": 455410,
+      "report": {
+        "title": {
+          "en": "OneUP · NoTag · 17:19 UTC",
+          "fa": "وان‌آپ · NoTag · 17:19 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/453641090",
+        "outcome": "recorded",
+        "kills": 10,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453638537
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-26T17:14:25.722Z",
+      "finishedAt": "2026-10-26T17:15:00.179Z",
+      "peakGuildPlayers": 12,
+      "killFame": 484014,
+      "report": {
+        "title": {
+          "en": "OneUP · Humanity · 17:14 UTC",
+          "fa": "وان‌آپ · Humanity · 17:14 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/453638537",
+        "outcome": "recorded",
+        "kills": 4,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453522722
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-26T12:34:57.891Z",
+      "finishedAt": "2026-10-26T12:38:21.690Z",
+      "peakGuildPlayers": 5,
+      "killFame": 171081,
+      "report": {
+        "title": {
+          "en": "OneUP · Utopia / Unforg1ven · 12:34 UTC",
+          "fa": "وان‌آپ · Utopia / Unforg1ven · 12:34 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/453522722",
+        "outcome": "recorded",
+        "kills": 2,
+        "deaths": 3
+      }
+    },
+    {
+      "ids": [
+        453400405
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-26T01:12:11.774Z",
+      "finishedAt": "2026-10-26T01:12:59.583Z",
+      "peakGuildPlayers": 11,
+      "killFame": 2032350,
+      "report": {
+        "title": {
+          "en": "OneUP · KnightsOfCamelot · 01:12 UTC",
+          "fa": "وان‌آپ · KnightsOfCamelot · 01:12 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/453400405",
+        "outcome": "recorded",
+        "kills": 7,
+        "deaths": 1
+      }
+    },
+    {
+      "ids": [
+        453388286
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-26T00:16:37.806Z",
+      "finishedAt": "2026-10-26T00:17:34.542Z",
+      "peakGuildPlayers": 6,
+      "killFame": 17016,
+      "report": {
+        "title": {
+          "en": "OneUP · ANY FIGHT / Braccus Rex · 00:16 UTC",
+          "fa": "وان‌آپ · ANY FIGHT / Braccus Rex · 00:16 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/453388286",
+        "outcome": "recorded",
+        "kills": 2,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453384274
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-26T00:01:24.887Z",
+      "finishedAt": "2026-10-26T00:02:10.388Z",
+      "peakGuildPlayers": 7,
+      "killFame": 276536,
+      "report": {
+        "title": {
+          "en": "OneUP · Dipe / Damnatio Memoriae · 00:01 UTC",
+          "fa": "وان‌آپ · Dipe / Damnatio Memoriae · 00:01 UTC"
+        },
+        "date": "2026-10-26",
+        "url": "https://europe.albionbb.com/battles/453384274",
+        "outcome": "recorded",
+        "kills": 4,
+        "deaths": 1
+      }
+    },
+    {
+      "ids": [
+        453379792
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-25T23:45:59.095Z",
+      "finishedAt": "2026-10-25T23:47:20.967Z",
+      "peakGuildPlayers": 6,
+      "killFame": 266679,
+      "report": {
+        "title": {
+          "en": "OneUP · NoTag · 23:45 UTC",
+          "fa": "وان‌آپ · NoTag · 23:45 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/453379792",
+        "outcome": "recorded",
+        "kills": 6,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453324494
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-25T21:26:52.084Z",
+      "finishedAt": "2026-10-25T21:30:12.684Z",
+      "peakGuildPlayers": 7,
+      "killFame": 38448,
+      "report": {
+        "title": {
+          "en": "OneUP · Les Gars Du Fond / mystary raiders · 21:26 UTC",
+          "fa": "وان‌آپ · Les Gars Du Fond / mystary raiders · 21:26 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/453324494",
+        "outcome": "recorded",
+        "kills": 5,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453322887
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-25T21:23:38.087Z",
+      "finishedAt": "2026-10-25T21:24:32.979Z",
+      "peakGuildPlayers": 5,
+      "killFame": 237188,
+      "report": {
+        "title": {
+          "en": "OneUP · Revelacion / revelationss · 21:23 UTC",
+          "fa": "وان‌آپ · Revelacion / revelationss · 21:23 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/453322887",
+        "outcome": "recorded",
+        "kills": 3,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453319809
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-25T21:18:06.981Z",
+      "finishedAt": "2026-10-25T21:19:33.660Z",
+      "peakGuildPlayers": 7,
+      "killFame": 245321,
+      "report": {
+        "title": {
+          "en": "OneUP · Utopia · 21:18 UTC",
+          "fa": "وان‌آپ · Utopia · 21:18 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/453319809",
+        "outcome": "recorded",
+        "kills": 6,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453313969
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-25T21:07:50.065Z",
+      "finishedAt": "2026-10-25T21:08:06.203Z",
+      "peakGuildPlayers": 6,
+      "killFame": 37030,
+      "report": {
+        "title": {
+          "en": "OneUP · Sons Of Neptune / Les Heritiers de L Ombre · 21:07 UTC",
+          "fa": "وان‌آپ · Sons Of Neptune / Les Heritiers de L Ombre · 21:07 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/453313969",
+        "outcome": "recorded",
+        "kills": 3,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453305834
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-25T20:53:05.755Z",
+      "finishedAt": "2026-10-25T20:57:28.563Z",
+      "peakGuildPlayers": 11,
+      "killFame": 191200,
+      "report": {
+        "title": {
+          "en": "OneUP · Black_Ravens / Dusk Fall · 20:53 UTC",
+          "fa": "وان‌آپ · Black_Ravens / Dusk Fall · 20:53 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/453305834",
+        "outcome": "recorded",
+        "kills": 4,
+        "deaths": 3
+      }
+    },
+    {
+      "ids": [
+        453300730
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-25T20:44:04.848Z",
+      "finishedAt": "2026-10-25T20:47:41.899Z",
+      "peakGuildPlayers": 10,
+      "killFame": 130954,
+      "report": {
+        "title": {
+          "en": "OneUP · 3DangGang and Deena / Dusk Fall · 20:44 UTC",
+          "fa": "وان‌آپ · 3DangGang and Deena / Dusk Fall · 20:44 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/453300730",
+        "outcome": "recorded",
+        "kills": 7,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453202128
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-25T18:04:45.385Z",
+      "finishedAt": "2026-10-25T18:08:04.901Z",
+      "peakGuildPlayers": 7,
+      "killFame": 159159,
+      "report": {
+        "title": {
+          "en": "OneUP · Sons of Ultima / Tainted · 18:04 UTC",
+          "fa": "وان‌آپ · Sons of Ultima / Tainted · 18:04 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/453202128",
+        "outcome": "recorded",
+        "kills": 3,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        453162269
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-25T16:57:36.104Z",
+      "finishedAt": "2026-10-25T16:58:50.805Z",
+      "peakGuildPlayers": 7,
+      "killFame": 1682804,
+      "report": {
+        "title": {
+          "en": "OneUP · dark blade / FAMILY OF HEFAJSTOS · 16:57 UTC",
+          "fa": "وان‌آپ · dark blade / FAMILY OF HEFAJSTOS · 16:57 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/453162269",
+        "outcome": "recorded",
+        "kills": 5,
+        "deaths": 2
+      }
+    },
+    {
+      "ids": [
+        452860257,
+        452862610
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-25T02:24:59.985Z",
+      "finishedAt": "2026-10-25T02:41:07.381Z",
+      "peakGuildPlayers": 5,
+      "killFame": 45440,
+      "report": {
+        "title": {
+          "en": "OneUP · The Highlanders Tavern · 02:24 UTC",
+          "fa": "وان‌آپ · The Highlanders Tavern · 02:24 UTC"
+        },
+        "date": "2026-10-25",
+        "url": "https://europe.albionbb.com/battles/multi?ids=452860257,452862610",
+        "outcome": "recorded",
+        "kills": 1,
+        "deaths": 10
+      }
+    },
+    {
+      "ids": [
+        452654817
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-24T18:37:01.91Z",
+      "finishedAt": "2026-10-24T18:37:31.296Z",
+      "peakGuildPlayers": 12,
+      "killFame": 0,
+      "report": {
+        "title": {
+          "en": "OneUP · I buy power · 18:37 UTC",
+          "fa": "وان‌آپ · I buy power · 18:37 UTC"
+        },
+        "date": "2026-10-24",
+        "url": "https://europe.albionbb.com/battles/452654817",
+        "outcome": "recorded",
+        "kills": 0,
+        "deaths": 12
+      }
+    },
+    {
+      "ids": [
+        452512483
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-24T14:08:55.213Z",
+      "finishedAt": "2026-10-24T14:09:17.888Z",
+      "peakGuildPlayers": 5,
+      "killFame": 0,
+      "report": {
+        "title": {
+          "en": "OneUP · SZKODA OC / SZKODA 0C · 14:08 UTC",
+          "fa": "وان‌آپ · SZKODA OC / SZKODA 0C · 14:08 UTC"
+        },
+        "date": "2026-10-24",
+        "url": "https://europe.albionbb.com/battles/452512483",
+        "outcome": "recorded",
+        "kills": 0,
+        "deaths": 5
+      }
+    },
+    {
+      "ids": [
+        452406933
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-24T09:42:34.054Z",
+      "finishedAt": "2026-10-24T09:44:30.194Z",
+      "peakGuildPlayers": 7,
+      "killFame": 254480,
+      "report": {
+        "title": {
+          "en": "OneUP · Dark wolves / FBl · 09:42 UTC",
+          "fa": "وان‌آپ · Dark wolves / FBl · 09:42 UTC"
+        },
+        "date": "2026-10-24",
+        "url": "https://europe.albionbb.com/battles/452406933",
+        "outcome": "recorded",
+        "kills": 2,
+        "deaths": 1
+      }
+    },
+    {
+      "ids": [
+        452399833
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-24T09:23:37.431Z",
+      "finishedAt": "2026-10-24T09:24:46.362Z",
+      "peakGuildPlayers": 7,
+      "killFame": 321902,
+      "report": {
+        "title": {
+          "en": "OneUP · Inquisitors / OBW Przyjaciele · 09:23 UTC",
+          "fa": "وان‌آپ · Inquisitors / OBW Przyjaciele · 09:23 UTC"
+        },
+        "date": "2026-10-24",
+        "url": "https://europe.albionbb.com/battles/452399833",
+        "outcome": "recorded",
+        "kills": 2,
+        "deaths": 1
+      }
+    },
+    {
+      "ids": [
+        452168156
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-23T20:09:18.988Z",
+      "finishedAt": "2026-10-23T20:58:24.937Z",
+      "peakGuildPlayers": 24,
+      "killFame": 3034133,
+      "report": {
+        "title": {
+          "en": "OneUP · Vendetta / Projet X · 20:09 UTC",
+          "fa": "وان‌آپ · Vendetta / Projet X · 20:09 UTC"
+        },
+        "date": "2026-10-23",
+        "url": "https://europe.albionbb.com/battles/452168156",
+        "outcome": "recorded",
+        "kills": 9,
+        "deaths": 52
+      }
+    },
+    {
+      "ids": [
+        451950361
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-23T13:19:58.663Z",
+      "finishedAt": "2026-10-23T13:22:36.734Z",
+      "peakGuildPlayers": 13,
+      "killFame": 1647522,
+      "report": {
+        "title": {
+          "en": "OneUP · Weaklings / Stability · 13:19 UTC",
+          "fa": "وان‌آپ · Weaklings / Stability · 13:19 UTC"
+        },
+        "date": "2026-10-23",
+        "url": "https://europe.albionbb.com/battles/451950361",
+        "outcome": "recorded",
+        "kills": 6,
+        "deaths": 10
+      }
+    },
+    {
+      "ids": [
+        451941261
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-23T12:58:35.973Z",
+      "finishedAt": "2026-10-23T12:59:26.932Z",
+      "peakGuildPlayers": 11,
+      "killFame": 0,
+      "report": {
+        "title": {
+          "en": "OneUP · Weaklings · 12:58 UTC",
+          "fa": "وان‌آپ · Weaklings · 12:58 UTC"
+        },
+        "date": "2026-10-23",
+        "url": "https://europe.albionbb.com/battles/451941261",
+        "outcome": "recorded",
+        "kills": 0,
+        "deaths": 11
+      }
+    },
+    {
+      "ids": [
+        451738632
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-22T21:41:44.218Z",
+      "finishedAt": "2026-10-22T21:45:27.420Z",
+      "peakGuildPlayers": 18,
+      "killFame": 1703092,
+      "report": {
+        "title": {
+          "en": "OneUP · Weaklings / Bandits · 21:41 UTC",
+          "fa": "وان‌آپ · Weaklings / Bandits · 21:41 UTC"
+        },
+        "date": "2026-10-22",
+        "url": "https://europe.albionbb.com/battles/451738632",
+        "outcome": "recorded",
+        "kills": 8,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        451688860,
+        451700126
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-22T20:11:13.697Z",
+      "finishedAt": "2026-10-22T20:46:51.273Z",
+      "peakGuildPlayers": 28,
+      "killFame": 6304274,
+      "report": {
+        "title": {
+          "en": "OneUP · Vendetta / Projet X · 20:11 UTC",
+          "fa": "وان‌آپ · Vendetta / Projet X · 20:11 UTC"
+        },
+        "date": "2026-10-22",
+        "url": "https://europe.albionbb.com/battles/multi?ids=451688860,451700126",
+        "outcome": "recorded",
+        "kills": 9,
+        "deaths": 24
+      }
+    },
+    {
+      "ids": [
+        451661808
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-22T19:25:23.627Z",
+      "finishedAt": "2026-10-22T19:26:00.671Z",
+      "peakGuildPlayers": 5,
+      "killFame": 1384240,
+      "report": {
+        "title": {
+          "en": "OneUP · Black Society / M O R G U E · 19:25 UTC",
+          "fa": "وان‌آپ · Black Society / M O R G U E · 19:25 UTC"
+        },
+        "date": "2026-10-22",
+        "url": "https://europe.albionbb.com/battles/451661808",
+        "outcome": "recorded",
+        "kills": 5,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        451570728
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-22T16:49:40.51Z",
+      "finishedAt": "2026-10-22T16:49:56.208Z",
+      "peakGuildPlayers": 7,
+      "killFame": 201390,
+      "report": {
+        "title": {
+          "en": "OneUP · UFORG / Ridniy Kray · 16:49 UTC",
+          "fa": "وان‌آپ · UFORG / Ridniy Kray · 16:49 UTC"
+        },
+        "date": "2026-10-22",
+        "url": "https://europe.albionbb.com/battles/451570728",
+        "outcome": "recorded",
+        "kills": 1,
+        "deaths": 2
+      }
+    },
+    {
+      "ids": [
+        451559225,
+        451566797
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-22T16:27:02.142Z",
+      "finishedAt": "2026-10-22T16:41:38.460Z",
+      "peakGuildPlayers": 9,
+      "killFame": 661360,
+      "report": {
+        "title": {
+          "en": "OneUP · GachiBang / Win Order · 16:27 UTC",
+          "fa": "وان‌آپ · GachiBang / Win Order · 16:27 UTC"
+        },
+        "date": "2026-10-22",
+        "url": "https://europe.albionbb.com/battles/multi?ids=451559225,451566797",
+        "outcome": "recorded",
+        "kills": 5,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        451309668
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-21T22:49:38.858Z",
+      "finishedAt": "2026-10-21T22:57:52.988Z",
+      "peakGuildPlayers": 6,
+      "killFame": 908133,
+      "report": {
+        "title": {
+          "en": "OneUP · Bandits · 22:49 UTC",
+          "fa": "وان‌آپ · Bandits · 22:49 UTC"
+        },
+        "date": "2026-10-21",
+        "url": "https://europe.albionbb.com/battles/451309668",
+        "outcome": "recorded",
+        "kills": 2,
+        "deaths": 11
+      }
+    },
+    {
+      "ids": [
+        451280691
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-21T21:33:42.456Z",
+      "finishedAt": "2026-10-21T21:35:39.086Z",
+      "peakGuildPlayers": 8,
+      "killFame": 86764,
+      "report": {
+        "title": {
+          "en": "OneUP · Nyash-Myash / Hakoonamatata · 21:33 UTC",
+          "fa": "وان‌آپ · Nyash-Myash / Hakoonamatata · 21:33 UTC"
+        },
+        "date": "2026-10-21",
+        "url": "https://europe.albionbb.com/battles/451280691",
+        "outcome": "recorded",
+        "kills": 3,
+        "deaths": 6
+      }
+    },
+    {
+      "ids": [
+        451136067,
+        451136455
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-21T17:06:19.913Z",
+      "finishedAt": "2026-10-21T17:24:18.330Z",
+      "peakGuildPlayers": 8,
+      "killFame": 305935,
+      "report": {
+        "title": {
+          "en": "OneUP · RASTREATORS / Blackorchid · 17:06 UTC",
+          "fa": "وان‌آپ · RASTREATORS / Blackorchid · 17:06 UTC"
+        },
+        "date": "2026-10-21",
+        "url": "https://europe.albionbb.com/battles/multi?ids=451136067,451136455",
+        "outcome": "recorded",
+        "kills": 9,
+        "deaths": 9
+      }
+    },
+    {
+      "ids": [
+        451133868
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-21T17:02:17.082Z",
+      "finishedAt": "2026-10-21T17:03:29.648Z",
+      "peakGuildPlayers": 7,
+      "killFame": 260813,
+      "report": {
+        "title": {
+          "en": "OneUP · ANY FIGHT / Sand Syndicate · 17:02 UTC",
+          "fa": "وان‌آپ · ANY FIGHT / Sand Syndicate · 17:02 UTC"
+        },
+        "date": "2026-10-21",
+        "url": "https://europe.albionbb.com/battles/451133868",
+        "outcome": "recorded",
+        "kills": 1,
+        "deaths": 4
+      }
+    },
+    {
+      "ids": [
+        451089837
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-21T15:30:27.057Z",
+      "finishedAt": "2026-10-21T15:34:23.945Z",
+      "peakGuildPlayers": 6,
+      "killFame": 0,
+      "report": {
+        "title": {
+          "en": "OneUP · GILDA DLA ZASTAV / Heralds of Valhalla · 15:30 UTC",
+          "fa": "وان‌آپ · GILDA DLA ZASTAV / Heralds of Valhalla · 15:30 UTC"
+        },
+        "date": "2026-10-21",
+        "url": "https://europe.albionbb.com/battles/451089837",
+        "outcome": "recorded",
+        "kills": 0,
+        "deaths": 6
+      }
+    },
+    {
+      "ids": [
+        450809577,
+        450816674,
+        450829321
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-20T20:21:26.725Z",
+      "finishedAt": "2026-10-20T21:01:44.857Z",
+      "peakGuildPlayers": 21,
+      "killFame": 425554,
+      "report": {
+        "title": {
+          "en": "OneUP · Vendetta / Panda Corp · 20:21 UTC",
+          "fa": "وان‌آپ · Vendetta / Panda Corp · 20:21 UTC"
+        },
+        "date": "2026-10-20",
+        "url": "https://europe.albionbb.com/battles/multi?ids=450809577,450816674,450829321",
+        "outcome": "recorded",
+        "kills": 2,
+        "deaths": 33
+      }
+    },
+    {
+      "ids": [
+        450436508
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-19T22:59:05.484Z",
+      "finishedAt": "2026-10-19T23:01:17.136Z",
+      "peakGuildPlayers": 6,
+      "killFame": 228151,
+      "report": {
+        "title": {
+          "en": "OneUP · EDELER / Ruthless Wipe · 22:59 UTC",
+          "fa": "وان‌آپ · EDELER / Ruthless Wipe · 22:59 UTC"
+        },
+        "date": "2026-10-19",
+        "url": "https://europe.albionbb.com/battles/450436508",
+        "outcome": "recorded",
+        "kills": 8,
+        "deaths": 3
+      }
+    },
+    {
+      "ids": [
+        450391685
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-19T21:04:30.521Z",
+      "finishedAt": "2026-10-19T21:06:49.119Z",
+      "peakGuildPlayers": 14,
+      "killFame": 457828,
+      "report": {
+        "title": {
+          "en": "OneUP · NIGHT SHIFT / Brain On Cd · 21:04 UTC",
+          "fa": "وان‌آپ · NIGHT SHIFT / Brain On Cd · 21:04 UTC"
+        },
+        "date": "2026-10-19",
+        "url": "https://europe.albionbb.com/battles/450391685",
+        "outcome": "recorded",
+        "kills": 5,
+        "deaths": 3
+      }
+    },
+    {
+      "ids": [
+        450370464
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-19T20:25:21.954Z",
+      "finishedAt": "2026-10-19T20:28:08.048Z",
+      "peakGuildPlayers": 15,
+      "killFame": 49169,
+      "report": {
+        "title": {
+          "en": "OneUP · AQUAMARINE / Skoggangr · 20:25 UTC",
+          "fa": "وان‌آپ · AQUAMARINE / Skoggangr · 20:25 UTC"
+        },
+        "date": "2026-10-19",
+        "url": "https://europe.albionbb.com/battles/450370464",
+        "outcome": "recorded",
+        "kills": 2,
+        "deaths": 3
+      }
+    },
+    {
+      "ids": [
+        450359339
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-19T20:07:10.97Z",
+      "finishedAt": "2026-10-19T20:08:33.291Z",
+      "peakGuildPlayers": 14,
+      "killFame": 672348,
+      "report": {
+        "title": {
+          "en": "OneUP · EQMS / M O N A R C H · 20:07 UTC",
+          "fa": "وان‌آپ · EQMS / M O N A R C H · 20:07 UTC"
+        },
+        "date": "2026-10-19",
+        "url": "https://europe.albionbb.com/battles/450359339",
+        "outcome": "recorded",
+        "kills": 3,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        450334569
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-19T19:25:05.275Z",
+      "finishedAt": "2026-10-19T19:25:32.647Z",
+      "peakGuildPlayers": 6,
+      "killFame": 461622,
+      "report": {
+        "title": {
+          "en": "OneUP · M 3 T A__T O X I C / No Cape No Shame · 19:25 UTC",
+          "fa": "وان‌آپ · M 3 T A__T O X I C / No Cape No Shame · 19:25 UTC"
+        },
+        "date": "2026-10-19",
+        "url": "https://europe.albionbb.com/battles/450334569",
+        "outcome": "recorded",
+        "kills": 5,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        450257424
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-19T17:10:32.034Z",
+      "finishedAt": "2026-10-19T17:11:05.658Z",
+      "peakGuildPlayers": 5,
+      "killFame": 427515,
+      "report": {
+        "title": {
+          "en": "OneUP · Hahatuns · 17:10 UTC",
+          "fa": "وان‌آپ · Hahatuns · 17:10 UTC"
+        },
+        "date": "2026-10-19",
+        "url": "https://europe.albionbb.com/battles/450257424",
+        "outcome": "recorded",
+        "kills": 4,
+        "deaths": 1
+      }
+    },
+    {
+      "ids": [
+        450223751
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-19T16:03:26.222Z",
+      "finishedAt": "2026-10-19T16:03:30.228Z",
+      "peakGuildPlayers": 6,
+      "killFame": 1434018,
+      "report": {
+        "title": {
+          "en": "OneUP · C K A M / The Hungry · 16:03 UTC",
+          "fa": "وان‌آپ · C K A M / The Hungry · 16:03 UTC"
+        },
+        "date": "2026-10-19",
+        "url": "https://europe.albionbb.com/battles/450223751",
+        "outcome": "recorded",
+        "kills": 3,
+        "deaths": 0
+      }
+    },
+    {
+      "ids": [
+        450136162
+      ],
+      "included": false,
+      "reason": "Below participation or activity threshold",
+      "startedAt": "2026-10-19T12:31:18.7Z",
+      "finishedAt": "2026-10-19T12:32:00.288Z",
+      "peakGuildPlayers": 7,
+      "killFame": 301622,
+      "report": {
+        "title": {
+          "en": "OneUP · Avalonian Lovers / Being as an ocean · 12:31 UTC",
+          "fa": "وان‌آپ · Avalonian Lovers / Being as an ocean · 12:31 UTC"
+        },
+        "date": "2026-10-19",
+        "url": "https://europe.albionbb.com/battles/450136162",
+        "outcome": "recorded",
+        "kills": 2,
+        "deaths": 2
+      }
+    },
+    {
+      "ids": [
+        449899886
+      ],
+      "included": true,
+      "reason": "Guild participation and activity threshold",
+      "startedAt": "2026-10-18T20:03:13.349Z",
+      "finishedAt": "2026-10-18T20:44:55.591Z",
+      "peakGuildPlayers": 26,
+      "killFame": 2659216,
+      "report": {
+        "title": {
+          "en": "OneUP · Stability / Vendetta · 20:03 UTC",
+          "fa": "وان‌آپ · Stability / Vendetta · 20:03 UTC"
+        },
+        "date": "2026-10-18",
+        "url": "https://europe.albionbb.com/battles/449899886",
+        "outcome": "recorded",
+        "kills": 5,
+        "deaths": 35
+      }
+    },
     {
       "ids": [
         449790334
