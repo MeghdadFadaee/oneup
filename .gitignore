@@ -12,6 +12,7 @@
 /.aws/
 
 # Editor and local agent state
+/MEMORY.md
 /.idea/
 /.vscode/
 /.agents/
